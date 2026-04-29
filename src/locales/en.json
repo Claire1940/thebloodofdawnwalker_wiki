@@ -10,7 +10,15 @@
       "twitterDescription": "Track The Blood of Dawnwalker release date, gameplay, editions, platforms, trailers, story, choices, and PC system requirements."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "editions": "Editions",
+    "combat": "Combat",
+    "story": "Story",
+    "world": "World",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1048,125 +1056,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "The Blood of Dawnwalker Guides",
-      "description": "Complete The Blood of Dawnwalker guides for release date, editions, platforms, story, gameplay, combat, choices, and PC requirements.",
-      "metaTitle": "The Blood of Dawnwalker Guides - Release and Gameplay",
-      "metaDescription": "Complete The Blood of Dawnwalker guides covering release date, editions, platforms, story, gameplay, combat, choices, and PC requirements.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are The Blood of Dawnwalker Guides?",
-      "whatIsDescription": "Guides covering The Blood of Dawnwalker release information, gameplay systems, story context, and platform details.",
-      "why": "Why read The Blood of Dawnwalker guides?",
+    "release": {
+      "title": "The Blood of Dawnwalker Release",
+      "description": "Release date, launch timing, rollout notes, and official availability details for The Blood of Dawnwalker.",
+      "metaTitle": "The Blood of Dawnwalker Release - Date and Launch Guide",
+      "metaDescription": "Track The Blood of Dawnwalker release date, launch timing, storefront rollout, and availability details for PC, PlayStation 5, and Xbox Series X|S.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is The Blood of Dawnwalker Release?",
+      "whatIsDescription": "The Blood of Dawnwalker Release gathers launch date, regional timing, storefront status, and rollout details so players can follow the path to launch from one category.",
+      "why": "Why follow The Blood of Dawnwalker release updates?",
       "whySteps": {
-        "step1Title": "Track Release Details",
-        "step1Description": "Follow launch date, platform, pre-order, and edition information for The Blood of Dawnwalker.",
-        "step2Title": "Understand Gameplay",
-        "step2Description": "Learn how The Blood of Dawnwalker handles day-night play, choices, combat, and time costs.",
-        "step3Title": "Plan Your Platform",
-        "step3Description": "Compare The Blood of Dawnwalker PC, PlayStation 5, and Xbox support before launch."
+        "step1Title": "Track The Launch Date",
+        "step1Description": "Keep The Blood of Dawnwalker launch timing, official date details, and storefront timing notes in one place.",
+        "step2Title": "Plan Platform Timing",
+        "step2Description": "Understand how The Blood of Dawnwalker release information connects to PC, PlayStation 5, and Xbox Series X|S availability.",
+        "step3Title": "Prepare Before Launch",
+        "step3Description": "Use The Blood of Dawnwalker release coverage to decide when to wishlist, pre-order, or revisit platform pages before launch."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "The Blood of Dawnwalker Combat",
-      "description": "Guides for The Blood of Dawnwalker swordplay, hex magic, vampire powers, skill growth, and Blood Hunger.",
-      "metaTitle": "The Blood of Dawnwalker Combat - Swordplay and Magic",
-      "metaDescription": "Learn The Blood of Dawnwalker combat, including sword fighting, hex magic, vampire powers, skill growth, feeding, and Blood Hunger.",
-      "categoryLabel": "COMBAT SYSTEM",
-      "whatIs": "What is The Blood of Dawnwalker Combat?",
-      "whatIsDescription": "The Blood of Dawnwalker combat combines swords, hexes, claws, vampiric movement, feeding pressure, and skill trees.",
-      "why": "Why master The Blood of Dawnwalker combat?",
+    "platforms": {
+      "title": "The Blood of Dawnwalker Platforms",
+      "description": "Platform coverage for The Blood of Dawnwalker on PC, Steam, PlayStation 5, Xbox Series X|S, and storefront ecosystems.",
+      "metaTitle": "The Blood of Dawnwalker Platforms - PC, PS5, and Xbox",
+      "metaDescription": "Compare The Blood of Dawnwalker platforms including PC, Steam, PlayStation 5, Xbox Series X|S, storefront support, and platform-specific details.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are The Blood of Dawnwalker Platforms?",
+      "whatIsDescription": "The Blood of Dawnwalker Platforms explains where the game is available, how each storefront is positioned, and what players should know before choosing a platform.",
+      "why": "Why compare The Blood of Dawnwalker platforms?",
       "whySteps": {
-        "step1Title": "Learn Human Tools",
-        "step1Description": "Understand The Blood of Dawnwalker daytime swordplay and rune-based magic.",
-        "step2Title": "Use Vampire Powers",
-        "step2Description": "Understand The Blood of Dawnwalker nighttime claws, traversal, feeding, and supernatural abilities.",
-        "step3Title": "Build Coen Effectively",
-        "step3Description": "Choose The Blood of Dawnwalker skills around your preferred day and night playstyle."
+        "step1Title": "Choose A Storefront",
+        "step1Description": "Compare The Blood of Dawnwalker Steam, console, and publisher storefront information before committing to a version.",
+        "step2Title": "Match Your Hardware",
+        "step2Description": "Use The Blood of Dawnwalker platform coverage to connect PC, PlayStation 5, and Xbox options with your preferred setup.",
+        "step3Title": "Check Platform Features",
+        "step3Description": "Review The Blood of Dawnwalker platform notes for console support, PC purchase paths, and ecosystem-specific features."
       },
       "featured": "Featured & Essential",
-      "all": "All Combat Guides"
+      "all": "All Platform Articles"
     },
-    "items": {
+    "editions": {
       "title": "The Blood of Dawnwalker Editions",
-      "description": "The Blood of Dawnwalker edition and pre-order guides covering Standard, Eclipse, Collector's, and Day One versions.",
-      "metaTitle": "The Blood of Dawnwalker Editions - Pre Order Guide",
-      "metaDescription": "Compare The Blood of Dawnwalker Standard Edition, Eclipse Edition, Collector's Edition, Day One Edition, bonuses, and storefront details.",
+      "description": "Edition and purchase guidance for The Blood of Dawnwalker Standard, Eclipse, Collector, Day One, and pre-order options.",
+      "metaTitle": "The Blood of Dawnwalker Editions - Pre Order and Collector Guide",
+      "metaDescription": "Compare The Blood of Dawnwalker editions, pre-order options, Collector details, Eclipse extras, Day One packaging, and purchase considerations.",
       "categoryLabel": "EDITIONS",
       "whatIs": "What are The Blood of Dawnwalker Editions?",
-      "whatIsDescription": "The Blood of Dawnwalker editions include base-game, digital bonus, collector, and retail options.",
+      "whatIsDescription": "The Blood of Dawnwalker Editions covers the available purchase formats, digital extras, collector content, retail options, and pre-order details around the game.",
       "why": "Why compare The Blood of Dawnwalker editions?",
       "whySteps": {
-        "step1Title": "Compare Bonuses",
-        "step1Description": "See which The Blood of Dawnwalker editions include digital and physical extras.",
-        "step2Title": "Choose Format",
-        "step2Description": "Decide between The Blood of Dawnwalker digital, physical, and collector packages.",
-        "step3Title": "Check Storefronts",
-        "step3Description": "Review The Blood of Dawnwalker store pages before purchase."
+        "step1Title": "Understand Each Edition",
+        "step1Description": "Separate The Blood of Dawnwalker base game, digital extras, physical collectibles, and retail edition details.",
+        "step2Title": "Compare Purchase Value",
+        "step2Description": "Use The Blood of Dawnwalker edition notes to weigh bonuses, formats, and storefront availability before buying.",
+        "step3Title": "Avoid Format Confusion",
+        "step3Description": "Check how The Blood of Dawnwalker digital, physical, and collector packages differ before choosing a version."
       },
       "featured": "Featured & Essential",
-      "all": "All Edition Guides"
+      "all": "All Edition Articles"
     },
-    "biomes": {
-      "title": "The Blood of Dawnwalker World",
-      "description": "Explore The Blood of Dawnwalker Vale Sangora, Svartrau, forests, swamps, caves, ruins, castles, and weather systems.",
-      "metaTitle": "The Blood of Dawnwalker World - Vale Sangora Map Guide",
-      "metaDescription": "Explore The Blood of Dawnwalker world guide for Vale Sangora, Svartrau, Castle Greifberg, forests, swamps, caves, ruins, and dynamic weather.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What is The Blood of Dawnwalker World?",
-      "whatIsDescription": "The Blood of Dawnwalker world is a handcrafted dark fantasy valley shaped by vampires, local myths, hidden locations, and day-night changes.",
-      "why": "Why explore The Blood of Dawnwalker world?",
+    "combat": {
+      "title": "The Blood of Dawnwalker Combat",
+      "description": "Combat coverage for The Blood of Dawnwalker swordplay, hex magic, vampire powers, Blood Hunger, skills, and boss encounters.",
+      "metaTitle": "The Blood of Dawnwalker Combat - Swords, Magic, and Vampire Powers",
+      "metaDescription": "Learn The Blood of Dawnwalker combat systems, swordplay, hex magic, vampire powers, Blood Hunger, character skills, difficulty, and boss encounters.",
+      "categoryLabel": "COMBAT",
+      "whatIs": "What is The Blood of Dawnwalker Combat?",
+      "whatIsDescription": "The Blood of Dawnwalker Combat explains how Coen fights as both human and vampire, combining weapons, magic, movement, feeding pressure, skills, and enemy encounters.",
+      "why": "Why study The Blood of Dawnwalker combat?",
       "whySteps": {
-        "step1Title": "Find Locations",
-        "step1Description": "Track The Blood of Dawnwalker settlements, landmarks, ruins, caves, and roads.",
-        "step2Title": "Understand Risks",
-        "step2Description": "Prepare for The Blood of Dawnwalker weather, night danger, and creature encounters.",
-        "step3Title": "Plan Routes",
-        "step3Description": "Use The Blood of Dawnwalker map knowledge to plan exploration around time costs."
+        "step1Title": "Learn Human Tools",
+        "step1Description": "Understand The Blood of Dawnwalker swordplay, defensive choices, and hex magic used during human-focused encounters.",
+        "step2Title": "Use Vampire Powers",
+        "step2Description": "Track how The Blood of Dawnwalker vampire abilities, mobility, feeding, and Blood Hunger shape nighttime combat.",
+        "step3Title": "Build Coen Effectively",
+        "step3Description": "Use The Blood of Dawnwalker combat coverage to connect skills, powers, and encounter planning into a coherent playstyle."
       },
       "featured": "Featured & Essential",
-      "all": "All World Guides"
+      "all": "All Combat Articles"
     },
-    "building": {
+    "story": {
       "title": "The Blood of Dawnwalker Story",
-      "description": "The Blood of Dawnwalker story guides covering Coen, Brencis, Vale Sangora, the Vrakhiri, choices, and consequences.",
-      "metaTitle": "The Blood of Dawnwalker Story - Coen and Vale Sangora",
-      "metaDescription": "Read The Blood of Dawnwalker story guide for Coen, Brencis, Vale Sangora, the Vrakhiri, family rescue, choices, and consequences.",
+      "description": "Story and lore coverage for The Blood of Dawnwalker, including Coen, Brencis, Vale Sangora, vampires, choices, and consequences.",
+      "metaTitle": "The Blood of Dawnwalker Story - Coen, Brencis, and Vale Sangora",
+      "metaDescription": "Explore The Blood of Dawnwalker story, Coen, Brencis, Vale Sangora, vampire rule, family stakes, choice-driven quests, lore, and consequences.",
       "categoryLabel": "STORY",
       "whatIs": "What is The Blood of Dawnwalker Story?",
-      "whatIsDescription": "The Blood of Dawnwalker story follows Coen as he balances humanity and vampiric power while trying to save his family.",
+      "whatIsDescription": "The Blood of Dawnwalker Story follows Coen, his family, vampire rule in Vale Sangora, and the choices that shape the dark fantasy campaign.",
       "why": "Why read The Blood of Dawnwalker story guides?",
       "whySteps": {
-        "step1Title": "Meet Coen",
-        "step1Description": "Understand The Blood of Dawnwalker protagonist and Dawnwalker identity.",
+        "step1Title": "Follow Coen",
+        "step1Description": "Understand The Blood of Dawnwalker protagonist, Dawnwalker identity, family stakes, and human-vampire conflict.",
         "step2Title": "Track Factions",
-        "step2Description": "Learn how The Blood of Dawnwalker uses Brencis, the Vrakhiri, villagers, and allies.",
-        "step3Title": "Follow Consequences",
-        "step3Description": "See how The Blood of Dawnwalker decisions and time costs shape the story."
+        "step2Description": "Use The Blood of Dawnwalker story coverage to follow Brencis, the Vrakhiri, villagers, allies, and hostile powers.",
+        "step3Title": "Understand Consequences",
+        "step3Description": "Connect The Blood of Dawnwalker choices, quest timing, and narrative consequences across the story."
       },
       "featured": "Featured & Essential",
-      "all": "All Story Guides"
+      "all": "All Story Articles"
     },
-    "support": {
-      "title": "The Blood of Dawnwalker Support",
-      "description": "The Blood of Dawnwalker support guides covering PC requirements, platform availability, controller notes, and store pages.",
-      "metaTitle": "The Blood of Dawnwalker Support - PC Specs and Platforms",
-      "metaDescription": "Get The Blood of Dawnwalker support information for PC system requirements, platforms, Steam, PS5, Xbox Series X|S, and store pages.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is The Blood of Dawnwalker Support?",
-      "whatIsDescription": "The Blood of Dawnwalker support covers PC requirements, platform features, storefront status, and technical launch information.",
-      "why": "Why check The Blood of Dawnwalker support?",
+    "world": {
+      "title": "The Blood of Dawnwalker World",
+      "description": "World coverage for The Blood of Dawnwalker locations, Vale Sangora, Svartrau, map routes, exploration, weather, and time costs.",
+      "metaTitle": "The Blood of Dawnwalker World - Vale Sangora Map and Locations",
+      "metaDescription": "Explore The Blood of Dawnwalker world coverage for Vale Sangora, Svartrau, map routes, locations, weather, exploration systems, and time costs.",
+      "categoryLabel": "WORLD",
+      "whatIs": "What is The Blood of Dawnwalker World?",
+      "whatIsDescription": "The Blood of Dawnwalker World covers Vale Sangora, settlements, ruins, forests, caves, castles, travel routes, weather, exploration, and the time pressure around movement.",
+      "why": "Why explore The Blood of Dawnwalker world?",
       "whySteps": {
-        "step1Title": "Check PC Specs",
-        "step1Description": "Compare The Blood of Dawnwalker minimum, recommended, and ultra PC tiers.",
-        "step2Title": "Pick Platform",
-        "step2Description": "Review The Blood of Dawnwalker Steam, PlayStation 5, and Xbox options.",
-        "step3Title": "Prepare for Launch",
-        "step3Description": "Use The Blood of Dawnwalker support details before pre-ordering or wishlisting."
+        "step1Title": "Find Key Locations",
+        "step1Description": "Use The Blood of Dawnwalker world coverage to track settlements, landmarks, ruins, routes, and vampire-controlled spaces.",
+        "step2Title": "Plan Exploration",
+        "step2Description": "Understand how The Blood of Dawnwalker exploration, weather, day-night shifts, and time costs affect route planning.",
+        "step3Title": "Read The Region",
+        "step3Description": "Connect The Blood of Dawnwalker locations with lore, factions, hidden threats, and quest opportunities across Vale Sangora."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All World Articles"
+    },
+    "media": {
+      "title": "The Blood of Dawnwalker Media",
+      "description": "Official media coverage for The Blood of Dawnwalker trailers, gameplay overviews, launch events, screenshots, logo assets, and video breakdowns.",
+      "metaTitle": "The Blood of Dawnwalker Media - Trailers and Gameplay Videos",
+      "metaDescription": "Watch and follow The Blood of Dawnwalker media coverage, including trailers, gameplay overviews, launch events, screenshots, logos, and video breakdowns.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is The Blood of Dawnwalker Media?",
+      "whatIsDescription": "The Blood of Dawnwalker Media organizes trailers, gameplay showcases, launch presentations, screenshots, logos, and video details connected to official reveals.",
+      "why": "Why follow The Blood of Dawnwalker media?",
+      "whySteps": {
+        "step1Title": "Watch Official Reveals",
+        "step1Description": "Use The Blood of Dawnwalker media coverage to follow story trailers, gameplay overviews, and launch event material.",
+        "step2Title": "Study Gameplay Details",
+        "step2Description": "Connect The Blood of Dawnwalker footage with combat, exploration, world design, choices, and character systems.",
+        "step3Title": "Collect Visual Context",
+        "step3Description": "Review The Blood of Dawnwalker screenshots, logos, and video moments when comparing official visual material."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media Articles"
     }
   }
 }

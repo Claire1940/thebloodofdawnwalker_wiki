@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "release": "Release",
+    "platforms": "Platforms",
+    "editions": "Editions",
+    "combat": "Combat",
+    "story": "Story",
+    "world": "World",
+    "media": "Media"
   },
   "common": {
     "home": "Главная",
@@ -56,7 +57,8 @@
         "value": "12 марта 2026",
         "label": "Дата выхода"
       }
-    }
+    },
+    "playOnRobloxCTA": "Official Site"
   },
   "gameFeature": {
     "title": "Геймплей Lucid Blocks",
@@ -326,605 +328,849 @@
     }
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Руководство для начинающих по Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Начните с изучения того, как связаны исследование, слияние и прогрессия. Lucid Blocks поощряет эксперименты, поэтому ранний прогресс достигается за счет сбора необычных материалов, тестирования комбинаций и разблокировки вашей личной Квалии.",
-      "steps": [
-        {
-          "title": "Исследуйте, прежде чем принимать решения",
-          "description": "Идите вперед, добывайте обычные блоки и сохраняйте любые странные предметы, которые найдете. На ранних этапах прогресс меньше зависит от фиксированных квестов и больше от открытия того, чем могут стать материалы."
-        },
-        {
-          "title": "Разблокируйте личную Квалию как можно раньше",
-          "description": "Ваша личная Квалия — одна из важнейших вех на раннем этапе. Она дает вам надежное место для перегруппировки и строительства."
-        },
-        {
-          "title": "Используйте осмий для быстрого прогресса",
-          "description": "Осмий — один из самых полезных материалов на начальном этапе. Популярный ранний маршрут — объединение осмия с палками для создания Морозной кирки для быстрой добычи."
-        },
-        {
-          "title": "Записывайте удачные слияния",
-          "description": "Отслеживайте успешные комбинации в своем журнале. В Lucid Blocks существует множество путей слияния, поэтому запись полезных результатов сэкономит много времени."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis не требует фиксированного списка рецептов.",
-        "Бесконечная генерация мира означает, что движение выше или глубже может открыть совершенно другие материалы.",
-        "Инструменты передвижения и вспомогательное снаряжение значительно повышают качество жизни, как только вы начнете их разблокировать.",
-        "Заблудиться в начале — это нормально, но полезные инструменты, хранилища и средства передвижения быстро принесут плоды, как только заработают ваши первые удачные слияния."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Крафт через Apotheosis в Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis — это неограниченная система слияния в игре. Вместо того чтобы заучивать традиционную книгу рецептов, вы комбинируете материалы, наблюдаете за результатом и со временем накапливаете собственные знания о крафте.",
-      "cards": [
-        {
-          "name": "Свободное слияние",
-          "description": "Apotheosis позволяет сплавлять различные предметы без необходимости следовать фиксированному списку рецептов."
-        },
-        {
-          "name": "Множество полезных результатов",
-          "description": "Разные материалы часто ведут к определенным результатам. Открытия сообщества показывают, что схожие исходные данные все равно могут привести к созданию практичных инструментов, хранилищ или боевых улучшений."
-        },
-        {
-          "name": "Крафт через журнал",
-          "description": "Лучший способ изучить Apotheosis — отслеживать свои успешные комбинации. Ваш журнал быстро станет вашим личным справочником по крафту."
-        },
-        {
-          "name": "Проверенные сообществом ранние слияния",
-          "description": "Популярные ранние примеры включают: Осмий плюс Палка для Морозной кирки, Палка плюс Вольфрамовый отросток для Азраила, и Азраил плюс Магнетит для Рапиры из усиков."
-        }
-      ],
-      "milestones": [
-        "Сплавить предмет",
-        "Сплавить паразита",
-        "Сплавить божественный артефакт"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Инструменты и оружие в Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks сочетает в себе официальное вспомогательное снаряжение с ранним оружием, открытым сообществом. Лучшая сборка — это обычно сочетание быстрой добычи, безопасного перемещения и одного надежного боевого варианта.",
+    "releaseDate": {
+      "eyebrow": "Launch Info",
+      "title": "The Blood of Dawnwalker Release Date",
+      "subtitle": "The Blood of Dawnwalker launches on September 3, 2026 for PC, PlayStation 5, and Xbox Series X|S. Steam storefront date display may show September 2, 2026 in some regions because platform storefronts can localize release timing.",
+      "intro": "Use this section to track the official launch date, platform availability, storefront status, and regional date display for The Blood of Dawnwalker. The game is available for pre-order and wishlist tracking across supported platforms.",
       "items": [
         {
-          "name": "Морозная кирка",
-          "type": "Инструмент для добычи",
-          "description": "Быстрая и доступная ранняя кирка, сделанная из осмия и палки. Игроки используют ее для ускорения сбора материалов на ранних этапах."
+          "label": "Official Global Launch Date",
+          "value": "September 3, 2026",
+          "description": "Bandai Namco and Rebel Wolves list September 3, 2026 as the official launch date."
         },
         {
-          "name": "Азраил",
-          "type": "Стартовое оружие",
-          "description": "Практичный вариант раннего оружия, создаваемый из палки и вольфрамового отростка."
+          "label": "Steam Store Date Display",
+          "value": "September 2, 2026",
+          "description": "Steam search and storefront metadata display Sep 2, 2026 in some regions, while the official global date remains September 3, 2026."
         },
         {
-          "name": "Рапира из усиков",
-          "type": "Улучшенное оружие",
-          "description": "Более мощное продолжение, созданное путем объединения Азраила с магнетитом. Это один из самых полезных боевых путей для ранней и средней игры, которым делятся игроки."
+          "label": "Launch Platforms",
+          "value": "PC, PlayStation 5, Xbox Series X|S",
+          "description": "The game is planned for current-generation console platforms and PC at launch."
         },
         {
-          "name": "Hookshot",
-          "type": "Инструмент мобильности",
-          "description": "Официальный предмет для перемещения, который значительно улучшает движение и вертикальное исследование."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Инструмент мобильности",
-          "description": "Официальный предмет для передвижения, помогающий преодолевать пространство более безопасно и эффективно."
-        },
-        {
-          "name": "Шаровая палочка",
-          "type": "Вспомогательное оружие",
-          "description": "Официальный дистанционный предмет, расширяющий ваши возможности в бою и при решении головоломок."
-        },
-        {
-          "name": "Снаряжение для дайвинга",
-          "type": "Снаряжение для перемещения",
-          "description": "Официальный вспомогательный предмет для доступа к областям, которые иначе замедлили бы исследование."
-        },
-        {
-          "name": "Взрывчатка",
-          "type": "Вспомогательный урон",
-          "description": "Официально выделена как часть основного набора инструментов; полезна для прорыва через угрозы или препятствия."
+          "label": "Storefront Status",
+          "value": "Pre-order live",
+          "description": "Digital pre-orders are live on Xbox and Steam, with official platform and publisher pages available for wishlisting and purchase."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Хранение и инвентарь в Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "Проблема нехватки места в инвентаре возникает в Lucid Blocks рано, поэтому создание хранилища должно стать одной из ваших первых целей. Несколько проверенных игроками решений уже выделяются на общем фоне.",
-      "solutions": [
+    "preOrderAndEditions": {
+      "eyebrow": "Editions",
+      "title": "The Blood of Dawnwalker Pre Order and Editions",
+      "subtitle": "Compare Standard Edition, Eclipse Edition, Collector's Edition, and retail Day One Edition before buying. Pre-order bonuses include the Sangoran Wayfarer's Armor Set, which is also obtainable later in-game.",
+      "intro": "The Blood of Dawnwalker is available in multiple editions aimed at different buyers: Standard Edition for the base game, Eclipse Edition for digital extras, Collector's Edition for physical collectibles, and Day One Edition for retail disc buyers.",
+      "items": [
         {
-          "name": "Куб-тайник",
-          "role": "Хранилище типа сундука",
-          "description": "Кубы-тайники — одно из самых ранних практичных решений для хранения; игроки используют их как основной контейнер в стиле сундука."
+          "edition": "Standard Edition",
+          "format": "Physical and digital",
+          "price": "$69.99+ on Xbox US; EUR 69.99 on Bandai Namco EU Store",
+          "included": "The Blood of Dawnwalker base game; pre-order bonus Sangoran Wayfarer's Armor Set",
+          "best_for": "Players who only want the full game and the pre-order armor bonus"
         },
         {
-          "name": "Шкаф",
-          "role": "Простое базовое хранилище",
-          "description": "Шкафы — еще один подтвержденный вариант хранения. Популярный ранний рецепт: 1 обработанное дерево и 1 веревка."
+          "edition": "Eclipse Edition",
+          "format": "Physical and digital",
+          "price": "$79.99+ on Xbox US; EUR 79.99 on Bandai Namco EU Store",
+          "included": "Base game; Sangoran Wayfarer's Armor Set; Digital World Compendium, Digital Comic Book, and Digital Soundtrack",
+          "best_for": "Players who want lore extras, soundtrack content, and digital bonus materials"
         },
         {
-          "name": "Личная Квалия",
-          "role": "Долгосрочный центр хранения",
-          "description": "После разблокировки ваша личная Квалия становится естественным местом для организации материалов, спокойного крафта и расширения вашей базы."
+          "edition": "Collector's Edition",
+          "format": "Physical collector package with digital upgrade content",
+          "price": "EUR 199.99 on Bandai Namco EU Store",
+          "included": "Base game; Steelbook; World Map; PureArts Coen Figurine; Physical World Compendium; Gold-Laminated Sticker Set; Eclipse Edition Content; Sangoran Wayfarer's Armor Set",
+          "best_for": "Collectors who want physical display items and the full digital bonus package"
         },
         {
-          "name": "Ведение журнала",
-          "role": "Эффективность инвентаря",
-          "description": "Запись полезных комбинаций в журнале сокращает расход материалов и значительно упрощает управление инвентарем."
+          "edition": "Day One Edition",
+          "format": "Retail physical edition",
+          "price": "Retail edition pricing depends on store and region",
+          "included": "Retail Day One Edition announced for worldwide stores",
+          "best_for": "Players who prefer a physical retail copy at launch"
         }
-      ],
-      "managementTips": [
-        "Приоритет отдавайте одному надежному варианту хранения, прежде чем копить редкие трофеи.",
-        "Стройте вокруг своей личной Квалии, как только она станет доступна.",
-        "Храните материалы для крафта, боевые инструменты и снаряжение для передвижения отдельно, чтобы было проще планировать улучшения.",
-        "Используйте свой журнал как часть управления инвентарем, а не только для открытий в крафте."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Квалия и строительство базы в Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Квалия — одна из важнейших вех прогресса в Lucid Blocks. Она дает вам личное пространство для перегруппировки, хранения материалов и постепенного превращения результатов исследований в настоящую домашнюю базу.",
-      "cards": [
+    "platforms": {
+      "eyebrow": "Platforms",
+      "title": "The Blood of Dawnwalker Platforms",
+      "subtitle": "The Blood of Dawnwalker is confirmed for PC, Steam, PlayStation 5, and Xbox Series X|S. Xbox buyers also get Xbox Play Anywhere support across Xbox console and PC.",
+      "intro": "This platform section helps players quickly choose where to buy or wishlist The Blood of Dawnwalker. It separates Steam PC, PlayStation 5, Xbox Series X|S, and Xbox Play Anywhere features so users can understand what each storefront offers.",
+      "items": [
         {
-          "name": "Личная Квалия",
-          "description": "Разблокировка Квалии — это ранний этап, дающий вам надежное место, куда можно вернуться во время исследования огромного мира."
+          "platform": "Steam PC",
+          "status": "Steam page live",
+          "features": "Pre-purchase and wishlist support; PC system requirements listed; Steam release display may show Sep 2, 2026 by region",
+          "store_url": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
         },
         {
-          "name": "Строительство с упором на хранение",
-          "description": "Многие игроки начинают использовать свою Квалию как центр хранения, прежде чем превратить ее в большую базу с организованным пространством для крафта и строительства."
+          "platform": "PlayStation 5",
+          "status": "PS5 version announced",
+          "features": "Offline play enabled, one-player support, DualSense vibration support, and accessibility features listed on the PlayStation page",
+          "store_url": "https://www.playstation.com/en-us/games/the-blood-of-dawnwalker/"
         },
         {
-          "name": "Творческое домостроение",
-          "description": "Lucid Blocks поддерживает творческое строительство, и игроки уже используют пространства Квалии для создания домов и персонализированных планировок."
+          "platform": "Xbox Series X|S",
+          "status": "Pre-order live",
+          "features": "Optimized for Xbox Series X|S, 4K Ultra HD, ray tracing, Xbox achievements, Xbox cloud saves, and single-player support",
+          "store_url": "https://www.xbox.com/en-US/games/the-blood-of-dawnwalker"
         },
         {
-          "name": "Центр прогрессии",
-          "description": "Крепкая база помогает разделить добычу, материалы для крафта, семена, инструменты и снаряжение для мобильности, что облегчает планирование следующих улучшений."
+          "platform": "Xbox on PC",
+          "status": "Included through Xbox Play Anywhere",
+          "features": "Buy once and play on Xbox console and PC for no additional cost within the Xbox ecosystem",
+          "store_url": "https://www.xbox.com/en-US/games/the-blood-of-dawnwalker"
         }
-      ],
+      ]
+    },
+    "systemRequirements": {
+      "eyebrow": "PC Specs",
+      "title": "The Blood of Dawnwalker System Requirements",
+      "subtitle": "The Blood of Dawnwalker PC requirements cover Minimum, Recommended, and Ultra targets from native 1080p 30 FPS up to native 2160p 60 FPS. All listed tiers require Windows 10, DirectX 12, 16 GB RAM, and 60 GB SSD storage.",
+      "intro": "Use this section to check whether a PC can run The Blood of Dawnwalker at the target resolution and frame rate. The published requirements were measured without upscalers or frame generation, while DLSS and FSR support can help improve performance.",
+      "items": [
+        {
+          "tier": "Minimum",
+          "target": "Native 1080p at 30 FPS",
+          "preset": "Low",
+          "cpu": "Intel Core i7-8700K or AMD Ryzen 7 3700X",
+          "ram": "16 GB",
+          "gpu": "NVIDIA RTX 3050, GTX 1070, AMD RX Vega-56, or Intel Arc A580",
+          "vram": "6 GB",
+          "storage": "60 GB SSD",
+          "os": "Windows 10, DirectX 12"
+        },
+        {
+          "tier": "Recommended",
+          "target": "Native 1080p at 60 FPS",
+          "preset": "High",
+          "cpu": "Intel Core i5-13600 or AMD Ryzen 9 7900X",
+          "ram": "16 GB",
+          "gpu": "NVIDIA RTX 5060 or AMD RX 6800-XT",
+          "vram": "12 GB",
+          "storage": "60 GB SSD",
+          "os": "Windows 10, DirectX 12"
+        },
+        {
+          "tier": "Recommended",
+          "target": "Native 1440p at 60 FPS",
+          "preset": "High",
+          "cpu": "Intel Core i5-13600 or AMD Ryzen 9 7900X",
+          "ram": "16 GB",
+          "gpu": "NVIDIA RTX 4070 Ti or AMD RX 7800 XT",
+          "vram": "12 GB",
+          "storage": "60 GB SSD",
+          "os": "Windows 10, DirectX 12"
+        },
+        {
+          "tier": "Ultra",
+          "target": "Native 1440p at 60 FPS",
+          "preset": "Ultra",
+          "cpu": "Intel Core i5-13600K or AMD Ryzen 9 7950X",
+          "ram": "16 GB",
+          "gpu": "NVIDIA RTX 4080 or AMD RX 7900 XTX",
+          "vram": "16 GB",
+          "storage": "60 GB SSD",
+          "os": "Windows 10, DirectX 12"
+        },
+        {
+          "tier": "Ultra",
+          "target": "Native 2160p at 60 FPS",
+          "preset": "Ultra",
+          "cpu": "Intel Core i5-13600K or AMD Ryzen 9 7950X",
+          "ram": "16 GB",
+          "gpu": "NVIDIA RTX 5090",
+          "vram": "16 GB",
+          "storage": "60 GB SSD",
+          "os": "Windows 10, DirectX 12"
+        }
+      ]
+    },
+    "story": {
+      "eyebrow": "Story",
+      "title": "The Blood of Dawnwalker Story",
+      "subtitle": "The Blood of Dawnwalker follows Coen, a young Dawnwalker caught between humanity and vampiric power, as he fights to save his family in Vale Sangora.",
+      "intro": "The Blood of Dawnwalker is set in a brutal 14th-century Europe weakened by war and the Black Death. As vampires seize power, Coen is forced into a rescue story shaped by alliances, revenge, time pressure, and the cost of every decision.",
+      "items": [
+        {
+          "title": "14th-Century Europe in Collapse",
+          "content": "Bloody conflicts and the Black Death leave Europe vulnerable. Vampires use this moment of weakness to step out of the shadows, claim power, and turn old legends into living threats.",
+          "highlights": [
+            "Black Death backdrop",
+            "Vampire uprising",
+            "Dark fantasy Europe"
+          ]
+        },
+        {
+          "title": "Coen, the Dawnwalker",
+          "content": "Coen is a young man transformed into a Dawnwalker: human by day and vampire by night. His story centers on whether he fights for his humanity or embraces cursed power to save the people he loves.",
+          "highlights": [
+            "Human by day",
+            "Vampire by night",
+            "Family rescue"
+          ]
+        },
+        {
+          "title": "Brencis and the Rule of Blood",
+          "content": "Brencis is the vampire lord whose power dominates Coen's homeland. Coen's family is pulled into Brencis' rule, and the village faces a system of vampiric protection paid for in human blood.",
+          "highlights": [
+            "Vampire lord Brencis",
+            "Blood tax",
+            "Family taken"
+          ]
+        },
+        {
+          "title": "Vale Sangora and Svartrau",
+          "content": "Vale Sangora is a mysterious Carpathian region filled with settlements, forests, caves, swamps, ruins, and ancient secrets. Its capital, Svartrau, is the heart of Brencis' power and a key hub for Coen's investigation.",
+          "highlights": [
+            "Carpathian Mountains",
+            "Svartrau capital",
+            "Ancient secrets"
+          ]
+        },
+        {
+          "title": "Thirty Days and Nights",
+          "content": "Coen has 30 days and 30 nights to save his kin. Major actions, quest completions, and certain choices move time forward, creating consequences without turning exploration into a real-time countdown.",
+          "highlights": [
+            "30-day rescue clock",
+            "Quest time cost",
+            "Consequences continue"
+          ]
+        },
+        {
+          "title": "Myths, Monsters, and Hidden Tales",
+          "content": "Vale Sangora contains myths such as the Howling Keep, Shrike's Crag, underground ruins beneath Svartrau, and monsters beyond vampires. These stories turn the region into a playable mystery, not just a backdrop.",
+          "highlights": [
+            "Howling Keep",
+            "Shrike's Crag",
+            "Hidden monsters"
+          ]
+        }
+      ]
+    },
+    "gameplay": {
+      "eyebrow": "Gameplay",
+      "title": "The Blood of Dawnwalker Gameplay",
+      "subtitle": "The Blood of Dawnwalker lets you explore Vale Sangora, choose your route through the narrative sandbox, and use Coen's human and vampire sides to solve quests in different ways.",
+      "intro": "The Blood of Dawnwalker gameplay combines open-world exploration, choice-driven quests, cinematic combat, time-cost decisions, and two distinct day-and-night loops. Progress is about weaving Coen's version of the story.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Explore Vale Sangora",
+          "description": "Roam a hand-crafted open world with forests, plains, swamps, caves, mountains, medieval settlements, ancient crypts, ruins, shrines, camps, monster nests, hidden treasures, and haunted places.",
+          "player_value": "The world is designed for discovery, with many activities revealed through clues, locals, travel, and careful searching."
+        },
+        {
+          "step": 2,
+          "title": "Choose Your Story Route",
+          "description": "Pursue the rescue of Coen's family, prepare for greater challenges, build alliances, uncover ancient secrets, or push directly toward Brencis when the story allows it.",
+          "player_value": "The narrative sandbox lets players decide what to prioritize and what to leave unresolved."
+        },
+        {
+          "step": 3,
+          "title": "Manage Time Costs",
+          "description": "Exploration and combat do not continuously move the clock. Time advances when certain activities are completed, including quests, specific choices, and shifting from day to night.",
+          "player_value": "The 30-day rescue clock creates urgency while still allowing players to explore at their own pace."
+        },
+        {
+          "step": 4,
+          "title": "Switch Between Human and Vampire Play",
+          "description": "Human Coen uses swordplay and ritual magic during the day, while vampire Coen gains supernatural movement, heightened senses, claws, feeding options, and night-focused abilities.",
+          "player_value": "Different times of day create different routes, quest opportunities, and ability choices."
+        },
+        {
+          "step": 5,
+          "title": "Fight with Swords, Hexes, and Claws",
+          "description": "Combat supports grounded swordfighting, directional attacks, blocks, parries, active abilities, hexes such as Burning Blood, vampiric claws, and close-range decision making.",
+          "player_value": "Players can lean toward cinematic action, precise directional combat, magic, vampire aggression, or mixed builds."
+        },
+        {
+          "step": 6,
+          "title": "Build Coen Through Skill Trees",
+          "description": "Coen's progression includes human abilities, vampire abilities, and shared skills. Some powers are passive, some are active, and some vampire-linked powers are connected to specific blood.",
+          "player_value": "The build system rewards replaying the game with different priorities, forms, routes, and consequences."
+        }
+      ]
+    },
+    "dayNightMechanics": {
+      "eyebrow": "Day and Night",
+      "title": "The Blood of Dawnwalker Day and Night Mechanics",
+      "subtitle": "The Blood of Dawnwalker day-and-night system changes Coen's abilities, routes, risks, and how the world reacts to him.",
+      "intro": "The Blood of Dawnwalker treats day and night as more than visual atmosphere. Each time state gives Coen different tools, different weaknesses, different quest access, and different pressure on the 30-day rescue clock.",
+      "items": [
+        {
+          "title": "Daytime Human Loop",
+          "content": "During the day, Coen leans on swordplay and ritual magic. Magic requires runes carved into the body, giving daytime Coen access to spells that can damage enemies, manipulate encounters, reveal information, and support investigation.",
+          "details": [
+            "Sword and witchcraft focus",
+            "Runes enable spellcasting",
+            "Human routes and NPC access"
+          ]
+        },
+        {
+          "title": "Nighttime Vampire Loop",
+          "content": "At night, Coen's vampire side gains a different set of abilities. Shadowstep, Clawride, Planeshift, heightened senses, claws, feeding, and supernatural traversal let him approach rooftops, interiors, and combat scenarios in new ways.",
+          "details": [
+            "Vampire traversal",
+            "Claws and bites",
+            "Heightened senses"
+          ]
+        },
+        {
+          "title": "Time Does Not Tick Like a Normal Clock",
+          "content": "The game does not use a constantly running real-time clock. Exploration and combat can be done at the player's pace, while certain completions and decisions push the world forward with visible time costs.",
+          "details": [
+            "No regular live countdown",
+            "Hourglass-style time cost",
+            "30 days to save the family"
+          ]
+        },
+        {
+          "title": "Different Times Unlock Different Paths",
+          "content": "Some NPCs, quests, routes, and solutions are tied to the time of day. One gameplay example sends Coen back to a cathedral at night because his vampire traversal is needed to reach high scaffolds.",
+          "details": [
+            "Time-specific routes",
+            "Alternative quest solutions",
+            "Different world access"
+          ]
+        },
+        {
+          "title": "Blood Hunger at Night",
+          "content": "Blood Hunger activates at night. If Coen does not drink enough blood, he can lose control and attack NPCs, while feeding choices can include humans, animals, and non-human creatures.",
+          "details": [
+            "Night-only hunger pressure",
+            "Human or animal feeding",
+            "NPC consequences"
+          ]
+        },
+        {
+          "title": "A World That Changes After Sunset",
+          "content": "Vale Sangora reacts to Coen's actions and becomes more dangerous after dark. Places that seem quiet in daylight can become threat-filled at night, and dynamic weather such as fog can affect visibility.",
+          "details": [
+            "Day-night danger shift",
+            "Reactive world",
+            "Dynamic weather"
+          ]
+        }
+      ]
+    },
+    "combatMagic": {
+      "eyebrow": "Combat",
+      "title": "The Blood of Dawnwalker Combat and Magic",
+      "subtitle": "The Blood of Dawnwalker combat is built around Coen's split nature: grounded swordfighting and rune-based magic by day, supernatural claws and vampiric powers by night.",
+      "intro": "The Blood of Dawnwalker combat system blends close-range action, directional attacks, blocks, parries, active abilities, ritual spellcasting, vampire traversal, feeding pressure, and flexible skill trees.",
+      "items": [
+        {
+          "title": "Grounded Sword Fighting",
+          "description": "Coen fights with swords taught by his father, using directional attacks, blocks, and parries to exploit enemy openings. Combat is designed to feel cinematic, close-range, responsive, and not locked into long animations.",
+          "tags": [
+            "Swords",
+            "Directional attacks",
+            "Parry timing"
+          ]
+        },
+        {
+          "title": "Activation Charges and Active Abilities",
+          "description": "Successful blocking, attacking, and parrying build Activation Charges. These charges can be spent on Active Abilities, including magical and mundane options such as Burning Blood and Artery Attack.",
+          "tags": [
+            "Charges",
+            "Active abilities",
+            "Finishers"
+          ]
+        },
+        {
+          "title": "Rune-Based Hex Magic",
+          "description": "Human Coen casts magic by carving runes into his flesh, opening a gate for power to flow. Known spell examples include Burning Blood, Feral Mind, buffs, debuffs, and Compel Soul for gathering secrets from the dead.",
+          "tags": [
+            "Hexes",
+            "Runes",
+            "Compel Soul"
+          ]
+        },
+        {
+          "title": "Vampire Claws and Night Powers",
+          "description": "At night, Coen uses vampiric claws in combat and gains supernatural powers such as Shadowstep, Clawride, Planeshift, heightened senses, and instinctive energy channeling instead of book-learned spells.",
+          "tags": [
+            "Claws",
+            "Shadowstep",
+            "Planeshift"
+          ]
+        },
+        {
+          "title": "Blood Hunger and Feeding",
+          "description": "Blood Hunger is a night mechanic tied to Coen's vampire side. Feeding can target humans, animals, or non-human creatures, and low blood can push Coen toward losing control and draining NPCs.",
+          "tags": [
+            "Blood Hunger",
+            "Feeding",
+            "Consequences"
+          ]
+        },
+        {
+          "title": "Three-Branch Skill Growth",
+          "description": "Coen's skill tree is built around witchcraft for daytime, vampiric powers for night, and sword fighting that overlaps both forms. Upgrades include passive and active options, with some abilities tied to specific vampiric blood.",
+          "tags": [
+            "Witchcraft",
+            "Vampire powers",
+            "Sword skills"
+          ]
+        }
+      ]
+    },
+    "choicesConsequences": {
+      "eyebrow": "Player Choice",
+      "title": "The Blood of Dawnwalker Choices and Consequences",
+      "subtitle": "Every major decision, delayed action, and failed rescue can reshape Coen's journey through Vale Sangora. This module explains how quests, allies, blood hunger, and faction choices affect the world around you.",
+      "intro": "The Blood of Dawnwalker is built around a narrative sandbox where action and inaction both matter. Coen can rush toward his family, prepare through other stories, help villagers, ignore requests, feed carefully, or give in to darker powers, and the game continues even when those choices carry painful consequences.",
+      "highlightTitle": "The Blood of Dawnwalker Consequence Highlights",
       "highlights": [
-        "Войти в квалию",
-        "Безопасно хранить материалы",
-        "Перейти от полезности к декору",
-        "Использовать пространство базы для поддержки крафта и фермерства"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Регионы мира в Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks использует бесконечную генерацию мира, поэтому игроки постоянно открывают новые среды и структуры. Несколько именованных мест уже фигурируют в достижениях и обсуждениях сообщества.",
-      "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Область, отмеченная сообществом",
-          "description": "Fog Meadow уже известна среди игроков как напряженная зона, связанная со скрытыми угрозами и опасными столкновениями."
+          "label": "Action and inaction",
+          "detail": "The Blood of Dawnwalker treats delayed rescues, skipped requests, and direct intervention as story choices."
         },
         {
-          "name": "Лей-линия Тиамана",
-          "type": "Достопримечательность",
-          "description": "Лей-линия Тиамана достаточно важна, чтобы иметь собственное достижение, что делает ее одним из самых значимых именованных открытий в мире на данный момент."
+          "label": "Limited time",
+          "detail": "The 30-day deadline means helping one person can cost time that another quest, ally, or family objective may need."
         },
         {
-          "name": "Клонаквалия",
-          "type": "Пространство для строительства",
-          "description": "Игроки уже используют Клонаквалию как место для строительства домов, хранения материалов и экспериментов с постоянными планировками."
+          "label": "Blood Hunger",
+          "detail": "Coen's night form can turn feeding pressure into a consequence chain that affects NPCs and future scenes."
         },
         {
-          "name": "Эссенциальная трясина",
-          "type": "Зона для фарма",
-          "description": "Эссенциальная трясина упоминается игроками как полезная локация для фарма, особенно для сражений со слаймами и получения опыта."
+          "label": "Faction routes",
+          "detail": "The Blood of Dawnwalker leaves room for alliances, vampire encounters, and world reactions beyond a single morality track."
         }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Существа и враги в Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks смешивает сюрреалистичных существ с реальной опасностью. Официальные описания и посты сообщества указывают на мир, полный странной жизни, враждебных угроз и нескольких запоминающихся встреч.",
-      "creatures": [
-        {
-          "name": "Манекены",
-          "role": "Враждебный противник",
-          "description": "Манекены — одни из официально названных врагов в мире и часть сюрреалистичного списка угроз игры."
-        },
-        {
-          "name": "Мягкие гели",
-          "role": "Враждебный противник",
-          "description": "Мягкие гели — еще один официально названный тип врагов, подчеркивающий странный биологический стиль игры."
-        },
-        {
-          "name": "Высшие пространственные существа",
-          "role": "Враждебный противник",
-          "description": "Эти существа представлены как часть более абстрактного и пугающего состава врагов."
-        },
-        {
-          "name": "Колоссальные пауки",
-          "role": "Серьезная угроза",
-          "description": "Пауки — одни из самых пугающих врагов в обсуждениях сообщества и явно представляют собой запоминающуюся опасность."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Именованное существо",
-          "description": "Bubblebear достаточно примечателен, чтобы иметь собственное достижение, что делает его одной из самых ярких встреч с именованными существами в игре."
-        },
-        {
-          "name": "Милые паразиты",
-          "role": "Интерактивное существо",
-          "description": "Паразиты не только являются частью прогрессии слияния, их также можно переименовывать, что придает им более личную роль, чем стандартным врагам."
-        },
-        {
-          "name": "Богохульное существо",
-          "role": "Элитная угроза",
-          "description": "Богохульное существо связано с отдельным боевым достижением, что отмечает его как значимого противника."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Снаряжение для мобильности в Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Улучшения передвижения — это один из самых больших скачков в качестве жизни в Lucid Blocks. Как только вы разблокируете свои первые инструменты перемещения, исследование станет быстрее, безопаснее и гораздо выгоднее.",
+      ],
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Инструмент перемещения",
-          "description": "Крюк-кошка — одна из самых явных вех мобильности в игре, имеющая собственное достижение."
+          "question": "How do choices work in The Blood of Dawnwalker?",
+          "answer": "Choices are tied to quests, dialogue, timing, allies, and Coen's human or vampire nature. Players can pursue multiple objectives, ignore some requests, prepare before confronting Brencis, or take a more direct route, with the world reacting to the path they choose."
         },
         {
-          "name": "Перчатка-планер",
-          "type": "Воздушная мобильность",
-          "description": "Перчатка-планер открывает гораздо более плавное перемещение и является еще одной важной вехой прогресса с собственным достижением."
+          "question": "Does inaction have consequences in The Blood of Dawnwalker?",
+          "answer": "Yes. The game emphasizes that every action and inaction shapes the world. Ignoring or delaying certain objectives leads to visible consequences for villagers and family members, while the story keeps moving forward instead of resetting the outcome."
         },
         {
-          "name": "Bee Glider",
-          "type": "Инструмент перемещения",
-          "description": "Пчелиные планеры официально выделены как часть набора инструментов для более эффективного преодоления пространства."
+          "question": "Can NPCs die in The Blood of Dawnwalker because of player decisions?",
+          "answer": "Minor and major NPCs can suffer or die as a result of player choices, missed opportunities, or the cost of time. The game continues after these events, turning those outcomes into part of the player's version of Coen's story."
         },
         {
-          "name": "Шаровая палочка",
-          "type": "Вспомогательное снаряжение",
-          "description": "Шаровые палочки — один из официально выделенных специальных инструментов, расширяющий способы перемещения и взаимодействия с миром."
+          "question": "Is The Blood of Dawnwalker a simple good or evil morality system?",
+          "answer": "The game does not frame morality as a clean black-and-white meter. Many storylines are designed around ambiguity, difficult trade-offs, and shades of gray, so players judge what is worth sacrificing and who deserves help."
         },
         {
-          "name": "Снаряжение для дайвинга",
-          "type": "Снаряжение для исследования",
-          "description": "Снаряжение для дайвинга официально включено в основной набор вспомогательных средств для доступа к труднодоступным местам."
+          "question": "How does Blood Hunger affect The Blood of Dawnwalker decisions?",
+          "answer": "At night, Coen's Blood Hunger can push him toward dangerous behavior. If he does not drink enough blood, he may lose control and attack NPCs, and feeding choices can affect whether victims survive, pass out, or become part of a darker consequence chain."
         },
         {
-          "name": "Взрывчатка",
-          "type": "Вспомогательный урон",
-          "description": "Взрывчатка официально выделена и связана с достижением, что делает ее частью основной прогрессии вспомогательных средств в игре."
+          "question": "Can you work with vampires or other factions in The Blood of Dawnwalker?",
+          "answer": "The Vrakhiri are central enemies and rulers of Vale Sangora, but the game suggests not every vampire encounter has to end the same way. Some decisions may allow Coen to understand parts of the vampire side or form unlikely alliances."
+        },
+        {
+          "question": "Do choices affect The Blood of Dawnwalker endings?",
+          "answer": "Choices, paths, consequences, character outcomes, and the use of limited time are designed to significantly affect the plot and ending. Since players cannot complete every story arc before the deadline, different playthroughs can produce different routes and resolutions."
+        }
+      ]
+    },
+    "timeLimit": {
+      "eyebrow": "Time System",
+      "title": "The Blood of Dawnwalker 30 Days Time Limit",
+      "subtitle": "The Blood of Dawnwalker gives Coen 30 in-game days and nights to save his family, but the timer is not a real-time countdown. Time moves through meaningful progress, not ordinary exploration.",
+      "intro": "The Blood of Dawnwalker uses time as a story resource. You can explore Vale Sangora at your own pace, but completing quests, choosing certain dialogue outcomes, changing from day to night, and some major progression actions can move the world closer to the deadline.",
+      "summary": [
+        {
+          "label": "The Blood of Dawnwalker exploration rule",
+          "detail": "Exploration, combat, and searching the world do not drain the timer just because real-world minutes pass."
+        },
+        {
+          "label": "The Blood of Dawnwalker visible time costs",
+          "detail": "Some quests, dialogue outcomes, and day-night changes show a clear time cost before commitment."
+        },
+        {
+          "label": "The Blood of Dawnwalker consequence rule",
+          "detail": "Running out of time does not simply reset the story; the world continues with the weight of Coen's priorities."
         }
       ],
-      "unlockMilestones": [
-        "Овладеть крюком-кошкой",
-        "Летать с перчаткой-планером",
-        "Вооружиться палочкой для снарядов",
-        "Вооружиться взрывчаткой"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Фермерство и рост в Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "Рост — это часть реального прогресса в Lucid Blocks. Фермерство — это не только посадка и сбор урожая, но и создание повторяющихся маршрутов получения материалов для ваших инструментов, оружия и вариантов крафта.",
-      "sections": [
+      "items": [
         {
-          "name": "Прогрессия семян",
-          "description": "Посадка и удобрение семян — важный этап в игре, а сбор полностью созревшего ореха является частью того же пути развития."
+          "step": 1,
+          "title": "Start with Coen's deadline",
+          "description": "Coen has 30 days and 30 nights to save his family from the vampire monarchy. The deadline creates urgency around the main goal without turning the game into a constant real-time race.",
+          "timeImpact": "Narrative deadline"
         },
         {
-          "name": "Фарм материалов",
-          "description": "Практичный ранний цикл фарма — создание ртутных капсул, из которых появляются маленькие слаймы, дающие усики и слизь для регулярного крафта."
+          "step": 2,
+          "title": "Explore without draining the clock",
+          "description": "Exploration, combat, searching the world, and moving through locations do not continuously push time forward. Players can investigate caves, settlements, swamps, roads, ruins, and clues without losing time simply because real-world minutes pass.",
+          "timeImpact": "No time cost"
         },
         {
-          "name": "Поддержка инструментов",
-          "description": "Фарм ресурсов становится намного эффективнее, когда вы можете стабильно собирать осмий, осколки стекла, растения и материалы со слаймов для последующего крафта."
+          "step": 3,
+          "title": "Watch for visible time costs",
+          "description": "Certain completed activities have a specific time cost shown before commitment, often represented with an hourglass-style indicator. These costs help players decide whether a quest, choice, or action is worth spending precious time on.",
+          "timeImpact": "Visible before completion"
         },
         {
-          "name": "Базовая рутина",
-          "description": "Лучшая фермерская установка дает больше, чем просто еду. Она должна обеспечивать ваше хранилище, инструменты передвижения, улучшения оружия и будущие эксперименты со слиянием."
-        }
-      ],
-      "growthMilestones": [
-        "Удобрить семя",
-        "Собрать полностью созревший орех",
-        "Создать повторяющиеся циклы сбора материалов",
-        "Превратить фермерство в долгосрочную прогрессию"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Лучшие ранние разблокировки в Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Самые сильные ранние разблокировки — это те, которые улучшают безопасность, хранение и передвижение. В Lucid Blocks несколько практичных улучшений могут сделать прохождение всей остальной игры гораздо более плавным.",
-      "priorities": [
-        {
-          "name": "Личная Квалия",
-          "priority": "Необходимо",
-          "description": "Как только вы получаете доступ к своей личной Квалии, ваше прохождение становится гораздо стабильнее. Она служит надежным центром для хранения, строительства и перегруппировки."
+          "step": 4,
+          "title": "Complete quests carefully",
+          "description": "Finishing quests is one of the main ways time advances. Some side quests, story objectives, and important choices can move the calendar forward, so players must choose whom to help and what to leave unfinished.",
+          "timeImpact": "Quest-based time cost"
         },
         {
-          "name": "Морозная кирка",
-          "priority": "Очень высоко",
-          "description": "Быстрый и дешевый ранний инструмент для добычи из осмия и палки. Одно из самых полезных улучшений для ускорения сбора ресурсов на начальном этапе."
+          "step": 5,
+          "title": "Use day and night strategically",
+          "description": "Changing from day to night can advance time, but it also changes Coen's available abilities, traversal options, quests, and risks. Human Coen and vampire Coen open different routes through the same world.",
+          "timeImpact": "Day-night progression"
         },
         {
-          "name": "Куб-тайник",
-          "priority": "Очень высоко",
-          "description": "Проблема с местом в инвентаре начинается рано, поэтому получение первого надежного контейнера — это серьезное улучшение качества жизни."
+          "step": 6,
+          "title": "Accept that not everything fits into one run",
+          "description": "The time system is designed so players cannot complete every story and arc before the deadline. This makes preparation, route planning, alliances, and skipped objectives part of the role-playing experience.",
+          "timeImpact": "Replay-driven trade-off"
         },
         {
-          "name": "Hookshot",
-          "priority": "Высоко",
-          "description": "Крюк-кошка — одна из самых значимых вех мобильности в игре, быстро делающая исследование быстрее и безопаснее."
-        },
-        {
-          "name": "Перчатка-планер",
-          "priority": "Высоко",
-          "description": "Перчатка-планер дает еще один мощный импульс к мобильности и делает перемещение на большие расстояния гораздо эффективнее."
-        },
-        {
-          "name": "Палочка для снарядов или бомбы",
-          "priority": "Высоко",
-          "description": "Дистанционный инструмент или взрывчатка дают вам более безопасный способ борьбы с опасными врагами и прохождения испытаний."
+          "step": 7,
+          "title": "Consequences replace a hard game over",
+          "description": "When the deadline runs out, the game does not simply end. Coen's family may suffer consequences, but the world and story continue, carrying the weight of what the player chose to prioritize.",
+          "timeImpact": "Story consequence"
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Трекер достижений Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "В Lucid Blocks на данный момент 19 достижений в Steam, и они естественным образом делятся на исследование, крафт, мобильность, бой и развитие.",
-      "groups": [
+    "openWorldMap": {
+      "eyebrow": "Open World",
+      "title": "The Blood of Dawnwalker Open World and Map",
+      "subtitle": "Vale Sangora is a handcrafted dark fantasy region in the Carpathian Mountains, filled with settlements, forests, swamps, mountain paths, caves, ruins, and hidden threats. This The Blood of Dawnwalker module highlights known locations and exploration rules.",
+      "intro": "The Blood of Dawnwalker takes place in Vale Sangora, a fictional valley inspired by Central and Eastern Europe. Its world is designed around discovery: the map can be explored through clues, local information, points of interest, and day-night changes that alter danger, access, and atmosphere.",
+      "items": [
         {
-          "name": "Исследование",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Войти в квалию."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Обнаружить лей-линию тиамана."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Преодолеть испытание тиамана."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Скрытое достижение."
-            }
-          ]
+          "title": "Vale Sangora",
+          "description": "The main region of the game, located within the Carpathian Mountains. It is a secluded valley shaped by vampire rule, old myths, dangerous routes, ancient places, and a living world that reacts to Coen's choices.",
+          "type": "Main Region"
         },
         {
-          "name": "Крафт и призыв",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Сплавить предмет."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Сплавить паразита."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Сплавить божественный артефакт."
-            },
-            {
-              "title": "Архангел β",
-              "description": "Призвать свою веру."
-            }
-          ]
+          "title": "Svartrau",
+          "description": "The capital of Vale Sangora and the heart of Brencis' power. It is described as the only true city, with specialized merchants, crowded districts, underground spaces, and major story importance.",
+          "type": "Capital City"
         },
         {
-          "name": "Мобильность и полезность",
-          "achievements": [
-            {
-              "title": "Добродетель α",
-              "description": "Летать с перчаткой-планером."
-            },
-            {
-              "title": "Добродетель β",
-              "description": "Овладеть крюком-кошкой."
-            },
-            {
-              "title": "Архангел α",
-              "description": "Вооружиться палочкой для снарядов."
-            },
-            {
-              "title": "Архангел γ",
-              "description": "Вооружиться взрывчаткой."
-            }
-          ]
+          "title": "Silberkreis",
+          "description": "A wealthy district near Castle Greifberg, shown during gameplay as Coen travels through Svartrau. It connects the city's social hierarchy with Brencis' control over the region.",
+          "type": "City District"
         },
         {
-          "name": "Бой и существа",
-          "achievements": [
-            {
-              "title": "Резня Bubblebear",
-              "description": "Победить невинных бабблбиров."
-            },
-            {
-              "title": "Архангел δ",
-              "description": "Уничтожить богохульное существо."
-            },
-            {
-              "title": "Angel β",
-              "description": "Умереть."
-            },
-            {
-              "title": "Владычество γ",
-              "description": "Переименовать милого паразита."
-            }
-          ]
+          "title": "Castle Greifberg",
+          "description": "The castle associated with Brencis, the vampire ruler of Vale Sangora. Coen can attempt to confront this seat of power early, but doing so without preparation creates a sharper challenge.",
+          "type": "Power Center"
         },
         {
-          "name": "Рост и фермерство",
-          "achievements": [
-            {
-              "title": "Владычество α",
-              "description": "Удобрить семя."
-            },
-            {
-              "title": "Владычество β",
-              "description": "Собрать полностью созревший орех."
-            },
-            {
-              "title": "Владычество δ",
-              "description": "Скрытое достижение."
-            }
-          ]
+          "title": "Primeval Forests and Tantari Woods",
+          "description": "Vale Sangora includes dense forests filled with herbs, hidden knowledge, monsters, and local legends. Tantari Woods is tied to the tale of the Howling Keep, a mysterious mansion said to appear or vanish depending on intent.",
+          "type": "Forest Biome"
+        },
+        {
+          "title": "Swamps, Caves, Mines, and Ruins",
+          "description": "The world includes treacherous swamps, dark underground caves, haunted mines, ancient crypts, timeless ruins, and forgotten remnants of earlier civilizations. These areas support exploration, danger, and secrets beneath the surface.",
+          "type": "Exploration Zones"
+        },
+        {
+          "title": "Shrike's Crag",
+          "description": "A cursed quarry linked to the violent history of Skender Dragosti and a crushed peasant rebellion. It represents the kind of local legend and tragic landmark players can uncover while exploring Vale Sangora.",
+          "type": "Legendary Landmark"
+        },
+        {
+          "title": "Dynamic Weather",
+          "description": "Weather is dynamic and can affect visibility, such as fog making it harder to see. The world also changes in feel between day and night, making familiar paths more dangerous after sunset.",
+          "type": "World System"
+        },
+        {
+          "title": "Map Discovery Rules",
+          "description": "The full map is visible from the start, but important activities must be discovered before they are fully marked. Entering a new area can reveal activity indicators, while exact details require clues, local information, or direct exploration.",
+          "type": "Map System"
+        },
+        {
+          "title": "Fast Travel and Difficulty Regions",
+          "description": "Fast travel is available through the world map. Regions have minimum and maximum difficulty ranges that are set when first entered, and the southern areas generally bring harder challenges.",
+          "type": "Traversal System"
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ по одиночной игре и платформам Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Это основные вопросы о платформах и доступе, которые игроки задают перед покупкой Lucid Blocks.",
-      "faqs": [
+    "charactersFactions": {
+      "eyebrow": "Characters",
+      "title": "The Blood of Dawnwalker Characters and Factions",
+      "subtitle": "The Blood of Dawnwalker story centers on Coen, his family, and the vampire power structure ruling Vale Sangora. These character cards summarize the main revealed figures and factions players will encounter.",
+      "intro": "The Blood of Dawnwalker introduces a 14th-century world where vampires step out of the shadows and become rulers. Coen's struggle to save his family places him between humans, monsters, villagers, possible allies, and the Vrakhiri, a clique of ancient vampires led by Brencis.",
+      "items": [
         {
-          "question": "Является ли Lucid Blocks одиночной игрой?",
-          "answer": "Да. Lucid Blocks — это одиночная игра."
+          "title": "Coen",
+          "description": "The protagonist of The Blood of Dawnwalker. Coen is a young man turned into a Dawnwalker, human by day and vampire by night, fighting to save his family while deciding whether to protect his humanity or embrace cursed power.",
+          "faction": "Dawnwalker",
+          "role": "Playable protagonist"
         },
         {
-          "question": "Планируется ли мультиплеер или кооператив?",
-          "answer": "Нет. Мультиплеер не планируется ни для релиза, ни для будущих обновлений."
+          "title": "Lunka",
+          "description": "Coen's Black Death-infected sister, introduced in the demo prologue. Brencis' intervention saves her from execution and recovery comes at the cost of vampire rule tightening over Coen's village.",
+          "faction": "Coen's Family",
+          "role": "Family member"
         },
         {
-          "question": "Где я могу поиграть в Lucid Blocks?",
-          "answer": "В настоящее время игра доступна в Steam для Windows."
+          "title": "Brencis",
+          "description": "The leader of the Vrakhiri and the new ruler of Vale Sangora. Born in the Roman Empire as Caeso Burrienus Laurentius, he is hungry for power and central to Coen's family crisis.",
+          "faction": "Vrakhiri",
+          "role": "Vampire ruler"
         },
         {
-          "question": "Сколько стоит Lucid Blocks?",
-          "answer": "$9.99 в Steam."
+          "title": "Xanthe",
+          "description": "The oldest vampire in the group and one of the most ancient figures revealed so far. Once connected to Ancient Greece, she carries terrifying knowledge, blood-control power, and a presence that mixes wisdom with dread.",
+          "faction": "Vrakhiri",
+          "role": "Ancient vampire"
         },
         {
-          "question": "Поддерживает ли Lucid Blocks контроллеры?",
-          "answer": "Да, но игра с контроллером не рекомендуется, так как меню не адаптированы под него."
+          "title": "Ambrus",
+          "description": "The youngest vampire of Brencis' pack. Charming, deceptive, and dangerous, Ambrus presents himself like nobility while carrying resentment from a harsh human past.",
+          "faction": "Vrakhiri",
+          "role": "Vampire lieutenant"
         },
         {
-          "question": "Работает ли Lucid Blocks на Steam Deck?",
-          "answer": "Да. Proton 9.0 или 9.0.4 — рекомендуемые настройки для Steam Deck."
+          "title": "Bakir",
+          "description": "One of Brencis' most powerful lieutenants. A warmonger with a brutal past across the steppes of Central Asia, Bakir is defined by cruelty, bloodlust, and the desire to be feared.",
+          "faction": "Vrakhiri",
+          "role": "Vampire lieutenant"
         },
         {
-          "question": "Работает ли Lucid Blocks на Linux?",
-          "answer": "Да. Сообщается, что Proton 9.0 хорошо работает на Linux и Steam Deck."
+          "title": "The Vrakhiri",
+          "description": "The vampire clique that rises to the top of human society in Vale Sangora after the old order collapses. They are the valley's new masters, but player choices may reveal more than a simple enemy faction.",
+          "faction": "Vampire Masters",
+          "role": "Ruling faction"
         },
         {
-          "question": "Будут ли поддерживаться Mac или Android?",
-          "answer": "Возможно, они будут поддержаны в будущем, но на данный момент они не являются целевыми платформами."
+          "title": "Blood Guards",
+          "description": "Humans tainted with vampire blood who serve alongside the Vrakhiri. They appear in gameplay as dangerous enemies guarding vampire interests in key locations such as the cathedral sequence.",
+          "faction": "Vampire Servants",
+          "role": "Elite guards"
         },
         {
-          "question": "Есть ли в Lucid Blocks переводы?",
-          "answer": "Нет. В настоящее время переводы не планируются."
+          "title": "Gremla",
+          "description": "A villager shown in the extended demo as someone Coen can choose to help or ignore. Her fate demonstrates how side objectives and delayed action can create visible consequences in The Blood of Dawnwalker.",
+          "faction": "Villagers",
+          "role": "Quest NPC"
         },
         {
-          "question": "Будет ли Lucid Blocks получать обновления?",
-          "answer": "Да. После релиза планируются некоторые контентные обновления, но они не будут выходить по постоянному графику неопределенный срок."
+          "title": "Esme",
+          "description": "Coen's mother, referenced during the demo's consequence sequence. Her sickness and possible fate underline how family, time pressure, and player priorities are tied together.",
+          "faction": "Coen's Family",
+          "role": "Family member"
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks на Steam Deck и контроллере",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks может работать на Steam Deck, но стандартные настройки могут потребовать корректировки. Клавиатура и мышь остаются более удобным вариантом для меню и игры в целом.",
-      "faqs": [
+    "vampiresMonsters": {
+      "eyebrow": "Bestiary",
+      "title": "The Blood of Dawnwalker Vampires and Monsters",
+      "subtitle": "Explore the vampire rulers, failed vampires, undead, mine-dwelling creatures, and cursed places that define the dark fantasy bestiary of The Blood of Dawnwalker.",
+      "intro": "The Blood of Dawnwalker turns Vale Sangora into a land where vampires have stepped out of the shadows and other creatures of the night follow their lead. Coen faces the Vrakhiri at the top of society, while the wider bestiary includes murohni, kobolds, uriashi, likhos, psoglavs, undead threats, and horrors hidden in ruins, mines, forests, and cursed landmarks.",
+      "items": [
         {
-          "question": "Работает ли Lucid Blocks на Steam Deck?",
-          "answer": "Да. Proton 9.0 работает хорошо, а Proton 9.0.4 — часто рекомендуемое решение проблем на Steam Deck."
+          "title": "Vrakhiri",
+          "type": "Vampire rulers",
+          "summary": "The Vrakhiri are the vampire masters of Vale Sangora.",
+          "details": "Once hidden in the shadows, the Vrakhiri now sit at the top of human society. Their rule reshapes the valley after Brencis rises as the new power at the center of Vale Sangora."
         },
         {
-          "question": "Что делать, если управление на Steam Deck не работает?",
-          "answer": "Принудительно включите совместимость и переключите игру на Proton 9.0.4. Стандартная конфигурация может некорректно принимать ввод с контроллера."
+          "title": "Brencis",
+          "type": "Vampire leader",
+          "summary": "Brencis is the leader of the Vrakhiri and the new ruler of Vale Sangora.",
+          "details": "Born in the Roman Empire as Caeso Burrienus Laurentius, Brencis is driven by power, rule, and old ambitions. His control over the valley makes him one of the defining forces behind Coen's journey."
         },
         {
-          "question": "Поддерживает ли Lucid Blocks контроллеры?",
-          "answer": "Да, но игра с контроллером не рекомендуется, так как меню игры не адаптированы под него."
+          "title": "Xanthe",
+          "type": "Ancient vampire",
+          "summary": "Xanthe is described as the oldest vampire in the Vrakhiri group.",
+          "details": "Her past reaches back to Ancient Greece, where she once served as a priestess. Her age, fragmented presence, and understanding of the world's deeper nature make her one of the strangest figures among the vampire elite."
         },
         {
-          "question": "Возможна ли поддержка Linux?",
-          "answer": "Да. Сообщается, что Proton 9.0 хорошо работает на Linux и Steam Deck."
+          "title": "Ambrus",
+          "type": "Young Vrakhiri",
+          "summary": "Ambrus is the youngest vampire in the pack and has something to prove.",
+          "details": "He sought vampiric power to rise above his human life. Charming, deceptive, and dangerous, he represents the ambitious side of the vampire court."
         },
         {
-          "question": "Какая настройка ввода лучше всего?",
-          "answer": "Клавиатура и мышь — самый плавный вариант для навигации по меню и игрового процесса."
+          "title": "Bakir",
+          "type": "Vampire lieutenant",
+          "summary": "Bakir is one of Brencis' most powerful lieutenants.",
+          "details": "A brutal warmonger with a history of pillage and bloodshed, Bakir is presented as cruel, bloodthirsty, and eager for people to fear his name."
+        },
+        {
+          "title": "Blood Hunger",
+          "type": "Vampiric gameplay pressure",
+          "summary": "Coen's blood hunger can push him toward a loss of control.",
+          "details": "When the blood hunger meter falls too low, Coen is consumed by hunger and dialogue can collapse into a forced hunger outcome. This makes vampirism part of both combat and narrative consequence."
+        },
+        {
+          "title": "Murohni",
+          "type": "Failed vampires",
+          "summary": "Murohni are identified as failed vampires in the announced bestiary.",
+          "details": "They sit between the vampire fantasy and the monster roster, expanding the game beyond noble vampire antagonists into more distorted forms of vampiric horror."
+        },
+        {
+          "title": "Kobolds",
+          "type": "Mine creatures",
+          "summary": "Kobolds are connected with underground mines in Vale Sangora.",
+          "details": "Their presence supports the game's darker exploration loop, especially in mines, caves, and old underground spaces where the valley's wealth and hidden dangers overlap."
+        },
+        {
+          "title": "Uriashi",
+          "type": "Mountain folk",
+          "summary": "Uriashi are described as mountain folk within the wider creature roster.",
+          "details": "They fit the Carpathian setting of Vale Sangora, where forests, steep mountains, isolated settlements, and old legends shape the threats Coen can encounter."
+        },
+        {
+          "title": "Likhos and Psoglavs",
+          "type": "Mythic creatures",
+          "summary": "Likhos and psoglavs are named among the creatures players can find in The Blood of Dawnwalker.",
+          "details": "These monsters point toward a bestiary rooted in gothic horror, Slavic myth, and medieval legend, giving the world more variety than vampires alone."
+        },
+        {
+          "title": "Undead in Ancient Ruins",
+          "type": "Ruin enemies",
+          "summary": "Undead creatures are said to hide in ancient ruins.",
+          "details": "The ruins of Vale Sangora are not just scenery. They connect exploration, lost history, and monster encounters as Coen uncovers truths that should probably remain hidden."
+        },
+        {
+          "title": "Cursed Places",
+          "type": "World horrors",
+          "summary": "The Howling Keep, underground corridors below Svartrau, and Shrike's Crag frame the valley as a land of local legends and danger.",
+          "details": "Vale Sangora's myths include hidden mansions, cursed quarries, old cellars, damp caves, timeless ruins, and horrors that locals warn each other to avoid."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Настройки и доступность в Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "В Lucid Blocks уже есть несколько практичных настроек и примечаний о совместимости, которые важны при первом запуске игры.",
-      "settings": [
+    "trailersVideos": {
+      "eyebrow": "Videos",
+      "title": "The Blood of Dawnwalker Trailers and Gameplay Videos",
+      "subtitle": "Watch the key official videos for The Blood of Dawnwalker, from the story trailer and Road to Launch stream to gameplay overviews and earlier reveal footage.",
+      "intro": "The official Dawnwalker media lineup covers story, systems, combat, day-and-night gameplay, release information, and developer commentary. Start with the latest story trailer and Road to Launch Event, then use gameplay overview videos to understand combat, exploration, narrative choices, and Coen's human-by-day, vampire-by-night identity.",
+      "items": [
         {
-          "name": "Настройки дисплея",
-          "type": "Опция комфорта",
-          "description": "Настройки дисплея включают опцию, позволяющую игрокам скрыть руки на экране."
+          "title": "Official Dawnwalker YouTube Channel",
+          "format": "Channel",
+          "focus": "Central hub for official Dawnwalker trailers, gameplay overviews, reveal streams, and short video updates.",
+          "href": "https://www.youtube.com/@DawnwalkerGame"
         },
         {
-          "name": "Графическая совместимость",
-          "type": "Системное требование",
-          "description": "Для корректного рендеринга графики требуется поддержка Vulkan. Системы без Vulkan могут сталкиваться с вылетами и серьезными графическими ошибками."
+          "title": "The Blood of Dawnwalker - Story Trailer",
+          "format": "Story trailer",
+          "focus": "Introduces allies, enemies, and key story stakes around Coen's journey across Vale Sangora.",
+          "href": "https://www.youtube.com/watch?v=jVQiJ9ci0HI"
         },
         {
-          "name": "Предпочтения ввода",
-          "type": "Настройка управления",
-          "description": "Поддержка контроллеров существует, но клавиатура и мышь обеспечивают более плавный опыт, так как меню не рассчитаны на использование контроллера."
+          "title": "The Blood of Dawnwalker - Road to Launch Event",
+          "format": "Launch event stream",
+          "focus": "Includes new gameplay footage, story details, system requirements, edition details, developer commentary, and a broader release-date presentation.",
+          "href": "https://www.youtube.com/watch?v=TX17mPX3cew"
         },
         {
-          "name": "Языковая поддержка",
-          "type": "Локализация",
-          "description": "Текущая версия доступна только на английском языке, и на данный момент переводы не планируются."
+          "title": "The Blood of Dawnwalker - Gameplay Overview Part III",
+          "format": "Gameplay overview",
+          "focus": "Latest official gameplay overview focused on open-world activities, quest flow, combat, and the state of the game closer to launch.",
+          "href": "https://www.youtube.com/watch?v=99w_x1SsK-g"
+        },
+        {
+          "title": "The Blood of Dawnwalker - Gameplay Overview Part II",
+          "format": "Gameplay overview",
+          "focus": "Shows updated gameplay footage around Svartrau, including combat flow, camera improvements, lore-driven exploration, and Coen's dual identity.",
+          "href": "https://www.youtube.com/watch?v=modh7huKEYw"
+        },
+        {
+          "title": "The Blood of Dawnwalker - Gameplay Overview",
+          "format": "Gameplay overview",
+          "focus": "Explains the story-driven open-world RPG structure, day-and-night gameplay, sword fighting, vampiric powers, and player choice.",
+          "href": "https://www.youtube.com/watch?v=1XOa0JYJv8g"
+        },
+        {
+          "title": "The Blood of Dawnwalker - Gameplay Reveal Event",
+          "format": "Reveal livestream",
+          "focus": "Full reveal event centered on combat, spells, vampiric powers, world exploration, and the gameplay difference between day and night.",
+          "href": "https://www.youtube.com/watch?v=1nLNQOFs3r0"
+        },
+        {
+          "title": "The Blood of Dawnwalker - Game Trailer: Trapped Between Two Worlds",
+          "format": "Game trailer",
+          "focus": "Presents Coen as a Dawnwalker trapped between humanity and vampiric power, setting up the central fantasy of the game.",
+          "href": "https://www.youtube.com/watch?v=eKPXEiNVibM"
+        },
+        {
+          "title": "The Blood of Dawnwalker - Cinematic Trailer and Gameplay Teaser",
+          "format": "Cinematic and teaser",
+          "focus": "Early cinematic reveal and gameplay tease for the dark fantasy vampire RPG world.",
+          "href": "https://www.youtube.com/watch?v=MWsyV7yQIBQ"
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Обновления и список изменений Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks уже получает быстрые исправления после запуска и небольшие обновления удобства использования.",
-      "entries": [
+    "multiplayerSinglePlayer": {
+      "eyebrow": "Play Mode",
+      "title": "The Blood of Dawnwalker Multiplayer and Single Player",
+      "subtitle": "The Blood of Dawnwalker is positioned as a story-driven single-player dark fantasy action RPG, with PlayStation listing offline play and 1 player support.",
+      "intro": "Players searching for multiplayer, co-op, or online features mainly need a clear answer: the official positioning focuses on a solo narrative RPG experience. The game is built around Coen's choices, family rescue, day-and-night abilities, time costs, alliances, and consequences rather than shared online play.",
+      "items": [
         {
-          "title": "Обновление 2.8.2",
-          "type": "Обновление интерфейса",
-          "description": "Пункт «awaken» переименован в «exit» в главном меню."
+          "question": "Is The Blood of Dawnwalker single player?",
+          "answer": "Yes. Official descriptions position The Blood of Dawnwalker as a single-player open-world dark fantasy action RPG with a strong focus on story and narrative."
         },
         {
-          "title": "Небольшой патч для исправления вылетов при запуске",
-          "type": "Хотфикс",
-          "description": "Выпущен специальный патч для игроков, у которых игра вылетала при запуске."
+          "question": "Does The Blood of Dawnwalker PS5 support offline play?",
+          "answer": "Yes. The PlayStation Store listing shows offline play enabled and 1 player for the PS5 version."
         },
         {
-          "title": "Поддержка контента после запуска",
-          "type": "Заметка о планах",
-          "description": "После релиза планируются некоторые контентные обновления, но они не будут выходить по постоянному графику неопределенный срок."
+          "question": "Does The Blood of Dawnwalker have co-op or online multiplayer?",
+          "answer": "The official product pages focus on solo play, offline play, and one-player support. They do not present the game as a co-op, PvP, MMO, or online multiplayer RPG."
+        },
+        {
+          "question": "What does go alone or forge unlikely alliances mean in The Blood of Dawnwalker?",
+          "answer": "It refers to narrative choices and in-world allies. The phrase describes how Coen can approach quests, relationships, and factions inside the story, not a confirmed online party system."
+        },
+        {
+          "question": "Can Xbox players access The Blood of Dawnwalker on console and PC?",
+          "answer": "Yes. The Xbox page lists Xbox Play Anywhere, meaning a single purchase can be played on Xbox console and PC at no additional cost within that program."
+        },
+        {
+          "question": "What is The Blood of Dawnwalker main gameplay focus instead of multiplayer?",
+          "answer": "The focus is player choice, consequences, time pressure, day-and-night gameplay, sword combat, magic, vampiric powers, exploration, and how the world reacts to Coen's actions."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Исправление вылетов и решение проблем в Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Большинство проблем с запуском и вылетами следует проверять в простом порядке: версия патча, поддержка графики, совместимость платформ и логи.",
-      "steps": [
+    "rebelWolves": {
+      "eyebrow": "Developer",
+      "title": "The Blood of Dawnwalker Rebel Wolves",
+      "subtitle": "The Blood of Dawnwalker is developed by Rebel Wolves and published by Bandai Namco Entertainment as the first chapter of a new dark fantasy role-playing saga.",
+      "intro": "Rebel Wolves presents The Blood of Dawnwalker as the studio's first game and the opening chapter of a brand-new role-playing saga. The project combines a story-driven single-player RPG focus, Unreal Engine 5 technology, Bandai Namco publishing support, and a team built around experienced developers and passionate newcomers.",
+      "items": [
         {
-          "title": "Установите последний хотфикс",
-          "description": "Если игра вылетает при запуске, сначала обновите ее и протестируйте снова с последним патчем против вылетов."
+          "title": "Developer: Rebel Wolves",
+          "summary": "Rebel Wolves is the developer of The Blood of Dawnwalker.",
+          "details": "The studio describes itself as born out of love for RPGs and presents The Blood of Dawnwalker as its first game and the first chapter of a new role-playing saga."
         },
         {
-          "title": "Проверьте поддержку Vulkan",
-          "description": "Lucid Blocks требует поддержки Vulkan. Системы без Vulkan могут страдать от вылетов или серьезных проблем с рендерингом."
+          "title": "Publisher: Bandai Namco Entertainment",
+          "summary": "Bandai Namco Entertainment publishes The Blood of Dawnwalker.",
+          "details": "Official game pages list Bandai Namco Entertainment as publisher and Rebel Wolves as developer, with the game coming to PC, PlayStation 5, and Xbox Series X|S."
         },
         {
-          "title": "Используйте Proton 9.0.4 на Steam Deck",
-          "description": "Если ввод или запуск на Steam Deck не работают, принудительно включите совместимость и переключитесь на Proton 9.0.4."
+          "title": "First Chapter of a New Saga",
+          "summary": "The Blood of Dawnwalker is positioned as the beginning of a brand-new dark fantasy RPG saga.",
+          "details": "Official pages describe The Blood of Dawnwalker as the first chapter of Rebel Wolves' new role-playing saga, built around Coen, Vale Sangora, vampires, choices, and consequences."
         },
         {
-          "title": "Соберите логи вылетов",
-          "description": "Откройте «Выполнить» в Windows, вставьте %APPDATA%, перейдите в lucid blocks/logs и соберите файлы .txt для диагностики."
+          "title": "Single-Player Narrative RPG Identity",
+          "summary": "The Blood of Dawnwalker is centered on story, narrative, and player agency.",
+          "details": "The game is described as a single-player open-world dark fantasy action RPG with a strong focus on story and narrative. Its design emphasizes choices, alliances, time pressure, and consequences."
         },
         {
-          "title": "Сообщите о проблеме правильно",
-          "description": "Поделитесь логами и данными об устройстве через официальный форум баг-репортов в Discord или на странице сообщества Steam."
+          "title": "Unreal Engine 5",
+          "summary": "The Blood of Dawnwalker is built with Unreal Engine 5.",
+          "details": "Official pages connect the game to a next-generation visual presentation powered by Unreal Engine 5 across PC, PlayStation, and Xbox."
+        },
+        {
+          "title": "RPG Experience and Team Background",
+          "summary": "The team combines experienced developers and passionate newcomers.",
+          "details": "Rebel Wolves highlights teamwork, fairness, transparency, and a shared love of RPGs. PlayStation's studio visit also notes a 160-plus-person team with former CD Projekt RED staffers who worked on The Witcher 3: Wild Hunt."
         }
       ]
     }
