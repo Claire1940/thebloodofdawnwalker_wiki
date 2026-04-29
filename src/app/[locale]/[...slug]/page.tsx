@@ -26,9 +26,6 @@ interface PageProps {
 const SITE_NAME = 'The Blood of Dawnwalker'
 const SITE_DESCRIPTION =
   'Track The Blood of Dawnwalker release date, platforms, editions, story, choices, combat, trailers, and PC information.'
-const LEGACY_GAME_NAME = ['Lucid', 'Blocks'].join(' ')
-const LEGACY_SITE_NAME = `${LEGACY_GAME_NAME} Wiki`
-const LEGACY_DOMAIN = [['lucid', 'blocks'].join(''), 'wiki'].join('.')
 
 function getSiteUrl() {
   return (process.env.NEXT_PUBLIC_SITE_URL || 'https://thebloodofdawnwalker.wiki').replace(/\/$/, '')
@@ -39,13 +36,6 @@ function getContentTypeLabel(contentType: string) {
     .split('-')
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ')
-}
-
-function normalizeMetadataText(value: string) {
-  return value
-    .replaceAll(LEGACY_SITE_NAME, SITE_NAME)
-    .replaceAll(LEGACY_GAME_NAME, SITE_NAME)
-    .replaceAll(LEGACY_DOMAIN, 'thebloodofdawnwalker.wiki')
 }
 
 function getAbsoluteImageUrl(image: string | undefined, siteUrl: string) {
@@ -365,8 +355,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
-      const title = `${normalizeMetadataText(metadata.title)} - ${SITE_NAME}`
-      const description = normalizeMetadataText(metadata.description)
+      const title = `${metadata.title} - ${SITE_NAME}`
+      const description = metadata.description
       const imageUrl = getAbsoluteImageUrl(metadata.image, siteUrl)
 
       return {
@@ -410,8 +400,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
-          const title = `${normalizeMetadataText(metadata.title)} - ${SITE_NAME}`
-          const description = normalizeMetadataText(metadata.description)
+          const title = `${metadata.title} - ${SITE_NAME}`
+          const description = metadata.description
           const imageUrl = getAbsoluteImageUrl(metadata.image, siteUrl)
 
           return {

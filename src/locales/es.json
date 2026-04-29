@@ -1,28 +1,28 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "The Blood of Dawnwalker - Fecha de lanzamiento y guía de gameplay",
+      "description": "Sigue la fecha de lanzamiento, reservas, plataformas, ediciones, historia, gameplay, decisiones, vampiros y requisitos de PC de The Blood of Dawnwalker.",
+      "keywords": "The Blood of Dawnwalker, fecha de lanzamiento de The Blood of Dawnwalker, gameplay de The Blood of Dawnwalker, reserva de The Blood of Dawnwalker, requisitos de The Blood of Dawnwalker",
+      "ogTitle": "The Blood of Dawnwalker - Fecha de lanzamiento y guía de gameplay",
+      "ogDescription": "Sigue la fecha de lanzamiento, plataformas, ediciones, historia, gameplay, decisiones, vampiros, tráilers y requisitos de PC de The Blood of Dawnwalker.",
+      "twitterTitle": "The Blood of Dawnwalker - Fecha de lanzamiento y guía de gameplay",
+      "twitterDescription": "Sigue lanzamiento, gameplay, ediciones, plataformas, tráilers, historia, decisiones y requisitos de PC de The Blood of Dawnwalker."
     }
   },
   "nav": {
-    "release": "Release",
-    "platforms": "Platforms",
-    "editions": "Editions",
-    "combat": "Combat",
-    "story": "Story",
-    "world": "World",
-    "media": "Media"
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "editions": "Ediciones",
+    "combat": "Combate",
+    "story": "Historia",
+    "world": "Mundo",
+    "media": "Medios"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Añadir a deseados en Steam",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -35,477 +35,476 @@
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "RPG de acción de mundo abierto y fantasía oscura",
+    "title": "The Blood of Dawnwalker",
+    "description": "Un RPG de acción de mundo abierto y fantasía oscura ambientado en la Europa del siglo XIV, siguiendo a Coen mientras alterna entre humano y vampiro y sus decisiones transforman Vale Sangora.",
+    "getFreeCodesCTA": "Ver guía de lanzamiento",
+    "playOnRobloxCTA": "Sitio oficial",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "Sep 3, 2026",
+        "label": "Fecha de lanzamiento"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "3",
+        "label": "Plataformas"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "4",
+        "label": "Ediciones"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "10+ min",
+        "label": "Gameplay Footage"
       }
-    },
-    "playOnRobloxCTA": "Official Site"
+    }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Gameplay de The Blood of Dawnwalker",
+    "description": "Explora Vale Sangora, gestiona los lados humano y vampírico de Coen y sigue un RPG de fantasía oscura basado en consecuencias."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "The Blood of Dawnwalker",
+    "titleHighlight": "Centro de guías",
+    "subtitle": "Salta a detalles de lanzamiento, ediciones, plataformas, historia, sistemas de gameplay, guías del mundo, tráilers e información del desarrollador de The Blood of Dawnwalker.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "icon": "CalendarDays",
+        "title": "- No. Fecha de lanzamiento",
+        "description": "Fecha de lanzamiento, tiempo de tienda y plataforma de despliegue"
       },
       {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "icon": "ShoppingBag",
+        "title": "- No. Pre Order and Editions",
+        "description": "Estándar, Eclipse, Coleccionista y Día Uno detalles"
       },
       {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
+        "icon": "Monitor",
+        "title": "- No. Plataformas",
+        "description": "PC , Steam , PS5 , Xbox Series X|S y Xbox Play Anywhere"
       },
       {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
+        "icon": "Cpu",
+        "title": "The Blood of Dawnwalker Requisitos del sistema",
+        "description": "Mínimo, recomendado y ultra PC specs"
       },
       {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
+        "icon": "ScrollText",
+        "title": "- No. Historia",
+        "description": "Coen , Brencis, Vale Sangora , and the vampire uprising"
       },
       {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
+        "icon": "Compass",
+        "title": "- No. Juego",
+        "description": "Exploración, búsquedas, combate, progresión y costos de tiempo"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
+        "icon": "Moon",
+        "title": "- No. Mecánica de día y noche",
+        "description": "Rutas de día humanas y poderes de noche vampiro"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
+        "icon": "Swords",
+        "title": "- No. Combate y Magia",
+        "description": "Juegos de palabras, hexagonales, garras, alimentación y crecimiento de habilidades"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "icon": "GitBranch",
+        "title": "- No. Opciones y consecuencias",
+        "description": "Vías de decisión, resultados N PC , y replay value"
       },
       {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
+        "icon": "Hourglass",
+        "title": "The Blood of Dawnwalker 30 días límite de tiempo",
+        "description": "Cómo el sistema 30 days and nights define las prioridades"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "icon": "Map",
+        "title": "- No. Mundo Abierto y Mapa",
+        "description": "Vale Sangora ubicaciones, viajes, tiempo y descubrimiento"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "icon": "Users",
+        "title": "- No. Carácteres y facciones",
+        "description": "Coen , miembros de la familia, Brencis, y el Vrakhiri"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "icon": "Skull",
+        "title": "- No. Vampiros y Monstruos",
+        "description": "Gobernantes vampiros, vampiros fallidos, criaturas no muertas y folclore"
       },
       {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "icon": "Youtube",
+        "title": "- No. Trailers y Gameplay Videos",
+        "description": "trailers oficiales, secuencias de lanzamiento y visión general del juego"
       },
       {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "icon": "UserCheck",
+        "title": "- No. Multijugador y reproductor único",
+        "description": "Enfoque de un solo jugador, juego sin conexión y Xbox Play en cualquier lugar"
       },
       {
-        "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "icon": "Building2",
+        "title": "The Blood of Dawnwalker Rebel Wolves",
+        "description": "Desarrollador, editor, motor y fondo del equipo RPG"
       }
     ]
   },
   "modules": {
     "releaseDate": {
-      "eyebrow": "Launch Info",
-      "title": "The Blood of Dawnwalker Release Date",
-      "subtitle": "The Blood of Dawnwalker launches on September 3, 2026 for PC, PlayStation 5, and Xbox Series X|S. Steam storefront date display may show September 2, 2026 in some regions because platform storefronts can localize release timing.",
-      "intro": "Use this section to track the official launch date, platform availability, storefront status, and regional date display for The Blood of Dawnwalker. The game is available for pre-order and wishlist tracking across supported platforms.",
+      "eyebrow": "Información de lanzamiento",
+      "title": "Fecha de lanzamiento de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker lanza el 3 de septiembre de 2026 para PC , PlayStation 5, y Xbox Series X|S . puede mostrar el 2 de septiembre de 2026 en algunas regiones porque los escaparates de plataforma pueden localizar el tiempo de lanzamiento.",
+      "intro": "Utilice esta sección para rastrear la fecha oficial de lanzamiento, disponibilidad de plataformas, estado de almacén y visualización de fecha regional para The Blood of Dawnwalker . El juego está disponible para el seguimiento previo y lista de deseos en plataformas soportadas.",
       "items": [
         {
-          "label": "Official Global Launch Date",
-          "value": "September 3, 2026",
-          "description": "Bandai Namco and Rebel Wolves list September 3, 2026 as the official launch date."
+          "label": "Fecha de lanzamiento mundial oficial",
+          "value": "3 de septiembre de 2026",
+          "description": "Bandai Namco y Rebel Wolves lista Septiembre 3, 2026 como fecha de lanzamiento oficial."
         },
         {
-          "label": "Steam Store Date Display",
-          "value": "September 2, 2026",
-          "description": "Steam search and storefront metadata display Sep 2, 2026 in some regions, while the official global date remains September 3, 2026."
+          "label": "Steam",
+          "value": "Septiembre 2, 2026",
+          "description": "Steam búsqueda y visualización de metadatos en tienda Sep 2, 2026 en algunas regiones, mientras que la fecha oficial global permanece el 3 de septiembre de 2026."
         },
         {
-          "label": "Launch Platforms",
-          "value": "PC, PlayStation 5, Xbox Series X|S",
-          "description": "The game is planned for current-generation console platforms and PC at launch."
+          "label": "Plataformas de lanzamiento",
+          "value": "PC , PlayStation 5, Xbox Series X|S",
+          "description": "El juego está previsto para plataformas de consolas de generación actual y PC en el lanzamiento."
         },
         {
-          "label": "Storefront Status",
-          "value": "Pre-order live",
-          "description": "Digital pre-orders are live on Xbox and Steam, with official platform and publisher pages available for wishlisting and purchase."
+          "label": "Estado del pabellón",
+          "value": "Pre-orden vivo",
+          "description": "Los pedidos digitales son en directo en Xbox y Steam , con plataforma oficial y páginas de editor disponibles para la lista de deseos y la compra."
         }
       ]
     },
     "preOrderAndEditions": {
-      "eyebrow": "Editions",
-      "title": "The Blood of Dawnwalker Pre Order and Editions",
-      "subtitle": "Compare Standard Edition, Eclipse Edition, Collector's Edition, and retail Day One Edition before buying. Pre-order bonuses include the Sangoran Wayfarer's Armor Set, which is also obtainable later in-game.",
-      "intro": "The Blood of Dawnwalker is available in multiple editions aimed at different buyers: Standard Edition for the base game, Eclipse Edition for digital extras, Collector's Edition for physical collectibles, and Day One Edition for retail disc buyers.",
+      "eyebrow": "Ediciones",
+      "title": "Reservas y ediciones de The Blood of Dawnwalker",
+      "subtitle": "Compare Standard Edition , Eclipse Edition , Collector's Edition , y retail Day One Edition antes de comprar. Los bonos previos incluyen el conjunto de armadura de Sangoran Wayfarer, que también se puede obtener más adelante en el juego.",
+      "intro": "The Blood of Dawnwalker está disponible en varias ediciones dirigidas a diferentes compradores: Standard Edition para el juego base, Eclipse Edition para extras digitales, Collector's Edition para coleccionables físicos, y Day One Edition para compradores de discos minoristas.",
       "items": [
         {
           "edition": "Standard Edition",
-          "format": "Physical and digital",
-          "price": "$69.99+ on Xbox US; EUR 69.99 on Bandai Namco EU Store",
-          "included": "The Blood of Dawnwalker base game; pre-order bonus Sangoran Wayfarer's Armor Set",
-          "best_for": "Players who only want the full game and the pre-order armor bonus"
+          "format": "Física y digital",
+          "price": "$69.99+ en Xbox US; EUR 69.99 en Bandai Namco EU Store",
+          "included": "The Blood of Dawnwalker juego de base; pre-orden bono conjunto de armadura de Sangoran Wayfarer",
+          "best_for": "Jugadores que sólo quieren el juego completo y la prima de armadura pre-orden"
         },
         {
           "edition": "Eclipse Edition",
-          "format": "Physical and digital",
-          "price": "$79.99+ on Xbox US; EUR 79.99 on Bandai Namco EU Store",
-          "included": "Base game; Sangoran Wayfarer's Armor Set; Digital World Compendium, Digital Comic Book, and Digital Soundtrack",
-          "best_for": "Players who want lore extras, soundtrack content, and digital bonus materials"
+          "format": "Física y digital",
+          "price": "$79.99+ en Xbox US; EUR 79.99 en Bandai Namco EU Store",
+          "included": "Juego de base; Conjunto de Armadura de Sangoran Wayfarer; Compendio Digital Mundial, Libro Comic Digital y banda sonora digital",
+          "best_for": "Jugadores que quieren extras, contenidos de banda sonora y materiales de bonificación digital"
         },
         {
           "edition": "Collector's Edition",
-          "format": "Physical collector package with digital upgrade content",
+          "format": "Paquete de coleccionista físico con contenido de actualización digital",
           "price": "EUR 199.99 on Bandai Namco EU Store",
-          "included": "Base game; Steelbook; World Map; PureArts Coen Figurine; Physical World Compendium; Gold-Laminated Sticker Set; Eclipse Edition Content; Sangoran Wayfarer's Armor Set",
-          "best_for": "Collectors who want physical display items and the full digital bonus package"
+          "included": "Juego de base; Steelbook; Mapa Mundial; PureArts Coen Figura; Compendio Mundial Físico; Conjunto de Pegatina Laminada al Oro; Eclipse Edition Contenido; Conjunto de Armadura de Sangoran Wayfarer",
+          "best_for": "Coleccionistas que quieren elementos de visualización física y el paquete de bonificación digital completo"
         },
         {
           "edition": "Day One Edition",
-          "format": "Retail physical edition",
-          "price": "Retail edition pricing depends on store and region",
-          "included": "Retail Day One Edition announced for worldwide stores",
-          "best_for": "Players who prefer a physical retail copy at launch"
+          "format": "Edición física minorista",
+          "price": "Los precios de edición minorista dependen de la tienda y la región",
+          "included": "Retail Day One Edition anuncia para tiendas de todo el mundo",
+          "best_for": "Jugadores que prefieren una copia física al por menor en el lanzamiento"
         }
       ]
     },
     "platforms": {
-      "eyebrow": "Platforms",
-      "title": "The Blood of Dawnwalker Platforms",
-      "subtitle": "The Blood of Dawnwalker is confirmed for PC, Steam, PlayStation 5, and Xbox Series X|S. Xbox buyers also get Xbox Play Anywhere support across Xbox console and PC.",
-      "intro": "This platform section helps players quickly choose where to buy or wishlist The Blood of Dawnwalker. It separates Steam PC, PlayStation 5, Xbox Series X|S, and Xbox Play Anywhere features so users can understand what each storefront offers.",
+      "eyebrow": "Plataformas",
+      "title": "Plataformas de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker se confirma para PC , Steam , PlayStation 5, y Xbox Series X|S . Los compradores de Xbox también reciben ayuda de Xbox Play Anywhere en la consola Xbox y PC .",
+      "intro": "Esta sección de plataforma ayuda a los jugadores a elegir rápidamente dónde comprar o lista de deseos The Blood of Dawnwalker . Se separa Steam PC , PlayStation 5, Xbox Series X|S y Xbox Play En cualquier lugar las características para que los usuarios puedan entender lo que ofrece cada escaparate.",
       "items": [
         {
           "platform": "Steam PC",
           "status": "Steam page live",
-          "features": "Pre-purchase and wishlist support; PC system requirements listed; Steam release display may show Sep 2, 2026 by region",
+          "features": "Pre-purchase and wishlist support; PC requerimientos del sistema listados; Steam pantalla de lanzamiento puede mostrar Sep 2, 2026 por región",
           "store_url": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/"
         },
         {
           "platform": "PlayStation 5",
-          "status": "PS5 version announced",
-          "features": "Offline play enabled, one-player support, DualSense vibration support, and accessibility features listed on the PlayStation page",
+          "status": "PS5 versión anunciada",
+          "features": "Sin conexión activada, soporte de un jugador, soporte de vibración de DualSense y funciones de accesibilidad incluidas en la página de PlayStation",
           "store_url": "https://www.playstation.com/en-us/games/the-blood-of-dawnwalker/"
         },
         {
           "platform": "Xbox Series X|S",
-          "status": "Pre-order live",
-          "features": "Optimized for Xbox Series X|S, 4K Ultra HD, ray tracing, Xbox achievements, Xbox cloud saves, and single-player support",
+          "status": "Pre-orden vivo",
+          "features": "Optimizado para Xbox Series X|S , 4K Ultra HD, tracing de rayos, logros de Xbox, ahorros de nube de Xbox y soporte de un solo jugador",
           "store_url": "https://www.xbox.com/en-US/games/the-blood-of-dawnwalker"
         },
         {
           "platform": "Xbox on PC",
-          "status": "Included through Xbox Play Anywhere",
-          "features": "Buy once and play on Xbox console and PC for no additional cost within the Xbox ecosystem",
+          "status": "Incluido a través de Xbox Play Anywhere",
+          "features": "Compra una vez y juega en la consola Xbox y PC sin costo adicional dentro del ecosistema Xbox",
           "store_url": "https://www.xbox.com/en-US/games/the-blood-of-dawnwalker"
         }
       ]
     },
     "systemRequirements": {
-      "eyebrow": "PC Specs",
-      "title": "The Blood of Dawnwalker System Requirements",
-      "subtitle": "The Blood of Dawnwalker PC requirements cover Minimum, Recommended, and Ultra targets from native 1080p 30 FPS up to native 2160p 60 FPS. All listed tiers require Windows 10, DirectX 12, 16 GB RAM, and 60 GB SSD storage.",
-      "intro": "Use this section to check whether a PC can run The Blood of Dawnwalker at the target resolution and frame rate. The published requirements were measured without upscalers or frame generation, while DLSS and FSR support can help improve performance.",
+      "eyebrow": "PC Especificaciones",
+      "title": "Requisitos del sistema de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker PC Los requisitos cubren los objetivos mínimos, recomendados y ultra de los nativos 1080p 30 FPS hasta los nativos 2160p 60 FPS. Todos los niveles listados requieren Windows 10, DirectX 12, 16 GB de RAM, y 60 GB de almacenamiento SSD.",
+      "intro": "Utilice esta sección para comprobar si un PC puede funcionar The Blood of Dawnwalker en la resolución de destino y el índice de marco. Los requisitos publicados se midieron sin escaladores o generación de marcos, mientras que el soporte DLSS y FSR puede ayudar a mejorar el rendimiento.",
       "items": [
         {
-          "tier": "Minimum",
-          "target": "Native 1080p at 30 FPS",
-          "preset": "Low",
-          "cpu": "Intel Core i7-8700K or AMD Ryzen 7 3700X",
+          "tier": "Mínimo",
+          "target": "Nativo 1080p a 30 FPS",
+          "preset": "Baja",
+          "cpu": "Intel Core i7-8700K o AMD Ryzen 7 3700X",
           "ram": "16 GB",
-          "gpu": "NVIDIA RTX 3050, GTX 1070, AMD RX Vega-56, or Intel Arc A580",
+          "gpu": "NVIDIA RTX 3050, GTX 1070, AMD RX Vega-56, o Intel Arc A580",
           "vram": "6 GB",
-          "storage": "60 GB SSD",
+          "storage": "60 GB de SSD",
           "os": "Windows 10, DirectX 12"
         },
         {
-          "tier": "Recommended",
-          "target": "Native 1080p at 60 FPS",
-          "preset": "High",
-          "cpu": "Intel Core i5-13600 or AMD Ryzen 9 7900X",
+          "tier": "Recomendado",
+          "target": "Nativo 1080p a 60 FPS",
+          "preset": "Alto",
+          "cpu": "Intel Core i5-13600 o AMD Ryzen 9 7900X",
           "ram": "16 GB",
-          "gpu": "NVIDIA RTX 5060 or AMD RX 6800-XT",
+          "gpu": "NVIDIA RTX 5060 o AMD RX 6800-XT",
           "vram": "12 GB",
-          "storage": "60 GB SSD",
+          "storage": "60 GB de SSD",
           "os": "Windows 10, DirectX 12"
         },
         {
-          "tier": "Recommended",
-          "target": "Native 1440p at 60 FPS",
-          "preset": "High",
-          "cpu": "Intel Core i5-13600 or AMD Ryzen 9 7900X",
+          "tier": "Recomendado",
+          "target": "Nativo 1440p a 60 FPS",
+          "preset": "Alto",
+          "cpu": "Intel Core i5-13600 o AMD Ryzen 9 7900X",
           "ram": "16 GB",
-          "gpu": "NVIDIA RTX 4070 Ti or AMD RX 7800 XT",
+          "gpu": "NVIDIA RTX 4070 Ti o AMD RX 7800 XT",
           "vram": "12 GB",
-          "storage": "60 GB SSD",
+          "storage": "60 GB de SSD",
           "os": "Windows 10, DirectX 12"
         },
         {
           "tier": "Ultra",
-          "target": "Native 1440p at 60 FPS",
+          "target": "Nativo 1440p a 60 FPS",
           "preset": "Ultra",
-          "cpu": "Intel Core i5-13600K or AMD Ryzen 9 7950X",
+          "cpu": "Intel Core i5-13600K o AMD Ryzen 9 7950X",
           "ram": "16 GB",
-          "gpu": "NVIDIA RTX 4080 or AMD RX 7900 XTX",
+          "gpu": "NVIDIA RTX 4080 o AMD RX 7900 XTX",
           "vram": "16 GB",
-          "storage": "60 GB SSD",
+          "storage": "60 GB de SSD",
           "os": "Windows 10, DirectX 12"
         },
         {
           "tier": "Ultra",
-          "target": "Native 2160p at 60 FPS",
+          "target": "Nativo 2160p a 60 FPS",
           "preset": "Ultra",
-          "cpu": "Intel Core i5-13600K or AMD Ryzen 9 7950X",
+          "cpu": "Intel Core i5-13600K o AMD Ryzen 9 7950X",
           "ram": "16 GB",
           "gpu": "NVIDIA RTX 5090",
           "vram": "16 GB",
-          "storage": "60 GB SSD",
+          "storage": "60 GB de SSD",
           "os": "Windows 10, DirectX 12"
         }
       ]
     },
     "story": {
-      "eyebrow": "Story",
-      "title": "The Blood of Dawnwalker Story",
-      "subtitle": "The Blood of Dawnwalker follows Coen, a young Dawnwalker caught between humanity and vampiric power, as he fights to save his family in Vale Sangora.",
-      "intro": "The Blood of Dawnwalker is set in a brutal 14th-century Europe weakened by war and the Black Death. As vampires seize power, Coen is forced into a rescue story shaped by alliances, revenge, time pressure, and the cost of every decision.",
+      "eyebrow": "Historia",
+      "title": "Historia de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker sigue Coen , un joven Dawnwalker atrapado entre la humanidad y el poder vampiórico, mientras lucha por salvar a su familia en Vale Sangora .",
+      "intro": "The Blood of Dawnwalker se encuentra en un brutal debilitado por la guerra y la muerte negra. A medida que los vampiros aprovechan el poder, Coen se ve obligado a crear una historia de rescate formada por alianzas, venganza, presión del tiempo y el costo de cada decisión.",
       "items": [
         {
           "title": "14th-Century Europe in Collapse",
-          "content": "Bloody conflicts and the Black Death leave Europe vulnerable. Vampires use this moment of weakness to step out of the shadows, claim power, and turn old legends into living threats.",
+          "content": "Los conflictos sangrientos y la muerte negra dejan a Europa vulnerable. Los vampiros utilizan este momento de debilidad para salir de las sombras, reclamar poder y convertir viejas leyendas en amenazas vivientes.",
           "highlights": [
             "Black Death backdrop",
-            "Vampire uprising",
+            "Levantamiento de vampiros",
             "Dark fantasy Europe"
           ]
         },
         {
-          "title": "Coen, the Dawnwalker",
-          "content": "Coen is a young man transformed into a Dawnwalker: human by day and vampire by night. His story centers on whether he fights for his humanity or embraces cursed power to save the people he loves.",
+          "title": "Coen , the Dawnwalker",
+          "content": "Coen es un joven transformado en un Dawnwalker : humano por día y vampiro por la noche. Su historia se centra en si lucha por su humanidad o abraza el poder maldito para salvar a la gente que ama.",
           "highlights": [
-            "Human by day",
-            "Vampire by night",
-            "Family rescue"
+            "Humano por día",
+            "Vampiro por la noche",
+            "Socorro familiar"
           ]
         },
         {
-          "title": "Brencis and the Rule of Blood",
-          "content": "Brencis is the vampire lord whose power dominates Coen's homeland. Coen's family is pulled into Brencis' rule, and the village faces a system of vampiric protection paid for in human blood.",
+          "title": "Brencis y la regla de la sangre",
+          "content": "Brencis es el señor vampiro cuyo poder domina la tierra natal de Coen . La familia de Coen es llevada a la regla de Brencis, y el pueblo enfrenta un sistema de protección vampirica pagado en sangre humana.",
           "highlights": [
             "Vampire lord Brencis",
-            "Blood tax",
-            "Family taken"
+            "Tasa de sangre",
+            "Familia tomada"
           ]
         },
         {
-          "title": "Vale Sangora and Svartrau",
-          "content": "Vale Sangora is a mysterious Carpathian region filled with settlements, forests, caves, swamps, ruins, and ancient secrets. Its capital, Svartrau, is the heart of Brencis' power and a key hub for Coen's investigation.",
+          "title": "Vale Sangora y Svartrau",
+          "content": "Vale Sangora es una misteriosa región carpática llena de asentamientos, bosques, cuevas, pantanos, ruinas y secretos antiguos. Su capital, Svartrau, es el corazón del poder de Brencis y un centro clave para la investigación de Coen .",
           "highlights": [
-            "Carpathian Mountains",
-            "Svartrau capital",
-            "Ancient secrets"
+            "Montañas carpatas",
+            "Capital de Svartrau",
+            "Secretos antiguos"
           ]
         },
         {
-          "title": "Thirty Days and Nights",
-          "content": "Coen has 30 days and 30 nights to save his kin. Major actions, quest completions, and certain choices move time forward, creating consequences without turning exploration into a real-time countdown.",
+          "title": "Treinta días y noches",
+          "content": "Coen tiene 30 días y 30 noches para salvar a sus parientes. Las principales acciones, las terminaciones de búsqueda y ciertas opciones avanzan el tiempo, creando consecuencias sin convertir la exploración en una cuenta regresiva en tiempo real.",
           "highlights": [
-            "30-day rescue clock",
-            "Quest time cost",
-            "Consequences continue"
+            "Reloj de rescate de 30 días",
+            "Costo del tiempo de búsqueda",
+            "Consecuencias"
           ]
         },
         {
-          "title": "Myths, Monsters, and Hidden Tales",
-          "content": "Vale Sangora contains myths such as the Howling Keep, Shrike's Crag, underground ruins beneath Svartrau, and monsters beyond vampires. These stories turn the region into a playable mystery, not just a backdrop.",
+          "title": "Mitos, monstruos y cuentos ocultos",
+          "content": "Vale Sangora contiene mitos como el Howling Keep, Shrike's Crag, ruinas subterráneas bajo Svartrau, y monstruos más allá de los vampiros. Estas historias convierten a la región en un misterio jugable, no sólo un telón de fondo.",
           "highlights": [
             "Howling Keep",
             "Shrike's Crag",
-            "Hidden monsters"
+            "monstruos ocultos"
           ]
         }
       ]
     },
     "gameplay": {
-      "eyebrow": "Gameplay",
-      "title": "The Blood of Dawnwalker Gameplay",
-      "subtitle": "The Blood of Dawnwalker lets you explore Vale Sangora, choose your route through the narrative sandbox, and use Coen's human and vampire sides to solve quests in different ways.",
-      "intro": "The Blood of Dawnwalker gameplay combines open-world exploration, choice-driven quests, cinematic combat, time-cost decisions, and two distinct day-and-night loops. Progress is about weaving Coen's version of the story.",
+      "eyebrow": "Juego",
+      "title": "Jugabilidad de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker le permite explorar Vale Sangora , elegir su ruta a través de la caja de arena narrativa, y utilizar los lados humanos y vampiros de Coen para resolver misiones de diferentes maneras.",
+      "intro": "The Blood of Dawnwalker el juego combina exploración de mundo abierto, misiones impulsadas por la elección, combate cinematográfico, decisiones de costos de tiempo y dos bucles distintos de día y noche. El progreso es sobre tejer la versión de Coen de la historia.",
       "items": [
         {
           "step": 1,
-          "title": "Explore Vale Sangora",
-          "description": "Roam a hand-crafted open world with forests, plains, swamps, caves, mountains, medieval settlements, ancient crypts, ruins, shrines, camps, monster nests, hidden treasures, and haunted places.",
-          "player_value": "The world is designed for discovery, with many activities revealed through clues, locals, travel, and careful searching."
+          "title": "Explorar Vale Sangora",
+          "description": "Roam un mundo abierto artesanal con bosques, llanuras, pantanos, cuevas, montañas, asentamientos medievales, antiguas criptas, ruinas, santuarios, campamentos, nidos de monstruos, tesoros ocultos y lugares embrujados.",
+          "player_value": "El mundo está diseñado para el descubrimiento, con muchas actividades reveladas a través de pistas, locales, viajes y búsqueda cuidadosa."
         },
         {
           "step": 2,
-          "title": "Choose Your Story Route",
-          "description": "Pursue the rescue of Coen's family, prepare for greater challenges, build alliances, uncover ancient secrets, or push directly toward Brencis when the story allows it.",
-          "player_value": "The narrative sandbox lets players decide what to prioritize and what to leave unresolved."
+          "title": "Elija su ruta de historia",
+          "description": "Proseguir el rescate de la familia de Coen , prepararse para mayores desafíos, construir alianzas, descubrir secretos antiguos, o empujar directamente hacia Brencis cuando la historia lo permita.",
+          "player_value": "La sandbox narrativa permite a los jugadores decidir qué priorizar y qué dejar sin resolver."
         },
         {
           "step": 3,
-          "title": "Manage Time Costs",
-          "description": "Exploration and combat do not continuously move the clock. Time advances when certain activities are completed, including quests, specific choices, and shifting from day to night.",
-          "player_value": "The 30-day rescue clock creates urgency while still allowing players to explore at their own pace."
+          "title": "Costos del tiempo de gestión",
+          "description": "La exploración y el combate no mueven continuamente el reloj. El tiempo avanza cuando se completan ciertas actividades, incluyendo misiones, opciones específicas y el cambio de día a noche.",
+          "player_value": "El reloj de rescate de 30 días crea urgencia y permite a los jugadores explorar a su propio ritmo."
         },
         {
           "step": 4,
-          "title": "Switch Between Human and Vampire Play",
-          "description": "Human Coen uses swordplay and ritual magic during the day, while vampire Coen gains supernatural movement, heightened senses, claws, feeding options, and night-focused abilities.",
-          "player_value": "Different times of day create different routes, quest opportunities, and ability choices."
+          "title": "Interruptor entre el juego humano y el vampiro",
+          "description": "Human Coen utiliza el juego de espadas y la magia ritual durante el día, mientras que el vampiro Coen obtiene movimiento sobrenatural, sentidos aumentados, garras, opciones de alimentación y habilidades centradas en la noche.",
+          "player_value": "Diferentes tiempos de día crean diferentes rutas, oportunidades de búsqueda y opciones de habilidad."
         },
         {
           "step": 5,
-          "title": "Fight with Swords, Hexes, and Claws",
-          "description": "Combat supports grounded swordfighting, directional attacks, blocks, parries, active abilities, hexes such as Burning Blood, vampiric claws, and close-range decision making.",
-          "player_value": "Players can lean toward cinematic action, precise directional combat, magic, vampire aggression, or mixed builds."
+          "title": "Lucha con espadas, hexes y garras",
+          "description": "El combate apoya la lucha contra la espada molida, ataques direccionales, bloques, parries, habilidades activas, hexagonales como la quema de sangre, garras vampíricas y toma de decisiones de cerca.",
+          "player_value": "Los jugadores pueden apoyarse en la acción cinematográfica, el combate direccional preciso, la magia, la agresión de los vampiros o las construcciones mixtas."
         },
         {
           "step": 6,
-          "title": "Build Coen Through Skill Trees",
-          "description": "Coen's progression includes human abilities, vampire abilities, and shared skills. Some powers are passive, some are active, and some vampire-linked powers are connected to specific blood.",
-          "player_value": "The build system rewards replaying the game with different priorities, forms, routes, and consequences."
+          "title": "Construir Coen A través de los árboles de habilidad",
+          "description": "La progresión de Coen incluye habilidades humanas, habilidades de vampiro y habilidades compartidas. Algunos poderes son pasivos, algunos activos, y algunos poderes ligados a vampiros están conectados a sangre específica.",
+          "player_value": "El sistema de construcción recompensa la repetición del juego con diferentes prioridades, formas, rutas y consecuencias."
         }
       ]
     },
     "dayNightMechanics": {
-      "eyebrow": "Day and Night",
-      "title": "The Blood of Dawnwalker Day and Night Mechanics",
-      "subtitle": "The Blood of Dawnwalker day-and-night system changes Coen's abilities, routes, risks, and how the world reacts to him.",
-      "intro": "The Blood of Dawnwalker treats day and night as more than visual atmosphere. Each time state gives Coen different tools, different weaknesses, different quest access, and different pressure on the 30-day rescue clock.",
+      "eyebrow": "Día y noche",
+      "title": "Mecánicas de día y noche de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker cambios del sistema de día y noche Coen Las habilidades, rutas, riesgos y cómo el mundo reacciona ante él.",
+      "intro": "The Blood of Dawnwalker trata el día y la noche como un ambiente visual. Cada vez que el estado da Coen diferentes herramientas, diferentes debilidades, acceso de búsqueda diferente, y presión diferente en el reloj de rescate de 30 días.",
       "items": [
         {
-          "title": "Daytime Human Loop",
-          "content": "During the day, Coen leans on swordplay and ritual magic. Magic requires runes carved into the body, giving daytime Coen access to spells that can damage enemies, manipulate encounters, reveal information, and support investigation.",
+          "title": "Hora del día Human Loop",
+          "content": "Durante el día, Coen se apoya en el juego de espadas y la magia ritual. La magia requiere escorrentías talladas en el cuerpo, dando el día Coen acceso a hechizos que pueden dañar enemigos, manipular encuentros, revelar información y apoyar la investigación.",
           "details": [
-            "Sword and witchcraft focus",
-            "Runes enable spellcasting",
-            "Human routes and NPC access"
+            "Enfoque de la espada y la brujería",
+            "Los ejes permiten la ortografía",
+            "Rutas humanas y acceso N"
           ]
         },
         {
-          "title": "Nighttime Vampire Loop",
-          "content": "At night, Coen's vampire side gains a different set of abilities. Shadowstep, Clawride, Planeshift, heightened senses, claws, feeding, and supernatural traversal let him approach rooftops, interiors, and combat scenarios in new ways.",
+          "title": "Bucle de vampiro nocturno",
+          "content": "Por la noche, el lado vampiro de Coen obtiene un conjunto diferente de habilidades. Shadowstep , Clawride , Planeshift, sentidos elevados, garras, alimentación y traversal sobrenatural le permiten acercarse a techos, interiores y escenarios de combate de nuevas maneras.",
           "details": [
             "Vampire traversal",
-            "Claws and bites",
-            "Heightened senses"
+            "Garras y mordeduras",
+            "Sentidos elevados"
           ]
         },
         {
-          "title": "Time Does Not Tick Like a Normal Clock",
-          "content": "The game does not use a constantly running real-time clock. Exploration and combat can be done at the player's pace, while certain completions and decisions push the world forward with visible time costs.",
+          "title": "El tiempo no teme como un reloj normal",
+          "content": "El juego no utiliza un reloj en tiempo real que funciona constantemente. La exploración y el combate se pueden realizar al ritmo del jugador, mientras que ciertas terminaciones y decisiones empujan al mundo hacia adelante con costos de tiempo visibles.",
           "details": [
-            "No regular live countdown",
-            "Hourglass-style time cost",
-            "30 days to save the family"
+            "No conteo en vivo regular",
+            "Costo de tiempo de estilo de reloj",
+            "30 días para salvar a la familia"
           ]
         },
         {
-          "title": "Different Times Unlock Different Paths",
-          "content": "Some NPCs, quests, routes, and solutions are tied to the time of day. One gameplay example sends Coen back to a cathedral at night because his vampire traversal is needed to reach high scaffolds.",
+          "title": "Diferentes tiempos desbloquean diferentes caminos",
+          "content": "Algunas N PC s, misiones, rutas y soluciones están ligadas al tiempo del día. Un ejemplo de juego envía Coen volver a una catedral por la noche porque su traversal de vampiro es necesario para alcanzar altos andamios.",
           "details": [
-            "Time-specific routes",
-            "Alternative quest solutions",
-            "Different world access"
+            "Rutas específicas para el tiempo",
+            "Soluciones alternativas de búsqueda",
+            "Diferente acceso mundial"
           ]
         },
         {
-          "title": "Blood Hunger at Night",
-          "content": "Blood Hunger activates at night. If Coen does not drink enough blood, he can lose control and attack NPCs, while feeding choices can include humans, animals, and non-human creatures.",
+          "title": "Hambre de sangre en la noche",
+          "content": "El hambre de sangre se activa por la noche. Si Coen no bebe suficiente sangre, puede perder el control y atacar N PC s, mientras que las opciones de alimentación pueden incluir seres humanos, animales y criaturas no humanas.",
           "details": [
-            "Night-only hunger pressure",
-            "Human or animal feeding",
-            "NPC consequences"
+            "Presión de hambre sólo nocturna",
+            "Alimentación humana o animal",
+            "N PC"
           ]
         },
         {
-          "title": "A World That Changes After Sunset",
-          "content": "Vale Sangora reacts to Coen's actions and becomes more dangerous after dark. Places that seem quiet in daylight can become threat-filled at night, and dynamic weather such as fog can affect visibility.",
+          "title": "Un mundo que cambia después del amanecer",
+          "content": "Vale Sangora reacciona a las acciones de Coen y se vuelve más peligroso después de la oscuridad. Lugares que parecen tranquilos en la luz del día pueden convertirse en amenaza llena de noche, y el clima dinámico como la niebla puede afectar la visibilidad.",
           "details": [
-            "Day-night danger shift",
-            "Reactive world",
-            "Dynamic weather"
+            "Cambio de peligro de día a noche",
+            "Mundo reactiva",
+            "Tiempo dinámico"
           ]
         }
       ]
     },
     "combatMagic": {
-      "eyebrow": "Combat",
-      "title": "The Blood of Dawnwalker Combat and Magic",
-      "subtitle": "The Blood of Dawnwalker combat is built around Coen's split nature: grounded swordfighting and rune-based magic by day, supernatural claws and vampiric powers by night.",
-      "intro": "The Blood of Dawnwalker combat system blends close-range action, directional attacks, blocks, parries, active abilities, ritual spellcasting, vampire traversal, feeding pressure, and flexible skill trees.",
+      "eyebrow": "Combate",
+      "title": "Combate y magia de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker El combate se construye alrededor de la naturaleza dividida de Coen : la magia basada en la espada molida y la magia basada en la runa por el día, garras sobrenaturales y poderes vampíricos por la noche.",
+      "intro": "The Blood of Dawnwalker El sistema de combate combina acción de cerca, ataques direccionales, bloques, parries, habilidades activas, ortografía ritual, traversal de vampiros, presión de alimentación y árboles de habilidad flexibles.",
       "items": [
         {
-          "title": "Grounded Sword Fighting",
-          "description": "Coen fights with swords taught by his father, using directional attacks, blocks, and parries to exploit enemy openings. Combat is designed to feel cinematic, close-range, responsive, and not locked into long animations.",
+          "title": "Lucha contra la espada en tierra",
+          "description": "Coen lucha con espadas enseñadas por su padre, usando ataques direccionales, bloques y parries para explotar aberturas enemigas. Combat está diseñado para sentirse cinematográfico, de cerca, receptivo y no encerrado en animaciones largas.",
           "tags": [
-            "Swords",
-            "Directional attacks",
-            "Parry timing"
+            "Espadas",
+            "Ataques de dirección",
+            "Plazo de inscripción"
           ]
         },
         {
-          "title": "Activation Charges and Active Abilities",
-          "description": "Successful blocking, attacking, and parrying build Activation Charges. These charges can be spent on Active Abilities, including magical and mundane options such as Burning Blood and Artery Attack.",
+          "title": "Cargos de activación y habilidades activas",
+          "description": "El bloqueo exitoso, el ataque y la preparación construyen cargas de activación. Estos cargos se pueden gastar en habilidades activas, incluyendo opciones mágicas y mundanas como Burning Blood y Artery Attack.",
           "tags": [
-            "Charges",
-            "Active abilities",
-            "Finishers"
+            "Cargos",
+            "Capacidades activas",
+            "Acabados"
           ]
         },
         {
           "title": "Rune-Based Hex Magic",
-          "description": "Human Coen casts magic by carving runes into his flesh, opening a gate for power to flow. Known spell examples include Burning Blood, Feral Mind, buffs, debuffs, and Compel Soul for gathering secrets from the dead.",
+          "description": "Humano Coen lanza la magia al tallar las runas en su carne, abriendo una puerta para que fluya el poder. Ejemplos de hechizos conocidos incluyen la sangre ardiente, la mente feral, esposas, debuffs y el alma de compel para recoger secretos de los muertos.",
           "tags": [
             "Hexes",
             "Runes",
@@ -513,8 +512,8 @@
           ]
         },
         {
-          "title": "Vampire Claws and Night Powers",
-          "description": "At night, Coen uses vampiric claws in combat and gains supernatural powers such as Shadowstep, Clawride, Planeshift, heightened senses, and instinctive energy channeling instead of book-learned spells.",
+          "title": "Garras de vampiro y potencias nocturnas",
+          "description": "Por la noche, Coen utiliza garras vampiricas en combate y gana poderes sobrenaturales como Shadowstep , Clawride , Planeshift, sentidos elevados, y canalización de energía instintiva en lugar de hechizos de lectura de libros.",
           "tags": [
             "Claws",
             "Shadowstep",
@@ -522,657 +521,680 @@
           ]
         },
         {
-          "title": "Blood Hunger and Feeding",
-          "description": "Blood Hunger is a night mechanic tied to Coen's vampire side. Feeding can target humans, animals, or non-human creatures, and low blood can push Coen toward losing control and draining NPCs.",
+          "title": "Hambre de sangre y alimentación",
+          "description": "El hambre de sangre es un mecánico nocturno atado al lado vampiro de Coen . La alimentación puede apuntar a seres humanos, animales o criaturas no humanas, y la sangre baja puede empujar Coen hacia la pérdida de control y drenaje N PC s.",
           "tags": [
-            "Blood Hunger",
-            "Feeding",
-            "Consequences"
+            "Hambre de sangre",
+            "Alimentación",
+            "Consecuencias"
           ]
         },
         {
-          "title": "Three-Branch Skill Growth",
-          "description": "Coen's skill tree is built around witchcraft for daytime, vampiric powers for night, and sword fighting that overlaps both forms. Upgrades include passive and active options, with some abilities tied to specific vampiric blood.",
+          "title": "Crecimiento de la habilidad de tres puntos",
+          "description": "El árbol de habilidad de Coen está construido alrededor de la brujería durante el día, poderes vampíricos para la noche, y la espada luchando que superpone ambas formas. Las mejoras incluyen opciones pasivas y activas, con algunas habilidades ligadas a sangre vampirica específica.",
           "tags": [
-            "Witchcraft",
-            "Vampire powers",
-            "Sword skills"
+            "Brujería",
+            "Poderes de vampiro",
+            "Habilidades de la palabra"
           ]
         }
       ]
     },
     "choicesConsequences": {
-      "eyebrow": "Player Choice",
-      "title": "The Blood of Dawnwalker Choices and Consequences",
-      "subtitle": "Every major decision, delayed action, and failed rescue can reshape Coen's journey through Vale Sangora. This module explains how quests, allies, blood hunger, and faction choices affect the world around you.",
-      "intro": "The Blood of Dawnwalker is built around a narrative sandbox where action and inaction both matter. Coen can rush toward his family, prepare through other stories, help villagers, ignore requests, feed carefully, or give in to darker powers, and the game continues even when those choices carry painful consequences.",
-      "highlightTitle": "The Blood of Dawnwalker Consequence Highlights",
+      "eyebrow": "Elección del jugador",
+      "title": "Decisiones y consecuencias de The Blood of Dawnwalker",
+      "subtitle": "Cada decisión importante, acción retardada y rescate fallido puede reorganizar el viaje de Coen a través de Vale Sangora . Este módulo explica cómo las misiones, los aliados, el hambre de sangre y las elecciones de facciones afectan al mundo que te rodea.",
+      "intro": "The Blood of Dawnwalker se construye alrededor de una caja de arena narrativa donde la acción y la inacción importan. Coen puede apresurarse hacia su familia, prepararse a través de otras historias, ayudar a los aldeanos, ignorar las peticiones, alimentarse cuidadosamente, o ceder a los poderes más oscuros, y el juego continúa incluso cuando esas opciones tienen consecuencias dolorosas.",
+      "highlightTitle": "Consequence Highlights",
       "highlights": [
         {
-          "label": "Action and inaction",
-          "detail": "The Blood of Dawnwalker treats delayed rescues, skipped requests, and direct intervention as story choices."
+          "label": "Medidas e inacción",
+          "detail": "The Blood of Dawnwalker trata los rescates retrasados, las solicitudes saltadas y la intervención directa como opciones de historia."
         },
         {
-          "label": "Limited time",
-          "detail": "The 30-day deadline means helping one person can cost time that another quest, ally, or family objective may need."
+          "label": "Tiempo limitado",
+          "detail": "El plazo de 30 días significa ayudar a una persona puede costar tiempo para que pueda necesitar otra búsqueda, aliado o objetivo familiar."
         },
         {
-          "label": "Blood Hunger",
-          "detail": "Coen's night form can turn feeding pressure into a consequence chain that affects NPCs and future scenes."
+          "label": "Hambre de sangre",
+          "detail": "La forma nocturna de Coen puede convertir la presión de alimentación en una cadena de consecuencia que afecta a N PC s y escenas futuras."
         },
         {
-          "label": "Faction routes",
-          "detail": "The Blood of Dawnwalker leaves room for alliances, vampire encounters, and world reactions beyond a single morality track."
+          "label": "Rutas de facción",
+          "detail": "The Blood of Dawnwalker deja espacio para alianzas, encuentros de vampiros y reacciones mundiales más allá de una sola pista de moralidad."
         }
       ],
       "items": [
         {
-          "question": "How do choices work in The Blood of Dawnwalker?",
-          "answer": "Choices are tied to quests, dialogue, timing, allies, and Coen's human or vampire nature. Players can pursue multiple objectives, ignore some requests, prepare before confronting Brencis, or take a more direct route, with the world reacting to the path they choose."
+          "question": "¿Cómo funcionan las opciones en The Blood of Dawnwalker ?",
+          "answer": "Las elecciones están vinculadas a misiones, diálogo, tiempo, aliados y la naturaleza humana o vampiro de Coen . Los jugadores pueden perseguir múltiples objetivos, ignorar algunas solicitudes, prepararse antes de enfrentarse a Brencis, o tomar una ruta más directa, con el mundo reaccionando al camino que eligen."
         },
         {
-          "question": "Does inaction have consequences in The Blood of Dawnwalker?",
-          "answer": "Yes. The game emphasizes that every action and inaction shapes the world. Ignoring or delaying certain objectives leads to visible consequences for villagers and family members, while the story keeps moving forward instead of resetting the outcome."
+          "question": "¿La inacción tiene consecuencias en The Blood of Dawnwalker ?",
+          "answer": "Sí. El juego enfatiza que cada acción e inacción forma el mundo. Ignorar o retrasar ciertos objetivos conduce a consecuencias visibles para los aldeanos y familiares, mientras que la historia sigue avanzando en lugar de restablecer el resultado."
         },
         {
-          "question": "Can NPCs die in The Blood of Dawnwalker because of player decisions?",
-          "answer": "Minor and major NPCs can suffer or die as a result of player choices, missed opportunities, or the cost of time. The game continues after these events, turning those outcomes into part of the player's version of Coen's story."
+          "question": "¿Puede N PC",
+          "answer": "Menor y mayor N PC s puede sufrir o morir como resultado de las opciones de jugador, oportunidades perdidas, o el costo del tiempo. El juego continúa después de estos eventos, convirtiendo esos resultados en parte de la versión del jugador de la historia de Coen ."
         },
         {
-          "question": "Is The Blood of Dawnwalker a simple good or evil morality system?",
-          "answer": "The game does not frame morality as a clean black-and-white meter. Many storylines are designed around ambiguity, difficult trade-offs, and shades of gray, so players judge what is worth sacrificing and who deserves help."
+          "question": "¿Es The Blood of Dawnwalker un sistema de moralidad simple bueno o maligno?",
+          "answer": "El juego no enmarca la moralidad como un medidor blanco y negro limpio. Muchas historias están diseñadas alrededor de la ambigüedad, los cambios difíciles y los tonos de gris, por lo que los jugadores juzgan lo que vale la pena sacrificar y quién merece ayuda."
         },
         {
-          "question": "How does Blood Hunger affect The Blood of Dawnwalker decisions?",
-          "answer": "At night, Coen's Blood Hunger can push him toward dangerous behavior. If he does not drink enough blood, he may lose control and attack NPCs, and feeding choices can affect whether victims survive, pass out, or become part of a darker consequence chain."
+          "question": "¿Cómo afecta el hambre de sangre The Blood of Dawnwalker decisiones?",
+          "answer": "Por la noche, el Hambre de Sangre de Coen puede empujarlo hacia un comportamiento peligroso. Si no bebe suficiente sangre, puede perder el control y atacar N PC s, y las opciones de alimentación pueden afectar si las víctimas sobreviven, pasan o se convierten en parte de una cadena de consecuencia más oscura."
         },
         {
-          "question": "Can you work with vampires or other factions in The Blood of Dawnwalker?",
-          "answer": "The Vrakhiri are central enemies and rulers of Vale Sangora, but the game suggests not every vampire encounter has to end the same way. Some decisions may allow Coen to understand parts of the vampire side or form unlikely alliances."
+          "question": "¿Puedes trabajar con vampiros u otras facciones en The Blood of Dawnwalker ?",
+          "answer": "Los Vrakhiri son enemigos centrales y gobernantes de Vale Sangora , pero el juego sugiere que no cada encuentro de vampiro tiene que terminar de la misma manera. Algunas decisiones pueden permitir Coen entender partes del lado del vampiro o formar alianzas poco probables."
         },
         {
-          "question": "Do choices affect The Blood of Dawnwalker endings?",
-          "answer": "Choices, paths, consequences, character outcomes, and the use of limited time are designed to significantly affect the plot and ending. Since players cannot complete every story arc before the deadline, different playthroughs can produce different routes and resolutions."
+          "question": "¿Las opciones afectan los finales The Blood of Dawnwalker ?",
+          "answer": "Las opciones, caminos, consecuencias, resultados de carácter y el uso de tiempo limitado están diseñados para afectar significativamente la trama y el final. Dado que los jugadores no pueden completar cada arco de historia antes de la fecha límite, los diferentes avances pueden producir diferentes rutas y resoluciones."
         }
       ]
     },
     "timeLimit": {
-      "eyebrow": "Time System",
-      "title": "The Blood of Dawnwalker 30 Days Time Limit",
-      "subtitle": "The Blood of Dawnwalker gives Coen 30 in-game days and nights to save his family, but the timer is not a real-time countdown. Time moves through meaningful progress, not ordinary exploration.",
-      "intro": "The Blood of Dawnwalker uses time as a story resource. You can explore Vale Sangora at your own pace, but completing quests, choosing certain dialogue outcomes, changing from day to night, and some major progression actions can move the world closer to the deadline.",
+      "eyebrow": "Sistema de tiempo",
+      "title": "Límite de 30 días de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker da Coen 30 días y noches en el juego para salvar a su familia, pero el temporizador no es una cuenta atrás en tiempo real. El tiempo pasa por un progreso significativo, no exploración ordinaria.",
+      "intro": "The Blood of Dawnwalker utiliza el tiempo como un recurso de historia. Usted puede explorar Vale Sangora a su propio ritmo, pero completando misiones, eligiendo ciertos resultados de diálogo, cambiando de día a noche, y algunas acciones importantes de progresión pueden acercar el mundo al plazo.",
       "summary": [
         {
-          "label": "The Blood of Dawnwalker exploration rule",
-          "detail": "Exploration, combat, and searching the world do not drain the timer just because real-world minutes pass."
+          "label": "The Blood of Dawnwalker reglas de exploración",
+          "detail": "Exploración, combate y búsqueda del mundo no drenan el temporizador sólo porque los minutos del mundo real pasan."
         },
         {
-          "label": "The Blood of Dawnwalker visible time costs",
-          "detail": "Some quests, dialogue outcomes, and day-night changes show a clear time cost before commitment."
+          "label": "The Blood of Dawnwalker costos de tiempo visibles",
+          "detail": "Algunas misiones, los resultados del diálogo y los cambios cotidianos muestran un costo de tiempo claro antes del compromiso."
         },
         {
-          "label": "The Blood of Dawnwalker consequence rule",
-          "detail": "Running out of time does not simply reset the story; the world continues with the weight of Coen's priorities."
+          "label": "Regla de la consecuencia The Blood of Dawnwalker",
+          "detail": "Huir del tiempo no simplemente restablecer la historia; el mundo continúa con el peso de las prioridades de Coen ."
         }
       ],
       "items": [
         {
           "step": 1,
-          "title": "Start with Coen's deadline",
-          "description": "Coen has 30 days and 30 nights to save his family from the vampire monarchy. The deadline creates urgency around the main goal without turning the game into a constant real-time race.",
-          "timeImpact": "Narrative deadline"
+          "title": "Empieza con la fecha límite de Coen",
+          "description": "Coen tiene 30 días y 30 noches para salvar a su familia de la monarquía vampiro. El plazo crea urgencia alrededor del objetivo principal sin convertir el juego en una carrera constante en tiempo real.",
+          "timeImpact": "Fecha límite de narificación"
         },
         {
           "step": 2,
-          "title": "Explore without draining the clock",
-          "description": "Exploration, combat, searching the world, and moving through locations do not continuously push time forward. Players can investigate caves, settlements, swamps, roads, ruins, and clues without losing time simply because real-world minutes pass.",
-          "timeImpact": "No time cost"
+          "title": "Explore sin drenar el reloj",
+          "description": "La exploración, el combate, la búsqueda del mundo y el paso a través de lugares no empujan continuamente el tiempo hacia adelante. Los jugadores pueden investigar cuevas, asentamientos, pantanos, caminos, ruinas y pistas sin perder tiempo simplemente porque pasan minutos en el mundo real.",
+          "timeImpact": "Sin costo de tiempo"
         },
         {
           "step": 3,
-          "title": "Watch for visible time costs",
-          "description": "Certain completed activities have a specific time cost shown before commitment, often represented with an hourglass-style indicator. These costs help players decide whether a quest, choice, or action is worth spending precious time on.",
-          "timeImpact": "Visible before completion"
+          "title": "Vea los costos de tiempo visibles",
+          "description": "Ciertas actividades completas tienen un costo de tiempo específico mostrado antes del compromiso, a menudo representado con un indicador de estilo de reloj. Estos costos ayudan a los jugadores a decidir si una búsqueda, elección o acción vale la pena pasar tiempo precioso.",
+          "timeImpact": "Visible antes de su terminación"
         },
         {
           "step": 4,
-          "title": "Complete quests carefully",
-          "description": "Finishing quests is one of the main ways time advances. Some side quests, story objectives, and important choices can move the calendar forward, so players must choose whom to help and what to leave unfinished.",
-          "timeImpact": "Quest-based time cost"
+          "title": "Búsquedas completas cuidadosamente",
+          "description": "Terminar las misiones es una de las principales maneras de avanzar el tiempo. Algunas misiones laterales, objetivos de historia y opciones importantes pueden avanzar el calendario, por lo que los jugadores deben elegir a quién ayudar y qué dejar sin terminar.",
+          "timeImpact": "Costo del tiempo basado en misiones"
         },
         {
           "step": 5,
-          "title": "Use day and night strategically",
-          "description": "Changing from day to night can advance time, but it also changes Coen's available abilities, traversal options, quests, and risks. Human Coen and vampire Coen open different routes through the same world.",
-          "timeImpact": "Day-night progression"
+          "title": "Usar día y noche estratégicamente",
+          "description": "Cambiar de día a noche puede avanzar el tiempo, pero también cambia las habilidades disponibles de Coen , opciones de traversal, misiones y riesgos. Human Coen y vampiro Coen abre diferentes rutas a través del mismo mundo.",
+          "timeImpact": "Progresión de día a noche"
         },
         {
           "step": 6,
-          "title": "Accept that not everything fits into one run",
-          "description": "The time system is designed so players cannot complete every story and arc before the deadline. This makes preparation, route planning, alliances, and skipped objectives part of the role-playing experience.",
+          "title": "Aceptar que no todo encaja en una sola carrera",
+          "description": "El sistema de tiempo está diseñado para que los jugadores no puedan completar cada historia y arco antes de la fecha límite. Esto hace que la preparación, la planificación de rutas, las alianzas y los objetivos saltados sean parte de la experiencia de juego de roles.",
           "timeImpact": "Replay-driven trade-off"
         },
         {
           "step": 7,
-          "title": "Consequences replace a hard game over",
-          "description": "When the deadline runs out, the game does not simply end. Coen's family may suffer consequences, but the world and story continue, carrying the weight of what the player chose to prioritize.",
-          "timeImpact": "Story consequence"
+          "title": "Las consecuencias reemplazan un juego duro sobre",
+          "description": "Cuando el plazo se agota, el juego no termina simplemente. Coen La familia puede sufrir consecuencias, pero el mundo y la historia continúan, llevando el peso de lo que el jugador decidió priorizar.",
+          "timeImpact": "Consecuencia de historia"
         }
       ]
     },
     "openWorldMap": {
       "eyebrow": "Open World",
-      "title": "The Blood of Dawnwalker Open World and Map",
-      "subtitle": "Vale Sangora is a handcrafted dark fantasy region in the Carpathian Mountains, filled with settlements, forests, swamps, mountain paths, caves, ruins, and hidden threats. This The Blood of Dawnwalker module highlights known locations and exploration rules.",
-      "intro": "The Blood of Dawnwalker takes place in Vale Sangora, a fictional valley inspired by Central and Eastern Europe. Its world is designed around discovery: the map can be explored through clues, local information, points of interest, and day-night changes that alter danger, access, and atmosphere.",
+      "title": "Mundo abierto y mapa de The Blood of Dawnwalker",
+      "subtitle": "Vale Sangora es una región de fantasía oscura artesanal en las Montañas Carpáticas, llena de asentamientos, bosques, pantanos, caminos de montaña, cuevas, ruinas y amenazas ocultas. Este módulo The Blood of Dawnwalker destaca lugares conocidos y reglas de exploración.",
+      "intro": "The Blood of Dawnwalker tiene lugar en Vale Sangora , un valle ficticio inspirado en Europa Central y Oriental. Su mundo está diseñado alrededor del descubrimiento: el mapa se puede explorar a través de pistas, información local, puntos de interés, y cambios de día-noche que alteran el peligro, el acceso y la atmósfera.",
       "items": [
         {
           "title": "Vale Sangora",
-          "description": "The main region of the game, located within the Carpathian Mountains. It is a secluded valley shaped by vampire rule, old myths, dangerous routes, ancient places, and a living world that reacts to Coen's choices.",
-          "type": "Main Region"
+          "description": "La región principal del juego, ubicada dentro de las montañas carpatas. Es un valle aislado con forma de regla de vampiro, mitos antiguos, rutas peligrosas, lugares antiguos y un mundo viviente que reacciona a las elecciones de Coen .",
+          "type": "Región principal"
         },
         {
           "title": "Svartrau",
-          "description": "The capital of Vale Sangora and the heart of Brencis' power. It is described as the only true city, with specialized merchants, crowded districts, underground spaces, and major story importance.",
+          "description": "La capital de Vale Sangora y el corazón del poder de Brencis. Se describe como la única ciudad verdadera, con comerciantes especializados, distritos concurridos, espacios subterráneos y gran importancia de la historia.",
           "type": "Capital City"
         },
         {
           "title": "Silberkreis",
-          "description": "A wealthy district near Castle Greifberg, shown during gameplay as Coen travels through Svartrau. It connects the city's social hierarchy with Brencis' control over the region.",
-          "type": "City District"
+          "description": "Un distrito rico cerca de Castillo Greifberg, mostrado durante el juego como Coen viaja a través de Svartrau. Conecta la jerarquía social de la ciudad con el control de Brencis sobre la región.",
+          "type": "Distrito Municipal"
         },
         {
-          "title": "Castle Greifberg",
-          "description": "The castle associated with Brencis, the vampire ruler of Vale Sangora. Coen can attempt to confront this seat of power early, but doing so without preparation creates a sharper challenge.",
+          "title": "Castillo Greifberg",
+          "description": "El castillo asociado con Brencis, el gobernante vampiro de Vale Sangora . Coen puede intentar confrontar este asiento de poder temprano, pero hacerlo sin preparación crea un desafío más agudo.",
           "type": "Power Center"
         },
         {
-          "title": "Primeval Forests and Tantari Woods",
-          "description": "Vale Sangora includes dense forests filled with herbs, hidden knowledge, monsters, and local legends. Tantari Woods is tied to the tale of the Howling Keep, a mysterious mansion said to appear or vanish depending on intent.",
+          "title": "Bosques Primeval y Tantari Woods",
+          "description": "Vale Sangora incluye bosques densos llenos de hierbas, conocimiento oculto, monstruos y leyendas locales. Tantari Woods está ligado a la historia del Howling Keep, una misteriosa mansión que dice aparecer o desaparecer dependiendo de la intención.",
           "type": "Forest Biome"
         },
         {
-          "title": "Swamps, Caves, Mines, and Ruins",
-          "description": "The world includes treacherous swamps, dark underground caves, haunted mines, ancient crypts, timeless ruins, and forgotten remnants of earlier civilizations. These areas support exploration, danger, and secrets beneath the surface.",
-          "type": "Exploration Zones"
+          "title": "Pantanos, Cuevas, Minas y Ruinas",
+          "description": "El mundo incluye pantanos traicioneros, cuevas subterráneas oscuras, minas embrujadas, antiguas criptas, ruinas atemporales y restos olvidados de civilizaciones anteriores. Estas áreas apoyan la exploración, peligro y secretos bajo la superficie.",
+          "type": "Zonas de exploración"
         },
         {
           "title": "Shrike's Crag",
-          "description": "A cursed quarry linked to the violent history of Skender Dragosti and a crushed peasant rebellion. It represents the kind of local legend and tragic landmark players can uncover while exploring Vale Sangora.",
+          "description": "Una cantera maldita ligada a la violenta historia de Skender Dragosti y una rebelión campesina aplastada. Representa el tipo de leyenda local y los jugadores trágicos hitos pueden descubrir mientras exploran Vale Sangora .",
           "type": "Legendary Landmark"
         },
         {
-          "title": "Dynamic Weather",
-          "description": "Weather is dynamic and can affect visibility, such as fog making it harder to see. The world also changes in feel between day and night, making familiar paths more dangerous after sunset.",
-          "type": "World System"
+          "title": "Tiempo dinámico",
+          "description": "El clima es dinámico y puede afectar la visibilidad, como la niebla que hace más difícil de ver. El mundo también cambia de sentir entre el día y la noche, haciendo caminos familiares más peligrosos después del atardecer.",
+          "type": "Sistema Mundial"
         },
         {
-          "title": "Map Discovery Rules",
-          "description": "The full map is visible from the start, but important activities must be discovered before they are fully marked. Entering a new area can reveal activity indicators, while exact details require clues, local information, or direct exploration.",
-          "type": "Map System"
+          "title": "Mapa Discovery Rules",
+          "description": "El mapa completo es visible desde el principio, pero las actividades importantes deben ser descubiertas antes de que estén completamente marcadas. Entrar en un nuevo área puede revelar indicadores de actividad, mientras que los detalles exactos requieren pistas, información local o exploración directa.",
+          "type": "Mapa Sistema"
         },
         {
-          "title": "Fast Travel and Difficulty Regions",
-          "description": "Fast travel is available through the world map. Regions have minimum and maximum difficulty ranges that are set when first entered, and the southern areas generally bring harder challenges.",
+          "title": "Rápidas regiones de viajes y dificultad",
+          "description": "El viaje rápido está disponible a través del mapa mundial. Las regiones tienen límites mínimos y máximos de dificultad que se establecen cuando se ingresan por primera vez, y las zonas meridionales suelen plantear problemas más difíciles.",
           "type": "Traversal System"
         }
       ]
     },
     "charactersFactions": {
-      "eyebrow": "Characters",
-      "title": "The Blood of Dawnwalker Characters and Factions",
-      "subtitle": "The Blood of Dawnwalker story centers on Coen, his family, and the vampire power structure ruling Vale Sangora. These character cards summarize the main revealed figures and factions players will encounter.",
-      "intro": "The Blood of Dawnwalker introduces a 14th-century world where vampires step out of the shadows and become rulers. Coen's struggle to save his family places him between humans, monsters, villagers, possible allies, and the Vrakhiri, a clique of ancient vampires led by Brencis.",
+      "eyebrow": "Personajes",
+      "title": "Personajes y facciones de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker Estas tarjetas de caracteres resumen las principales figuras reveladas y los jugadores de facciones se encontrarán.",
+      "intro": "The Blood of Dawnwalker presenta un mundo del siglo XIV donde los vampiros salen de las sombras y se convierten en gobernantes. La lucha de Coen para salvar a su familia lo sitúa entre humanos, monstruos, aldeanos, posibles aliados, y el Vrakhiri, una camarilla de vampiros antiguos liderada por Brencis.",
       "items": [
         {
           "title": "Coen",
-          "description": "The protagonist of The Blood of Dawnwalker. Coen is a young man turned into a Dawnwalker, human by day and vampire by night, fighting to save his family while deciding whether to protect his humanity or embrace cursed power.",
+          "description": "El protagonista de The Blood of Dawnwalker . Coen es un joven convertido en un Dawnwalker , humano por día y vampiro por la noche, luchando para salvar a su familia al decidir si proteger su humanidad o abrazar el poder maldito.",
           "faction": "Dawnwalker",
-          "role": "Playable protagonist"
+          "role": "Protagonista jugable"
         },
         {
           "title": "Lunka",
-          "description": "Coen's Black Death-infected sister, introduced in the demo prologue. Brencis' intervention saves her from execution and recovery comes at the cost of vampire rule tightening over Coen's village.",
-          "faction": "Coen's Family",
+          "description": "La hermana de la muerte negra de Coen , introducida en el prólogo demo. La intervención de Brencis la salva de la ejecución y la recuperación viene al costo de la regla de los vampiros endureciendo el pueblo de Coen .",
+          "faction": "Coen La familia",
           "role": "Family member"
         },
         {
           "title": "Brencis",
-          "description": "The leader of the Vrakhiri and the new ruler of Vale Sangora. Born in the Roman Empire as Caeso Burrienus Laurentius, he is hungry for power and central to Coen's family crisis.",
+          "description": "El líder del Vrakhiri y el nuevo gobernante de Vale Sangora . Nacido en el Imperio Romano como Caeso Burrienus Laurentius, tiene hambre de poder y central en la crisis familiar de Coen .",
           "faction": "Vrakhiri",
-          "role": "Vampire ruler"
+          "role": "Gobernador de vampiros"
         },
         {
           "title": "Xanthe",
-          "description": "The oldest vampire in the group and one of the most ancient figures revealed so far. Once connected to Ancient Greece, she carries terrifying knowledge, blood-control power, and a presence that mixes wisdom with dread.",
+          "description": "El vampiro más antiguo del grupo y una de las figuras más antiguas reveladas hasta ahora. Una vez conectada a la antigua Grecia, lleva conocimiento aterrador, poder de control de sangre, y una presencia que mezcla sabiduría con temor.",
           "faction": "Vrakhiri",
-          "role": "Ancient vampire"
+          "role": "Antiguo vampiro"
         },
         {
           "title": "Ambrus",
-          "description": "The youngest vampire of Brencis' pack. Charming, deceptive, and dangerous, Ambrus presents himself like nobility while carrying resentment from a harsh human past.",
+          "description": "El vampiro más joven del paquete de Brencis. Encantadora, engañosa y peligrosa, Ambrus se presenta como nobleza mientras lleva resentimiento de un duro pasado humano.",
           "faction": "Vrakhiri",
-          "role": "Vampire lieutenant"
+          "role": "Teniente de Vampire"
         },
         {
           "title": "Bakir",
-          "description": "One of Brencis' most powerful lieutenants. A warmonger with a brutal past across the steppes of Central Asia, Bakir is defined by cruelty, bloodlust, and the desire to be feared.",
+          "description": "Uno de los tenientes más poderosos de Brencis. Un calentador con un pasado brutal a través de las estepas de Asia Central, Bakir se define por la crueldad, el derramamiento de sangre y el deseo de ser temido.",
           "faction": "Vrakhiri",
-          "role": "Vampire lieutenant"
+          "role": "Teniente de Vampire"
         },
         {
-          "title": "The Vrakhiri",
-          "description": "The vampire clique that rises to the top of human society in Vale Sangora after the old order collapses. They are the valley's new masters, but player choices may reveal more than a simple enemy faction.",
+          "title": "El Vrakhiri",
+          "description": "La camarilla vampiro que se eleva a la cima de la sociedad humana en Vale Sangora después de que el viejo orden colapse. Son los nuevos maestros del valle, pero las opciones de jugador pueden revelar más que una simple facción enemiga.",
           "faction": "Vampire Masters",
-          "role": "Ruling faction"
+          "role": "Facción rutilante"
         },
         {
-          "title": "Blood Guards",
-          "description": "Humans tainted with vampire blood who serve alongside the Vrakhiri. They appear in gameplay as dangerous enemies guarding vampire interests in key locations such as the cathedral sequence.",
+          "title": "Guardias de sangre",
+          "description": "Los seres humanos contaminados con sangre de vampiro que sirven junto al Vrakhiri. Ellos aparecen en el juego como enemigos peligrosos que protegen los intereses de los vampiros en lugares clave como la secuencia de la catedral.",
           "faction": "Vampire Servants",
-          "role": "Elite guards"
+          "role": "Guardias de élite"
         },
         {
           "title": "Gremla",
-          "description": "A villager shown in the extended demo as someone Coen can choose to help or ignore. Her fate demonstrates how side objectives and delayed action can create visible consequences in The Blood of Dawnwalker.",
+          "description": "Un aldeano mostrado en la demo extendida como alguien Coen puede elegir ayudar o ignorar. Su destino demuestra cómo los objetivos secundarios y la acción retardada pueden crear consecuencias visibles en The Blood of Dawnwalker .",
           "faction": "Villagers",
-          "role": "Quest NPC"
+          "role": "Quest N PC"
         },
         {
           "title": "Esme",
-          "description": "Coen's mother, referenced during the demo's consequence sequence. Her sickness and possible fate underline how family, time pressure, and player priorities are tied together.",
-          "faction": "Coen's Family",
+          "description": "La madre de Coen , referenciada durante la secuencia de consecuencias de la demostración. Su enfermedad y posible destino subrayan cómo las prioridades de la familia, la presión del tiempo y el jugador están ligadas.",
+          "faction": "Coen La familia",
           "role": "Family member"
         }
       ]
     },
     "vampiresMonsters": {
       "eyebrow": "Bestiary",
-      "title": "The Blood of Dawnwalker Vampires and Monsters",
-      "subtitle": "Explore the vampire rulers, failed vampires, undead, mine-dwelling creatures, and cursed places that define the dark fantasy bestiary of The Blood of Dawnwalker.",
-      "intro": "The Blood of Dawnwalker turns Vale Sangora into a land where vampires have stepped out of the shadows and other creatures of the night follow their lead. Coen faces the Vrakhiri at the top of society, while the wider bestiary includes murohni, kobolds, uriashi, likhos, psoglavs, undead threats, and horrors hidden in ruins, mines, forests, and cursed landmarks.",
+      "title": "Vampiros y monstruos de The Blood of Dawnwalker",
+      "subtitle": "Explora los gobernantes vampiros, vampiros fallidos, criaturas no muertas, moradoras de minas, y lugares malditos que definen el bestiario de la fantasía oscura de The Blood of Dawnwalker .",
+      "intro": "The Blood of Dawnwalker convierte Vale Sangora en una tierra donde los vampiros han salido de las sombras y otras criaturas de la noche siguen su ventaja. Coen se enfrenta al Vrakhiri en la parte superior de la sociedad, mientras que el bestiario más amplio incluye murohni, kobolds, uriashi, likhos, psoglavs, amenazas no muertas, y horrores escondidos en ruinas, minas, bosques y lugares malditos.",
       "items": [
         {
           "title": "Vrakhiri",
-          "type": "Vampire rulers",
-          "summary": "The Vrakhiri are the vampire masters of Vale Sangora.",
-          "details": "Once hidden in the shadows, the Vrakhiri now sit at the top of human society. Their rule reshapes the valley after Brencis rises as the new power at the center of Vale Sangora."
+          "type": "Gobernadores de vampiros",
+          "summary": "Los Vrakhiri son los maestros vampiros de Vale Sangora .",
+          "details": "Una vez escondidos en las sombras, el Vrakhiri ahora se sienta en la cima de la sociedad humana. Su regla reforma el valle después de que Brencis se levante como el nuevo poder en el centro de Vale Sangora ."
         },
         {
           "title": "Brencis",
           "type": "Vampire leader",
-          "summary": "Brencis is the leader of the Vrakhiri and the new ruler of Vale Sangora.",
-          "details": "Born in the Roman Empire as Caeso Burrienus Laurentius, Brencis is driven by power, rule, and old ambitions. His control over the valley makes him one of the defining forces behind Coen's journey."
+          "summary": "Brencis es el líder del Vrakhiri y el nuevo gobernante de Vale Sangora .",
+          "details": "Nacido en el Imperio Romano como Caeso Burrienus Laurentius, Brencis es impulsado por el poder, la regla y las viejas ambiciones. Su control sobre el valle lo convierte en una de las fuerzas definitorias detrás del viaje de Coen ."
         },
         {
           "title": "Xanthe",
-          "type": "Ancient vampire",
-          "summary": "Xanthe is described as the oldest vampire in the Vrakhiri group.",
-          "details": "Her past reaches back to Ancient Greece, where she once served as a priestess. Her age, fragmented presence, and understanding of the world's deeper nature make her one of the strangest figures among the vampire elite."
+          "type": "Antiguo vampiro",
+          "summary": "Xanthe se describe como el vampiro más antiguo del grupo Vrakhiri.",
+          "details": "Su pasado llega a la antigua Grecia, donde una vez sirvió como sacerdotisa. Su edad, presencia fragmentada y comprensión de la naturaleza más profunda del mundo la convierten en una de las figuras más extrañas entre la élite vampiro."
         },
         {
           "title": "Ambrus",
           "type": "Young Vrakhiri",
-          "summary": "Ambrus is the youngest vampire in the pack and has something to prove.",
-          "details": "He sought vampiric power to rise above his human life. Charming, deceptive, and dangerous, he represents the ambitious side of the vampire court."
+          "summary": "Ambrus es el vampiro más joven de la manada y tiene algo que probar.",
+          "details": "Buscaba poder vampírico para elevarse por encima de su vida humana. Encantador, engañoso y peligroso, representa el lado ambicioso de la corte de vampiros."
         },
         {
           "title": "Bakir",
-          "type": "Vampire lieutenant",
-          "summary": "Bakir is one of Brencis' most powerful lieutenants.",
-          "details": "A brutal warmonger with a history of pillage and bloodshed, Bakir is presented as cruel, bloodthirsty, and eager for people to fear his name."
+          "type": "Teniente de Vampire",
+          "summary": "Bakir es uno de los tenientes más poderosos de Brencis.",
+          "details": "Un calentador brutal con una historia de saqueo y derramamiento de sangre, Bakir se presenta como cruel, herrética y ansioso por que la gente teme su nombre."
         },
         {
-          "title": "Blood Hunger",
-          "type": "Vampiric gameplay pressure",
-          "summary": "Coen's blood hunger can push him toward a loss of control.",
-          "details": "When the blood hunger meter falls too low, Coen is consumed by hunger and dialogue can collapse into a forced hunger outcome. This makes vampirism part of both combat and narrative consequence."
+          "title": "Hambre de sangre",
+          "type": "Presión de juego Vampiric",
+          "summary": "El hambre de sangre de Coen puede empujarlo hacia una pérdida de control.",
+          "details": "Cuando el medidor de hambre de sangre cae demasiado bajo, Coen es consumido por el hambre y el diálogo puede colapsar en un resultado de hambre forzado. Esto hace que el vampirismo sea parte del combate y de la consecuencia narrativa."
         },
         {
           "title": "Murohni",
-          "type": "Failed vampires",
-          "summary": "Murohni are identified as failed vampires in the announced bestiary.",
-          "details": "They sit between the vampire fantasy and the monster roster, expanding the game beyond noble vampire antagonists into more distorted forms of vampiric horror."
+          "type": "Vampiros fracasados",
+          "summary": "Murohni son identificados como vampiros fallidos en el bestiario anunciado.",
+          "details": "Se sientan entre la fantasía de los vampiros y la lista de monstruos, expandiendo el juego más allá de los nobles antagonistas vampiros en formas más distorsionadas de horror vampírico."
         },
         {
           "title": "Kobolds",
-          "type": "Mine creatures",
-          "summary": "Kobolds are connected with underground mines in Vale Sangora.",
-          "details": "Their presence supports the game's darker exploration loop, especially in mines, caves, and old underground spaces where the valley's wealth and hidden dangers overlap."
+          "type": "Mis criaturas",
+          "summary": "Los Kobolds están conectados con minas subterráneas en Vale Sangora .",
+          "details": "Su presencia apoya el bucle de exploración más oscuro del juego, especialmente en minas, cuevas y viejos espacios subterráneos donde la riqueza del valle y los peligros ocultos se superponen."
         },
         {
           "title": "Uriashi",
-          "type": "Mountain folk",
-          "summary": "Uriashi are described as mountain folk within the wider creature roster.",
-          "details": "They fit the Carpathian setting of Vale Sangora, where forests, steep mountains, isolated settlements, and old legends shape the threats Coen can encounter."
+          "type": "La gente de montaña",
+          "summary": "Uriashi se describe como gente de montaña dentro de la lista de criaturas más amplia.",
+          "details": "Se ajustan al escenario carpatico de Vale Sangora , donde bosques, montañas empinadas, asentamientos aislados y leyendas antiguas forman las amenazas Coen pueden encontrarse."
         },
         {
-          "title": "Likhos and Psoglavs",
-          "type": "Mythic creatures",
-          "summary": "Likhos and psoglavs are named among the creatures players can find in The Blood of Dawnwalker.",
-          "details": "These monsters point toward a bestiary rooted in gothic horror, Slavic myth, and medieval legend, giving the world more variety than vampires alone."
+          "title": "Likhos y Psoglavs",
+          "type": "Mitos criaturas",
+          "summary": "Likhos y psoglavs son nombrados entre las criaturas que los jugadores pueden encontrar en The Blood of Dawnwalker .",
+          "details": "Estos monstruos apuntan hacia un bestiario arraigado en el horror gótico, el mito eslavo y la leyenda medieval, dando al mundo más variedad que los vampiros solos."
         },
         {
           "title": "Undead in Ancient Ruins",
-          "type": "Ruin enemies",
-          "summary": "Undead creatures are said to hide in ancient ruins.",
-          "details": "The ruins of Vale Sangora are not just scenery. They connect exploration, lost history, and monster encounters as Coen uncovers truths that should probably remain hidden."
+          "type": "Ruin enemigos",
+          "summary": "Se dice que las criaturas muertas se esconden en ruinas antiguas.",
+          "details": "Las ruinas de Vale Sangora no son sólo paisaje. Conectan la exploración, la historia perdida y los encuentros de monstruos como Coen descubre verdades que probablemente deberían permanecer ocultas."
         },
         {
-          "title": "Cursed Places",
-          "type": "World horrors",
-          "summary": "The Howling Keep, underground corridors below Svartrau, and Shrike's Crag frame the valley as a land of local legends and danger.",
-          "details": "Vale Sangora's myths include hidden mansions, cursed quarries, old cellars, damp caves, timeless ruins, and horrors that locals warn each other to avoid."
+          "title": "Lugares curados",
+          "type": "Los horrores mundiales",
+          "summary": "The Howling Keep, pasillos subterráneos debajo de Svartrau, y Shrike's Crag enmarcan el valle como una tierra de leyendas locales y peligro.",
+          "details": "Los mitos de Vale Sangora incluyen mansiones ocultas, canteras maldecidas, antiguas bodegas, cuevas húmedas, ruinas atemporales y horrores que los lugareños advierten entre sí para evitar."
         }
       ]
     },
     "trailersVideos": {
       "eyebrow": "Videos",
-      "title": "The Blood of Dawnwalker Trailers and Gameplay Videos",
-      "subtitle": "Watch the key official videos for The Blood of Dawnwalker, from the story trailer and Road to Launch stream to gameplay overviews and earlier reveal footage.",
-      "intro": "The official Dawnwalker media lineup covers story, systems, combat, day-and-night gameplay, release information, and developer commentary. Start with the latest story trailer and Road to Launch Event, then use gameplay overview videos to understand combat, exploration, narrative choices, and Coen's human-by-day, vampire-by-night identity.",
+      "title": "Tráilers y videos de gameplay de The Blood of Dawnwalker",
+      "subtitle": "Vea los vídeos oficiales clave para The Blood of Dawnwalker , desde el trailer de la historia y Road to Launch secuencia a las imágenes de juego y anteriores revelan imágenes.",
+      "intro": "La línea oficial Dawnwalker cubre historia, sistemas, combate, juego de día y noche, información de lanzamiento y comentarios de desarrollador. Comience con el último trailer de historia y Road to Launch Event, luego utilice vídeos de vista general para entender combate, exploración, opciones narrativas, y la identidad humana por día de Coen de vampiro por noche.",
       "items": [
         {
-          "title": "Official Dawnwalker YouTube Channel",
-          "format": "Channel",
-          "focus": "Central hub for official Dawnwalker trailers, gameplay overviews, reveal streams, and short video updates.",
+          "title": "Oficial Dawnwalker YouTube Channel",
+          "format": "Canal",
+          "focus": "Central hub for official Dawnwalker trailers, videojuegos, secuencias y actualizaciones breves.",
           "href": "https://www.youtube.com/@DawnwalkerGame"
         },
         {
-          "title": "The Blood of Dawnwalker - Story Trailer",
-          "format": "Story trailer",
-          "focus": "Introduces allies, enemies, and key story stakes around Coen's journey across Vale Sangora.",
+          "title": "The Blood of Dawnwalker Story Trailer",
+          "format": "trailer de historia",
+          "focus": "Introduce aliados, enemigos, y la historia clave está en juego alrededor del viaje de Coen",
           "href": "https://www.youtube.com/watch?v=jVQiJ9ci0HI"
         },
         {
-          "title": "The Blood of Dawnwalker - Road to Launch Event",
-          "format": "Launch event stream",
-          "focus": "Includes new gameplay footage, story details, system requirements, edition details, developer commentary, and a broader release-date presentation.",
+          "title": "The Blood of Dawnwalker Road to Launch Evento",
+          "format": "Corriente de evento de lanzamiento",
+          "focus": "Incluye nuevas imágenes de juego, detalles de historias, requisitos de sistema, detalles de edición, comentarios de desarrolladores y una presentación más amplia.",
           "href": "https://www.youtube.com/watch?v=TX17mPX3cew"
         },
         {
-          "title": "The Blood of Dawnwalker - Gameplay Overview Part III",
-          "format": "Gameplay overview",
-          "focus": "Latest official gameplay overview focused on open-world activities, quest flow, combat, and the state of the game closer to launch.",
+          "title": "The Blood of Dawnwalker Gameplay Overview Parte III",
+          "format": "Sinopsis del juego",
+          "focus": "Última descripción oficial del juego se centró en actividades de mundo abierto, flujo de búsqueda, combate y el estado del juego más cercano al lanzamiento.",
           "href": "https://www.youtube.com/watch?v=99w_x1SsK-g"
         },
         {
-          "title": "The Blood of Dawnwalker - Gameplay Overview Part II",
-          "format": "Gameplay overview",
-          "focus": "Shows updated gameplay footage around Svartrau, including combat flow, camera improvements, lore-driven exploration, and Coen's dual identity.",
+          "title": "The Blood of Dawnwalker Gameplay Overview Parte II",
+          "format": "Sinopsis del juego",
+          "focus": "Muestra imágenes de juego actualizadas alrededor de Svartrau, incluyendo flujo de combate, mejoras de cámara, exploración impulsada por loros, y la doble identidad de Coen .",
           "href": "https://www.youtube.com/watch?v=modh7huKEYw"
         },
         {
-          "title": "The Blood of Dawnwalker - Gameplay Overview",
-          "format": "Gameplay overview",
-          "focus": "Explains the story-driven open-world RPG structure, day-and-night gameplay, sword fighting, vampiric powers, and player choice.",
+          "title": "The Blood of Dawnwalker Gameplay Overview",
+          "format": "Sinopsis del juego",
+          "focus": "Explica la estructura de RPG del mundo abierto impulsada por la historia, el juego de día y noche, la lucha contra la espada, los poderes vampíricos y la elección del jugador.",
           "href": "https://www.youtube.com/watch?v=1XOa0JYJv8g"
         },
         {
-          "title": "The Blood of Dawnwalker - Gameplay Reveal Event",
+          "title": "The Blood of Dawnwalker Gameplay Reveal Event",
           "format": "Reveal livestream",
-          "focus": "Full reveal event centered on combat, spells, vampiric powers, world exploration, and the gameplay difference between day and night.",
+          "focus": "Completo evento revelado centrado en combate, hechizos, poderes vampíricos, exploración mundial, y la diferencia de juego entre el día y la noche.",
           "href": "https://www.youtube.com/watch?v=1nLNQOFs3r0"
         },
         {
-          "title": "The Blood of Dawnwalker - Game Trailer: Trapped Between Two Worlds",
-          "format": "Game trailer",
-          "focus": "Presents Coen as a Dawnwalker trapped between humanity and vampiric power, setting up the central fantasy of the game.",
+          "title": "The Blood of Dawnwalker - Trailer del juego: Trapped Between Two Worlds",
+          "format": "Juego de remolque",
+          "focus": "Presenta Coen como un Dawnwalker atrapado entre la humanidad y el poder vampírico, estableciendo la fantasía central del juego.",
           "href": "https://www.youtube.com/watch?v=eKPXEiNVibM"
         },
         {
-          "title": "The Blood of Dawnwalker - Cinematic Trailer and Gameplay Teaser",
-          "format": "Cinematic and teaser",
-          "focus": "Early cinematic reveal and gameplay tease for the dark fantasy vampire RPG world.",
+          "title": "The Blood of Dawnwalker - Teaser de trailador y juego",
+          "format": "Cinetic y teaser",
+          "focus": "Revelación cinematográfica temprana y juego tease para el mundo del vampiro de fantasía oscura RPG.",
           "href": "https://www.youtube.com/watch?v=MWsyV7yQIBQ"
         }
       ]
     },
     "multiplayerSinglePlayer": {
-      "eyebrow": "Play Mode",
-      "title": "The Blood of Dawnwalker Multiplayer and Single Player",
-      "subtitle": "The Blood of Dawnwalker is positioned as a story-driven single-player dark fantasy action RPG, with PlayStation listing offline play and 1 player support.",
-      "intro": "Players searching for multiplayer, co-op, or online features mainly need a clear answer: the official positioning focuses on a solo narrative RPG experience. The game is built around Coen's choices, family rescue, day-and-night abilities, time costs, alliances, and consequences rather than shared online play.",
+      "eyebrow": "Modo de juego",
+      "title": "Multijugador y modo individual de The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker está posicionado como un jugador de cuentos de acción de fantasía oscura RPG, con PlayStation listando juegos offline y 1 soporte para jugadores.",
+      "intro": "Los jugadores que buscan multijugador, coop o funciones online necesitan principalmente una respuesta clara: el posicionamiento oficial se centra en una experiencia de RPG narrativa individual. El juego se construye alrededor de las opciones de Coen , rescate familiar, habilidades de día y noche, costos de tiempo, alianzas y consecuencias en lugar de jugar en línea compartido.",
       "items": [
         {
-          "question": "Is The Blood of Dawnwalker single player?",
-          "answer": "Yes. Official descriptions position The Blood of Dawnwalker as a single-player open-world dark fantasy action RPG with a strong focus on story and narrative."
+          "question": "¿Es un jugador soltero?",
+          "answer": "Sí. Posición de descripciones oficiales The Blood of Dawnwalker como una acción de fantasía oscura de un solo jugador RPG con un fuerte enfoque en la historia y la narrativa."
         },
         {
-          "question": "Does The Blood of Dawnwalker PS5 support offline play?",
-          "answer": "Yes. The PlayStation Store listing shows offline play enabled and 1 player for the PS5 version."
+          "question": "¿ The Blood of Dawnwalker ¿Apoyo el juego fuera de línea?",
+          "answer": "Sí. El listado de PlayStation Store muestra el juego online habilitado y 1 jugador para la versión PS5 ."
         },
         {
-          "question": "Does The Blood of Dawnwalker have co-op or online multiplayer?",
-          "answer": "The official product pages focus on solo play, offline play, and one-player support. They do not present the game as a co-op, PvP, MMO, or online multiplayer RPG."
+          "question": "¿Tiene The Blood of Dawnwalker co-op o multijugador en línea?",
+          "answer": "Las páginas oficiales de productos se centran en el juego en solitario, el juego en línea y el soporte de un jugador. No presentan el juego como una cooperativa, PvP, MMO, o multijugador online RPG."
         },
         {
-          "question": "What does go alone or forge unlikely alliances mean in The Blood of Dawnwalker?",
-          "answer": "It refers to narrative choices and in-world allies. The phrase describes how Coen can approach quests, relationships, and factions inside the story, not a confirmed online party system."
+          "question": "¿Qué significa ir solo o forjar alianzas improbables en The Blood of Dawnwalker ?",
+          "answer": "Se refiere a opciones narrativas y aliados en el mundo. La frase describe cómo Coen puede acercarse a misiones, relaciones y facciones dentro de la historia, no un sistema de fiestas online confirmado."
         },
         {
-          "question": "Can Xbox players access The Blood of Dawnwalker on console and PC?",
-          "answer": "Yes. The Xbox page lists Xbox Play Anywhere, meaning a single purchase can be played on Xbox console and PC at no additional cost within that program."
+          "question": "¿Pueden los jugadores de Xbox acceder The Blood of Dawnwalker en consola y PC ?",
+          "answer": "Sí. La página Xbox lista Xbox Play Anywhere, lo que significa que una sola compra se puede reproducir en la consola Xbox y PC sin costo adicional dentro de ese programa."
         },
         {
-          "question": "What is The Blood of Dawnwalker main gameplay focus instead of multiplayer?",
-          "answer": "The focus is player choice, consequences, time pressure, day-and-night gameplay, sword combat, magic, vampiric powers, exploration, and how the world reacts to Coen's actions."
+          "question": "¿Qué es el enfoque de juego principal The Blood of Dawnwalker en lugar de multijugador?",
+          "answer": "El enfoque es la elección del jugador, consecuencias, presión del tiempo, juego de día y noche, combate de espadas, magia, poderes vampíricos, exploración, y cómo el mundo reacciona a las acciones de Coen ."
         }
       ]
     },
     "rebelWolves": {
-      "eyebrow": "Developer",
-      "title": "The Blood of Dawnwalker Rebel Wolves",
-      "subtitle": "The Blood of Dawnwalker is developed by Rebel Wolves and published by Bandai Namco Entertainment as the first chapter of a new dark fantasy role-playing saga.",
-      "intro": "Rebel Wolves presents The Blood of Dawnwalker as the studio's first game and the opening chapter of a brand-new role-playing saga. The project combines a story-driven single-player RPG focus, Unreal Engine 5 technology, Bandai Namco publishing support, and a team built around experienced developers and passionate newcomers.",
+      "eyebrow": "Desarrollador",
+      "title": "Rebel Wolves y The Blood of Dawnwalker",
+      "subtitle": "The Blood of Dawnwalker es desarrollado por Rebel Wolves y publicado por Bandai Namco Entretenimiento como el primer capítulo de una nueva saga de fantasía oscura.",
+      "intro": "Rebel Wolves presenta The Blood of Dawnwalker como el primer juego del estudio y el capítulo de apertura de una nueva saga de juego de roles. El proyecto combina un enfoque RPG basado en historias, tecnología Unreal Engine 5, Bandai Namco soporte de publicación, y un equipo construido alrededor de desarrolladores experimentados y apasionados recién llegados.",
       "items": [
         {
-          "title": "Developer: Rebel Wolves",
-          "summary": "Rebel Wolves is the developer of The Blood of Dawnwalker.",
-          "details": "The studio describes itself as born out of love for RPGs and presents The Blood of Dawnwalker as its first game and the first chapter of a new role-playing saga."
+          "title": "Desarrollador: Rebel Wolves",
+          "summary": "Rebel Wolves es el desarrollador de The Blood of Dawnwalker .",
+          "details": "El estudio se describe como nacido por amor a los RPG y presenta The Blood of Dawnwalker como su primer juego y el primer capítulo de una nueva saga de juego de roles."
         },
         {
-          "title": "Publisher: Bandai Namco Entertainment",
-          "summary": "Bandai Namco Entertainment publishes The Blood of Dawnwalker.",
-          "details": "Official game pages list Bandai Namco Entertainment as publisher and Rebel Wolves as developer, with the game coming to PC, PlayStation 5, and Xbox Series X|S."
+          "title": "Editorial: Bandai Namco Entretenimiento",
+          "summary": "Bandai Namco Entretenimiento publica The Blood of Dawnwalker .",
+          "details": "Lista oficial de páginas de juego Bandai Namco Entretenimiento como editor y Rebel Wolves como desarrollador, con el juego llegando a PC , PlayStation 5, y Xbox Series X|S ."
         },
         {
-          "title": "First Chapter of a New Saga",
-          "summary": "The Blood of Dawnwalker is positioned as the beginning of a brand-new dark fantasy RPG saga.",
-          "details": "Official pages describe The Blood of Dawnwalker as the first chapter of Rebel Wolves' new role-playing saga, built around Coen, Vale Sangora, vampires, choices, and consequences."
+          "title": "Primer Capítulo de una nueva Saga",
+          "summary": "The Blood of Dawnwalker está posicionado como el comienzo de una nueva saga RPG de fantasía oscura.",
+          "details": "Las páginas oficiales describen The Blood of Dawnwalker como el primer capítulo de Rebel Wolves ' nueva saga de juego de roles, construida alrededor de Coen , Vale Sangora , vampiros, opciones y consecuencias."
         },
         {
-          "title": "Single-Player Narrative RPG Identity",
-          "summary": "The Blood of Dawnwalker is centered on story, narrative, and player agency.",
-          "details": "The game is described as a single-player open-world dark fantasy action RPG with a strong focus on story and narrative. Its design emphasizes choices, alliances, time pressure, and consequences."
+          "title": "Identidad RPG narrativa de un jugador único",
+          "summary": "The Blood of Dawnwalker está centrada en la historia, narrativa y agencia de jugadores.",
+          "details": "El juego se describe como una acción de fantasía oscura del mundo abierto de un solo jugador RPG con un enfoque fuerte en la historia y la narrativa. Su diseño enfatiza las opciones, alianzas, presión del tiempo y consecuencias."
         },
         {
-          "title": "Unreal Engine 5",
-          "summary": "The Blood of Dawnwalker is built with Unreal Engine 5.",
-          "details": "Official pages connect the game to a next-generation visual presentation powered by Unreal Engine 5 across PC, PlayStation, and Xbox."
+          "title": "Motor no real 5",
+          "summary": "The Blood of Dawnwalker es construido con el motor no real 5.",
+          "details": "Las páginas oficiales conectan el juego con una presentación visual de próxima generación impulsada por Unreal Engine 5 en todo PC , PlayStation y Xbox."
         },
         {
           "title": "RPG Experience and Team Background",
-          "summary": "The team combines experienced developers and passionate newcomers.",
-          "details": "Rebel Wolves highlights teamwork, fairness, transparency, and a shared love of RPGs. PlayStation's studio visit also notes a 160-plus-person team with former CD Projekt RED staffers who worked on The Witcher 3: Wild Hunt."
+          "summary": "El equipo combina desarrolladores experimentados y apasionados recién llegados.",
+          "details": "Rebel Wolves destaca el trabajo en equipo, la equidad, la transparencia y el amor compartido de los RPGs. La visita de PlayStation también toma nota de un equipo de más de 160 personas con antiguos empleados de CD Projekt RED que trabajaron en The Witcher 3: Wild Hunt."
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "- No.",
+    "titleHighlight": "FAQ",
+    "subtitle": "Preguntas básicas sobre The Blood of Dawnwalker fecha de lanzamiento, plataformas, juego, historia y ediciones.",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Cuándo es la fecha de lanzamiento The Blood of Dawnwalker ?",
+        "answer": "The Blood of Dawnwalker lanza el 3 de septiembre de 2026 para PC , PlayStation 5, y Xbox Series X|S ."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Qué clase de juego es The Blood of Dawnwalker ?",
+        "answer": "The Blood of Dawnwalker es un juego único de fantasía oscura acción de mundo abierto RPG set in 14th-century Europe ."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Quién es Coen en The Blood of Dawnwalker ?",
+        "answer": "Coen es el protagonista de The Blood of Dawnwalker , un Dawnwalker que es humano por día y vampiro por la noche."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Tiene multijugador?",
+        "answer": "The Blood of Dawnwalker es posicionado como un solo jugador RPG con páginas oficiales centradas en el juego en solitario y el soporte de un jugador."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Qué plataformas soportan The Blood of Dawnwalker ?",
+        "answer": "The Blood of Dawnwalker está previsto para PC , Steam , PlayStation 5, Xbox Series X|S y Xbox Play En cualquier lugar soporte a través de Xbox."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Qué ediciones ofrece The Blood of Dawnwalker ?",
+        "answer": "The Blood of Dawnwalker tiene Standard Edition , Eclipse Edition , Collector's Edition , y un retail Day One Edition ."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "Sigue The Blood of Dawnwalker",
+    "description": "Usa las páginas oficiales de comunidad y tienda para actualizaciones de lanzamiento, tráilers, reservas e información de plataformas.",
+    "joinCommunity": "Unirse al Discord de Dawnwalker",
+    "joinGame": "Añadir The Blood of Dawnwalker a deseados en Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "The Blood of Dawnwalker Wiki",
+    "description": "Tu centro de lanzamiento para plataformas, ediciones, historia, decisiones, combate, tráilers e información de PC de The Blood of Dawnwalker.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "officialSite": "Sitio oficial",
     "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "steamStore": "Steam",
     "about": "Acerca de",
-    "privacy": "Política de privacidad",
+    "privacy": "Privacidad",
     "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 The Blood of Dawnwalker Wiki. No afiliado con Rebel Wolves ni Bandai Namco Entertainment.",
+    "disclaimer": "Sitio de recursos no oficial hecho por fans."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "release": {
+      "title": "- No. Liberación",
+      "description": "Fecha de lanzamiento, fecha de lanzamiento, notas de salida y detalles oficiales de disponibilidad para The Blood of Dawnwalker .",
+      "metaTitle": "- No. Lanzamiento - Guía de fecha y lanzamiento",
+      "metaDescription": "Track The Blood of Dawnwalker fecha de lanzamiento, tiempo de lanzamiento, salida de tiendas y detalles de disponibilidad para PC , PlayStation 5, y Xbox Series X|S .",
+      "categoryLabel": "RELEASE",
+      "whatIs": "¿Qué es The Blood of Dawnwalker ?",
+      "whatIsDescription": "- No. Lanzamiento reúne fecha de lanzamiento, calendario regional, estado de la tienda y detalles de la salida para que los jugadores puedan seguir el camino de lanzamiento de una categoría.",
+      "why": "¿Por qué seguir The Blood of Dawnwalker actualizaciones de liberación?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Seguimiento de la fecha de lanzamiento",
+        "step1Description": "Mantenga The Blood of Dawnwalker momento de lanzamiento, datos oficiales de fecha, y notas de tiempo de almacenamiento en un solo lugar.",
+        "step2Title": "Plan de la Plataforma",
+        "step2Description": "Entiende cómo la información de lanzamiento The Blood of Dawnwalker se conecta a PC , PlayStation 5 y Xbox Series X|S disponibilidad.",
+        "step3Title": "Prepárate antes del lanzamiento",
+        "step3Description": "Utilice The Blood of Dawnwalker cobertura de lanzamiento para decidir cuándo desear, pre-orden, o revisitar páginas de plataforma antes del lanzamiento."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Destacado & Essential",
+      "all": "Todos los artículos de liberación"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "platforms": {
+      "title": "- No. Plataformas",
+      "description": "Cobertura de la plataforma para The Blood of Dawnwalker en PC , Steam , PlayStation 5, Xbox Series X|S y ecosistemas de vanguardia.",
+      "metaTitle": "The Blood of Dawnwalker PC , PS5 y Xbox",
+      "metaDescription": "Compare The Blood of Dawnwalker plataformas que incluyen PC , Steam , PlayStation 5, Xbox Series X|S , soporte de almacenamiento y detalles específicos de plataforma.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "¿Qué son las plataformas The Blood of Dawnwalker ?",
+      "whatIsDescription": "- No. Plataformas explica dónde está disponible el juego, cómo se posiciona cada escaparate y qué jugadores deben saber antes de elegir una plataforma.",
+      "why": "¿Por qué comparar The Blood of Dawnwalker plataformas?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Elija A Storefront",
+        "step1Description": "Compare The Blood of Dawnwalker",
+        "step2Title": "Coloque su hardware",
+        "step2Description": "Utilice The Blood of Dawnwalker cobertura de la plataforma para conectar PC , PlayStation 5 y Xbox opciones con su configuración preferida.",
+        "step3Title": "Funciones de la plataforma de verificación",
+        "step3Description": "Comentario The Blood of Dawnwalker Notas de la plataforma para el soporte de consola, PC ruta de compra y características específicas del ecosistema."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacado & Essential",
+      "all": "Todos los artículos de la plataforma"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "editions": {
+      "title": "- No. Ediciones",
+      "description": "Guía de edición y compra para The Blood of Dawnwalker Standard, Eclipse, Collector, Day One, y opciones previas.",
+      "metaTitle": "The Blood of Dawnwalker Editions - Pre Order and Collector Guide",
+      "metaDescription": "Compare The Blood of Dawnwalker ediciones, opciones previas al pedido, Detalles del coleccionista, Extras de Eclipse, Embalaje Day One y consideraciones de compra.",
+      "categoryLabel": "EDICIONES",
+      "whatIs": "¿Qué son The Blood of Dawnwalker Editions?",
+      "whatIsDescription": "- No. Las ediciones cubren los formatos de compra disponibles, extras digitales, contenido de coleccionista, opciones de venta al por menor y detalles previos alrededor del juego.",
+      "why": "¿Por qué comparar The Blood of Dawnwalker ediciones?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Entender cada edición",
+        "step1Description": "Separar The Blood of Dawnwalker juego base, extras digitales, coleccionables físicos y detalles de edición minorista.",
+        "step2Title": "Compare el valor de compra",
+        "step2Description": "Utilice The Blood of Dawnwalker notas de edición para pesar bonos, formatos y disponibilidad de tienda antes de comprar.",
+        "step3Title": "Evitar la confusión de formato",
+        "step3Description": "Compruebe cómo los paquetes The Blood of Dawnwalker digitales, físicos y coleccionistas difieren antes de elegir una versión."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacado & Essential",
+      "all": "All Edition Articles"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "combat": {
+      "title": "- No. Combate",
+      "description": "Cobertura de combate para The Blood of Dawnwalker juego de espadas, magia hex, poderes de vampiro, Hambre de Sangre, habilidades y encuentros del jefe.",
+      "metaTitle": "The Blood of Dawnwalker Combatir - Espadas, Potencias Mágicas y Vampiro",
+      "metaDescription": "Aprende The Blood of Dawnwalker sistemas de combate, juego de espadas, magia hex, poderes de vampiro, Hambre de Sangre, habilidades de carácter, dificultad y encuentros de jefe.",
+      "categoryLabel": "COMBAT",
+      "whatIs": "¿Qué es el combate?",
+      "whatIsDescription": "- No. El combate explica cómo Coen lucha como humano y vampiro, combinando armas, magia, movimiento, presión de alimentación, habilidades y encuentros enemigos.",
+      "why": "¿Por qué estudiar The Blood of Dawnwalker combate?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Aprender herramientas humanas",
+        "step1Description": "Entender The Blood of Dawnwalker juego de espadas, opciones defensivas y magia hex utilizada durante encuentros centrados en el ser humano.",
+        "step2Title": "Use Vampire Powers",
+        "step2Description": "Rastrea cómo The Blood of Dawnwalker habilidades de vampiro, movilidad, alimentación y forma de hambre de sangre combate nocturno.",
+        "step3Title": "Construir Coen Eficacia",
+        "step3Description": "Utilice The Blood of Dawnwalker cobertura de combate para conectar habilidades, poderes y encontrar la planificación en un estilo de juego coherente."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Destacado & Essential",
+      "all": "Todos los artículos de combate"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "story": {
+      "title": "- No. Historia",
+      "description": "Cobertura de historia y lore para The Blood of Dawnwalker , incluyendo Coen , Brencis, Vale Sangora , vampiros, opciones y consecuencias.",
+      "metaTitle": "The Blood of Dawnwalker Historia - Coen , Brencis, and Vale Sangora",
+      "metaDescription": "Explora The Blood of Dawnwalker",
+      "categoryLabel": "STORY",
+      "whatIs": "¿Qué es la historia?",
+      "whatIsDescription": "- No. La historia sigue Coen , su familia, la regla de los vampiros en Vale Sangora , y las elecciones que dan forma a la campaña de fantasía oscura.",
+      "why": "¿Por qué leer The Blood of Dawnwalker guías de historia?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Seguir Coen",
+        "step1Description": "Comprender The Blood of Dawnwalker protagonista, Dawnwalker identidad, estacas familiares y conflicto humano-vampiro.",
+        "step2Title": "Datos de seguimiento",
+        "step2Description": "Use The Blood of Dawnwalker cobertura de historia para seguir a Brencis, los Vrakhiri, aldeanos, aliados y poderes hostiles.",
+        "step3Title": "Comprender las consecuencias",
+        "step3Description": "Conectar The Blood of Dawnwalker elecciones, tiempos de búsqueda y consecuencias narrativas en toda la historia."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Destacado & Essential",
+      "all": "Toda la historia artículos"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "world": {
+      "title": "- No. Mundo",
+      "description": "Cobertura mundial para The Blood of Dawnwalker ubicaciones, Vale Sangora , Svartrau, rutas de mapa, exploración, tiempo y costos de tiempo.",
+      "metaTitle": "The Blood of Dawnwalker World - Vale Sangora Mapa y Localizaciones",
+      "metaDescription": "Explorar The Blood of Dawnwalker cobertura mundial para Vale Sangora , Svartrau, rutas de mapa, ubicaciones, tiempo, sistemas de exploración y costos de tiempo.",
+      "categoryLabel": "WORLD",
+      "whatIs": "¿Qué es esto? ¿El mundo?",
+      "whatIsDescription": "- No. El mundo cubre Vale Sangora , asentamientos, ruinas, bosques, cuevas, castillos, rutas de viaje, clima, exploración y la presión del tiempo alrededor del movimiento.",
+      "why": "¿Por qué explorar The Blood of Dawnwalker mundo?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Encontrar lugares clave",
+        "step1Description": "Use The Blood of Dawnwalker cobertura mundial para rastrear asentamientos, hitos, ruinas, rutas y espacios controlados por vampiros.",
+        "step2Title": "Plan de exploración",
+        "step2Description": "Entender cómo The Blood of Dawnwalker exploración, tiempo, turnos de día a la noche, y costos de tiempo afectan la planificación de la ruta.",
+        "step3Title": "Leer la Región",
+        "step3Description": "Conectar The Blood of Dawnwalker ubicaciones con lore, facciones, amenazas ocultas y oportunidades de búsqueda en todo Vale Sangora ."
+      },
+      "featured": "Destacado & Essential",
+      "all": "Todos los artículos del mundo"
+    },
+    "media": {
+      "title": "- No. Media",
+      "description": "Cobertura de medios oficiales para los trailers The Blood of Dawnwalker , videojuegos, eventos de lanzamiento, capturas de pantalla, activos de logotipo y desglose de vídeo.",
+      "metaTitle": "The Blood of Dawnwalker Medios de comunicación - Trailers and Gameplay Videos",
+      "metaDescription": "Vea y siga The Blood of Dawnwalker cobertura multimedia, incluyendo trailers, videojuegos, eventos de lanzamiento, capturas de pantalla, logos y desglose de vídeo.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "¿Qué son los medios de comunicación?",
+      "whatIsDescription": "- No. Los medios organizan trailers, showcases de juego, presentaciones de lanzamiento, capturas de pantalla, logotipos y detalles de vídeo conectados a revelaciones oficiales.",
+      "why": "¿Por qué seguir los medios de comunicación?",
+      "whySteps": {
+        "step1Title": "Ver revelaciones oficiales",
+        "step1Description": "Use The Blood of Dawnwalker cobertura multimedia para seguir trailers de historia, vistas de juego y material de evento de lanzamiento.",
+        "step2Title": "Detalles del juego de estudio",
+        "step2Description": "Conectar The Blood of Dawnwalker imágenes con sistemas de combate, exploración, diseño mundial, opciones y carácter.",
+        "step3Title": "Collect Visual Context",
+        "step3Description": "Comentario The Blood of Dawnwalker screenshots, logos y momentos de vídeo al comparar el material visual oficial."
       },
       "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "all": "Todos los artículos multimedia"
     }
   }
 }

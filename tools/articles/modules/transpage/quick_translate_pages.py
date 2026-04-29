@@ -16,9 +16,7 @@ with open('../../../../src/locales/en.json', 'r', encoding='utf-8') as f:
 lang_map = {
     'de': 'German',
     'es': 'Spanish (Latin America)',
-    'ja': 'Japanese',
-    'tr': 'Turkish',
-    'fr': 'French'
+    'ja': 'Japanese'
 }
 
 async def translate_pages(lang_code, lang_name):
@@ -27,7 +25,7 @@ async def translate_pages(lang_code, lang_name):
 IMPORTANT RULES:
 1. Keep all JSON keys in English (do NOT translate keys)
 2. Only translate the string values
-3. Preserve all special terms: Lucid Blocks, Apotheosis, Steam, Steam Deck, Vulkan, Hookshot, Bee Glider, Qualia, Tiamana
+3. Preserve all special terms: The Blood of Dawnwalker, Coen, Vale Sangora, Rebel Wolves, Bandai Namco, Steam, PS5, Xbox Series X|S, PC, Dawnwalker, Road to Launch, Gameplay Overview, Story Trailer, Eclipse Edition, Collector's Edition, Day One Edition, Standard Edition, Shadowstep, Clawride, 14th-century Europe, 30 days and nights
 4. Return ONLY valid JSON, no explanations
 
 JSON to translate:

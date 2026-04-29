@@ -131,10 +131,12 @@ export default function HomePageClient({
   moduleLinkMap,
 }: HomePageClientProps) {
   const messages = useMessages() as typeof enMessages
-  const usesCurrentHomepage =
-    messages?.hero?.title === enMessages.hero.title &&
-    messages?.tools?.cards?.[0]?.title === enMessages.tools.cards[0].title
-  const t = usesCurrentHomepage ? messages : enMessages
+  const hasCurrentHomepageShape =
+    Boolean(messages?.modules?.releaseDate?.title) &&
+    Boolean(messages?.modules?.rebelWolves?.title) &&
+    Array.isArray(messages?.tools?.cards) &&
+    messages.tools.cards.length === enMessages.tools.cards.length
+  const t = hasCurrentHomepageShape ? messages : enMessages
   const toolCards = t.tools.cards
 
   useEffect(() => {

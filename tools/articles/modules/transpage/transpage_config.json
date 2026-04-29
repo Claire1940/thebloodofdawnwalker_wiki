@@ -14,10 +14,10 @@
   "default_language": "en",
   "output_dir": "src/locales/",
 
-  "use_value_extraction": false,
+  "use_value_extraction": true,
 
   "protected_terms": {
-    "game_names": ["The Blood of Dawnwalker", "The Blood of DAWNWALKER"],
+    "game_names": ["The Blood of Dawnwalker"],
     "character_names": ["Coen", "Vale Sangora", "Rebel Wolves", "Bandai Namco"],
     "technical_terms": [
       "Steam",
@@ -41,7 +41,7 @@
 
   "game_names": {
     "en": "The Blood of Dawnwalker",
-    "ja": "The Blood of DAWNWALKER",
+    "ja": "The Blood of Dawnwalker",
     "de": "The Blood of Dawnwalker",
     "es": "The Blood of Dawnwalker"
   },

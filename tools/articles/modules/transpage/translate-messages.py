@@ -113,6 +113,15 @@ def call_api(content: str, lang_name: str, config: dict, timeout: int = 120, ret
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 result = json.loads(resp.read().decode('utf-8'))
                 return result['choices'][0]['message']['content']
+        except urllib.error.HTTPError as e:
+            print(f"    [retry {attempt}/{retries}] HTTP Error {e.code}: {e.reason}")
+            if e.code in (401, 403):
+                print("    [AUTH] API 凭据无效，停止 API 重试并使用本地翻译兜底")
+                return None
+            if attempt < retries:
+                retry_wait = 5 * attempt
+                print(f"    [WAIT] 等待 {retry_wait}s 后重试...")
+                time.sleep(retry_wait)
         except Exception as e:
             print(f"    [retry {attempt}/{retries}] {e}")
             if attempt < retries:
@@ -121,6 +130,105 @@ def call_api(content: str, lang_name: str, config: dict, timeout: int = 120, ret
                 time.sleep(retry_wait)
 
     return None
+
+# ─── 本地翻译兜底 ──────────────────────────────────────────────────────────────
+
+LOCAL_TRANSLATOR_CACHE: dict[str, object] = {}
+
+
+def get_protected_terms(config: dict) -> list[str]:
+    protected = config.get('protected_terms', {})
+    terms = (
+        protected.get('game_names', []) +
+        protected.get('character_names', []) +
+        protected.get('technical_terms', []) +
+        list(config.get('game_names', {}).values())
+    )
+    # Longer terms first so nested terms do not split placeholders.
+    return sorted({term for term in terms if term}, key=len, reverse=True)
+
+
+def protect_terms(text: str, config: dict) -> tuple[str, dict[str, str]]:
+    replacements: dict[str, str] = {}
+    protected = text
+    for idx, term in enumerate(get_protected_terms(config)):
+        if term not in protected:
+            continue
+        token = f"QZXTERM{idx}QZX"
+        protected = protected.replace(term, token)
+        replacements[token] = term
+    return protected, replacements
+
+
+def restore_terms(text: str, replacements: dict[str, str]) -> str:
+    restored = text
+    for token, term in replacements.items():
+        restored = restored.replace(token, term)
+        restored = restored.replace(token.lower(), term)
+        match = re.search(r'QZXTERM(\d+)QZX', token)
+        if match:
+            idx = match.group(1)
+            restored = re.sub(rf'\bQZX\s*TERM\s*{idx}\s*QZX\b', term, restored, flags=re.IGNORECASE)
+            restored = re.sub(rf'\bTERM\s*{idx}\b', term, restored, flags=re.IGNORECASE)
+    return restored
+
+
+def should_skip_local_translation(value: str) -> bool:
+    stripped = value.strip()
+    if not stripped:
+        return True
+    if stripped.startswith(('http://', 'https://', 'mailto:', '@')):
+        return True
+    if re.fullmatch(r'[\W\d_]+', stripped):
+        return True
+    return False
+
+
+def local_translate_text(value: str, lang: str, config: dict) -> str:
+    if lang == config.get('default_language', 'en') or should_skip_local_translation(value):
+        return value
+
+    try:
+        import argostranslate.translate
+    except Exception:
+        return value
+
+    cache_key = f"en:{lang}"
+    if cache_key not in LOCAL_TRANSLATOR_CACHE:
+        try:
+            from_lang = next(
+                language for language in argostranslate.translate.get_installed_languages()
+                if language.code == 'en'
+            )
+            to_lang = next(
+                language for language in argostranslate.translate.get_installed_languages()
+                if language.code == lang
+            )
+            LOCAL_TRANSLATOR_CACHE[cache_key] = from_lang.get_translation(to_lang)
+        except Exception:
+            LOCAL_TRANSLATOR_CACHE[cache_key] = None
+
+    translator = LOCAL_TRANSLATOR_CACHE.get(cache_key)
+    if translator is None:
+        return value
+
+    protected, replacements = protect_terms(value, config)
+    try:
+        translated = translator.translate(protected)
+    except Exception:
+        return value
+
+    return restore_terms(translated, replacements)
+
+
+def local_translate_values(obj, lang: str, config: dict):
+    if isinstance(obj, str):
+        return local_translate_text(obj, lang, config)
+    if isinstance(obj, list):
+        return [local_translate_values(item, lang, config) for item in obj]
+    if isinstance(obj, dict):
+        return {key: local_translate_values(value, lang, config) for key, value in obj.items()}
+    return obj
 
 # ─── JSON 清理 ────────────────────────────────────────────────────────────────
 
@@ -205,7 +313,7 @@ def deep_merge(base: dict, update: dict) -> dict:
 # ─── 翻译单个语言 ─────────────────────────────────────────────────────────────
 
 
-def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, config: dict) -> tuple:
+def translate_chunk_task(idx: int, total: int, chunk: dict, lang: str, lang_name: str, config: dict) -> tuple:
     """单个 chunk 的翻译任务，返回 (idx, chunk_key_order, translated_dict)"""
     keys_preview = ', '.join(list(chunk.keys())[:3])
     suffix = '...' if len(chunk) > 3 else ''
@@ -221,11 +329,11 @@ def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, conf
             print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✓")
             return (idx, list(chunk.keys()), parsed)
         except json.JSONDecodeError as e:
-            print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ JSON解析失败({e})，英文兜底")
-            return (idx, list(chunk.keys()), chunk)
+            print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ JSON解析失败({e})，本地翻译兜底")
+            return (idx, list(chunk.keys()), local_translate_values(chunk, lang, config))
     else:
-        print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ API失败，英文兜底")
-        return (idx, list(chunk.keys()), chunk)
+        print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ API失败，本地翻译兜底")
+        return (idx, list(chunk.keys()), local_translate_values(chunk, lang, config))
 
 
 def translate_language(
@@ -272,7 +380,7 @@ def translate_language(
     results = [None] * total
     with ThreadPoolExecutor(max_workers=concurrency) as executor:
         futures = {
-            executor.submit(translate_chunk_task, idx + 1, total, chunk, lang_name, config): idx
+            executor.submit(translate_chunk_task, idx + 1, total, chunk, lang, lang_name, config): idx
             for idx, chunk in enumerate(chunks)
         }
         for future in as_completed(futures):
