@@ -26,7 +26,6 @@ import {
   Video,
   Building2,
 } from 'lucide-react'
-import Link from 'next/link'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
@@ -35,6 +34,7 @@ import { SidebarAd } from '@/components/ads/SidebarAd'
 import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
+import enMessages from '@/locales/en.json'
 
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
 const FAQSection = lazy(() => import('@/components/home/FAQSection'))
@@ -79,7 +79,11 @@ export default function HomePageClient({
   officialLinks,
   featuredVideo,
 }: HomePageClientProps) {
-  const t = useMessages() as any
+  const messages = useMessages() as typeof enMessages
+  const usesCurrentHomepage =
+    messages?.hero?.title === enMessages.hero.title &&
+    messages?.tools?.cards?.[0]?.title === enMessages.tools.cards[0].title
+  const t = usesCurrentHomepage ? messages : enMessages
   const toolCards = t.tools.cards
 
   useEffect(() => {
@@ -165,7 +169,7 @@ export default function HomePageClient({
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-lg transition-colors"
               >
-                {t.hero.playOnRobloxCTA || t.hero.playOnSteamCTA}
+                {t.hero.playOnRobloxCTA}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -195,9 +199,6 @@ export default function HomePageClient({
 
       {/* Latest Updates Section */}
       <LatestGuidesAccordion articles={latestArticles} locale={locale} max={30} />
-
-      {/* 广告位 3: 标准横幅 728×90 */}
-      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-20 bg-white/[0.02]">
@@ -330,6 +331,9 @@ export default function HomePageClient({
           </div>
         </div>
       </section>
+
+      {/* 广告位 3: 标准横幅 728×90 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
 
       {/* 广告位 4: 方形广告 300×250 */}
       <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
@@ -882,24 +886,24 @@ export default function HomePageClient({
               <h4 className="font-semibold mb-4">{t.footer.legal}</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/about" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">
+                  <span className="text-muted-foreground">
                     {t.footer.about}
-                  </Link>
+                  </span>
                 </li>
                 <li>
-                  <Link href="/privacy-policy" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">
+                  <span className="text-muted-foreground">
                     {t.footer.privacy}
-                  </Link>
+                  </span>
                 </li>
                 <li>
-                  <Link href="/terms-of-service" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">
+                  <span className="text-muted-foreground">
                     {t.footer.terms}
-                  </Link>
+                  </span>
                 </li>
                 <li>
-                  <Link href="/copyright" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">
+                  <span className="text-muted-foreground">
                     {t.footer.copyrightNotice}
-                  </Link>
+                  </span>
                 </li>
               </ul>
             </div>
