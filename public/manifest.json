@@ -1,12 +1,17 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "The Blood of Dawnwalker Wiki - Release Date & Gameplay Guide",
+  "short_name": "Dawnwalker",
+  "description": "Track The Blood of Dawnwalker release date, pre-order details, platforms, editions, story, gameplay, choices, vampires, and PC system requirements.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#d9321c",
+  "background_color": "#080504",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
