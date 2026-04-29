@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Dark Fantasy Open-World Action RPG",
+    "title": "The Blood of Dawnwalker",
+    "description": "A dark fantasy open-world action RPG set in 14th-century Europe, following Coen as he shifts between human and vampire while choices reshape Vale Sangora.",
+    "getFreeCodesCTA": "View Release Guide",
+    "playOnRobloxCTA": "Official Site",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Sep 3, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "3",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4",
+        "label": "Editions"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "10+ min",
+        "label": "Gameplay Footage"
       }
     }
   },
@@ -785,26 +785,29 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for The Blood of Dawnwalker?",
+    "description": "Follow official The Blood of Dawnwalker updates, trailers, and community channels before launch.",
+    "joinCommunity": "Join Dawnwalker Discord",
+    "joinGame": "Wishlist on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "The Blood of Dawnwalker Wiki",
+    "description": "Your release hub for The Blood of Dawnwalker platforms, editions, story, choices, combat, trailers, and PC information.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "officialSite": "Official Site",
     "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamStore": "Steam",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 The Blood of Dawnwalker Wiki. Not affiliated with Rebel Wolves or Bandai Namco Entertainment.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

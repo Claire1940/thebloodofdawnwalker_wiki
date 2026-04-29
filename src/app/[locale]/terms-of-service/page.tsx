@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://thebloodofdawnwalker.wiki').replace(/\/$/, '')
   const path = '/terms-of-service'
 
   return {
-    title: "Terms of Service - Lucid Blocks Wiki",
-    description: "Read the Terms of Service for Lucid Blocks Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Steam game resource platform.",
+    title: "Terms of Service - The Blood of Dawnwalker Wiki",
+    description: "Read the Terms of Service for The Blood of Dawnwalker Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our dark fantasy action RPG resource platform.",
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: "Lucid Blocks Wiki",
-      title: "Terms of Service - Lucid Blocks Wiki",
-      description: "Terms and conditions for using Lucid Blocks Wiki.",
+      siteName: "The Blood of Dawnwalker Wiki",
+      title: "Terms of Service - The Blood of Dawnwalker Wiki",
+      description: "Terms and conditions for using The Blood of Dawnwalker Wiki.",
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: "Lucid Blocks Wiki",
+          alt: "The Blood of Dawnwalker Wiki",
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: "Terms of Service - Lucid Blocks Wiki",
-      description: "Terms and conditions for using Lucid Blocks Wiki.",
-      images: [`${siteUrl}/og-image.jpg`],
+      title: "Terms of Service - The Blood of Dawnwalker Wiki",
+      description: "Terms and conditions for using The Blood of Dawnwalker Wiki.",
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -62,10 +62,10 @@ export default function TermsOfService() {
             Terms of Service
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Terms and conditions for using Lucid Blocks Wiki
+            Terms and conditions for using The Blood of Dawnwalker Wiki
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: April 29, 2026
           </p>
         </div>
       </section>
@@ -76,30 +76,30 @@ export default function TermsOfService() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing and using Lucid Blocks Wiki ("the Website", "we", "our", or "us"), you agree to be bound
+              By accessing and using The Blood of Dawnwalker Wiki ("the Website", "we", "our", or "us"), you agree to be bound
               by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Website.
             </p>
             <p>
-              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and Lucid Blocks Wiki.
+              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and The Blood of Dawnwalker Wiki.
               Your continued use of the Website signifies your acceptance of these Terms and any future modifications.
             </p>
 
             <h2>2. Description of Service</h2>
             <p>
-              Lucid Blocks Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
-              and resources related to the Steam game "Lucid Blocks". Our services include, but are not limited to:
+              The Blood of Dawnwalker Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
+              and resources related to the dark fantasy action RPG "The Blood of Dawnwalker". Our services include, but are not limited to:
             </p>
             <ul>
-              <li>Game guides and survival strategies</li>
-              <li>Crafting and Apotheosis fusion guides</li>
-              <li>Biome and world region information</li>
-              <li>Creature and enemy guides</li>
-              <li>Achievement walkthroughs</li>
-              <li>Community discussion and content</li>
+              <li>Release date, platform, and pre-order reference pages</li>
+              <li>Edition comparisons and official trailer coverage</li>
+              <li>Story, character, and Vale Sangora world guides</li>
+              <li>Choices, consequences, combat, and vampire power explainers</li>
+              <li>PC requirements and platform information</li>
+              <li>Community links and official source summaries</li>
             </ul>
             <p>
-              <strong>Important:</strong> Lucid Blocks Wiki is NOT affiliated with, endorsed by, or associated with
-              Valve Corporation (Steam) or the official developers of Lucid Blocks. We are an independent fan community.
+              <strong>Important:</strong> The Blood of Dawnwalker Wiki is NOT affiliated with, endorsed by, or associated with
+              Rebel Wolves, Bandai Namco Entertainment, or any official The Blood of Dawnwalker entity. We are an independent fan community.
             </p>
 
             <h2>3. User Responsibilities</h2>
@@ -130,14 +130,14 @@ export default function TermsOfService() {
             <h3>4.1 Website Content</h3>
             <p>
               The Website and its original content, features, and functionality (including but not limited to text,
-              graphics, logos, images, and software) are owned by Lucid Blocks Wiki and are protected by international
+              graphics, logos, images, and software) are owned by The Blood of Dawnwalker Wiki and are protected by international
               copyright, trademark, and other intellectual property laws.
             </p>
 
             <h3>4.2 Game Content</h3>
             <p>
               All game-related content, including but not limited to character images, game screenshots, logos, and
-              trademarks, are the property of Valve Corporation (Steam) and/or the developers of Lucid Blocks. We use such
+              trademarks, are the property of Rebel Wolves and Bandai Namco Entertainment. We use such
               content under fair use principles for informational and educational purposes only.
             </p>
 
@@ -157,7 +157,7 @@ export default function TermsOfService() {
               <li><strong>Accuracy:</strong> We strive to provide accurate information, but we do not guarantee that all content is current, complete, or error-free. Game updates may render information outdated.</li>
               <li><strong>Availability:</strong> We do not guarantee that the Website will be available at all times or free from interruptions, errors, or technical issues.</li>
               <li><strong>Third-Party Content:</strong> We are not responsible for the accuracy or reliability of information obtained from third-party sources.</li>
-              <li><strong>Demo Availability:</strong> Steam demo availability and game updates may change without notice. We are not responsible for demo access or game changes.</li>
+              <li><strong>Release Information:</strong> Release timing, pre-order details, platform availability, and game updates may change without notice. We are not responsible for those official changes.</li>
             </ul>
             <p>
               You acknowledge that your use of the Website is at your sole risk and discretion.
@@ -251,7 +251,7 @@ export default function TermsOfService() {
             <h2>13. Entire Agreement</h2>
             <p>
               These Terms, together with our Privacy Policy and Copyright Notice, constitute the entire agreement between
-              you and Lucid Blocks Wiki regarding the use of the Website and supersede any prior agreements or understandings.
+              you and The Blood of Dawnwalker Wiki regarding the use of the Website and supersede any prior agreements or understandings.
             </p>
 
             <h2>14. Contact Information</h2>
@@ -259,7 +259,7 @@ export default function TermsOfService() {
               If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:legal@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@lucidblocks.wiki</a>
+              <strong>Email:</strong> <a href="mailto:legal@thebloodofdawnwalker.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@thebloodofdawnwalker.wiki</a>
             </p>
             <p>
               We will respond to all inquiries within a reasonable timeframe.

@@ -23,6 +23,35 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
 }
 
+const SITE_NAME = 'The Blood of Dawnwalker'
+const SITE_DESCRIPTION =
+  'Track The Blood of Dawnwalker release date, platforms, editions, story, choices, combat, trailers, and PC information.'
+const LEGACY_GAME_NAME = ['Lucid', 'Blocks'].join(' ')
+const LEGACY_SITE_NAME = `${LEGACY_GAME_NAME} Wiki`
+const LEGACY_DOMAIN = [['lucid', 'blocks'].join(''), 'wiki'].join('.')
+
+function getSiteUrl() {
+  return (process.env.NEXT_PUBLIC_SITE_URL || 'https://thebloodofdawnwalker.wiki').replace(/\/$/, '')
+}
+
+function getContentTypeLabel(contentType: string) {
+  return contentType
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+
+function normalizeMetadataText(value: string) {
+  return value
+    .replaceAll(LEGACY_SITE_NAME, SITE_NAME)
+    .replaceAll(LEGACY_GAME_NAME, SITE_NAME)
+    .replaceAll(LEGACY_DOMAIN, 'thebloodofdawnwalker.wiki')
+}
+
+function getAbsoluteImageUrl(image: string | undefined, siteUrl: string) {
+  return new URL(image || '/images/hero.webp', siteUrl).toString()
+}
+
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
 
@@ -218,7 +247,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = getSiteUrl()
+  const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -240,21 +270,35 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 
     // 列表页元数据
-    const t = await getTranslations(`pages.${contentType}`)
+    const contentTypeLabel = getContentTypeLabel(contentType)
+    const title = `${contentTypeLabel} - ${SITE_NAME}`
+    const description = `Browse ${contentTypeLabel.toLowerCase()} for ${SITE_DESCRIPTION}`
+    const path = `/${contentType}`
 
     try {
-      const title = t('metaTitle')
-      const description = t('metaDescription')
-      const path = `/${contentType}`
-
       return {
         title,
         description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         openGraph: {
+          type: 'website',
           title,
           description,
+          images: [
+            {
+              url: heroImageUrl,
+              width: 1920,
+              height: 1080,
+              alt: `${SITE_NAME} ${contentTypeLabel}`,
+            },
+          ],
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [heroImageUrl],
         },
         robots: {
           index: true,
@@ -270,13 +314,30 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
-      const path = `/${contentType}`
-
       return {
-        title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        title,
+        description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          type: 'website',
+          title,
+          description,
+          images: [
+            {
+              url: heroImageUrl,
+              width: 1920,
+              height: 1080,
+              alt: `${SITE_NAME} ${contentTypeLabel}`,
+            },
+          ],
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [heroImageUrl],
+        },
         robots: {
           index: true,
           follow: true,
@@ -304,16 +365,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const title = `${normalizeMetadataText(metadata.title)} - ${SITE_NAME}`
+      const description = normalizeMetadataText(metadata.description)
+      const imageUrl = getAbsoluteImageUrl(metadata.image, siteUrl)
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
-        description: metadata.description,
+        title,
+        description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
-          description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          type: 'article',
+          title,
+          description,
+          images: [imageUrl],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [imageUrl],
         },
         robots: {
           index: true,
@@ -339,16 +410,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const title = `${normalizeMetadataText(metadata.title)} - ${SITE_NAME}`
+          const description = normalizeMetadataText(metadata.description)
+          const imageUrl = getAbsoluteImageUrl(metadata.image, siteUrl)
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
-            description: metadata.description,
+            title,
+            description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
-              description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              type: 'article',
+              title,
+              description,
+              images: [imageUrl],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title,
+              description,
+              images: [imageUrl],
             },
             robots: {
               index: true,
