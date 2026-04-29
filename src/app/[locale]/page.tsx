@@ -1,5 +1,6 @@
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
+import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import HomePageClient from './HomePageClient'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -186,8 +187,11 @@ export default async function HomePage({ params }: PageProps) {
     ],
   }
 
-  // 服务器端获取最新文章数据
-  const latestArticles = await getLatestArticles(locale as Language, 30)
+  // 服务器端获取最新文章数据和首页模块链接映射
+  const [latestArticles, moduleLinkMap] = await Promise.all([
+    getLatestArticles(locale as Language, 30),
+    buildModuleLinkMap(locale as Language),
+  ])
 
   return (
     <>
@@ -200,6 +204,7 @@ export default async function HomePage({ params }: PageProps) {
         locale={locale}
         officialLinks={OFFICIAL_LINKS}
         featuredVideo={FEATURED_VIDEO}
+        moduleLinkMap={moduleLinkMap}
       />
     </>
   )

@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  releaseDate: { field: 'items', nameKey: 'label' },
+  preOrderAndEditions: { field: 'items', nameKey: 'edition' },
+  platforms: { field: 'items', nameKey: 'platform' },
+  systemRequirements: { field: 'items', nameKey: 'target' },
+  story: { field: 'items', nameKey: 'title' },
+  gameplay: { field: 'items', nameKey: 'title' },
+  dayNightMechanics: { field: 'items', nameKey: 'title' },
+  combatMagic: { field: 'items', nameKey: 'title' },
+  choicesConsequences: { field: 'items', nameKey: 'question' },
+  timeLimit: { field: 'items', nameKey: 'title' },
+  openWorldMap: { field: 'items', nameKey: 'title' },
+  charactersFactions: { field: 'items', nameKey: 'title' },
+  vampiresMonsters: { field: 'items', nameKey: 'title' },
+  trailersVideos: { field: 'items', nameKey: 'title' },
+  multiplayerSinglePlayer: { field: 'items', nameKey: 'question' },
+  rebelWolves: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  releaseDate: ['launch date', 'September 3 2026', 'pre-order', 'Steam date', 'platforms'],
+  preOrderAndEditions: ['Standard Edition', 'Eclipse Edition', 'Collector Edition', 'Sangoran Wayfarer', 'Day One Edition'],
+  platforms: ['Steam PC', 'PlayStation 5', 'Xbox Series X', 'Xbox Play Anywhere', 'storefront'],
+  systemRequirements: ['minimum specs', 'recommended specs', 'ultra settings', 'DLSS', 'FSR', '60 GB SSD'],
+  story: ['Coen', 'Dawnwalker', 'Brencis', 'Vale Sangora', 'Black Death', '30 days'],
+  gameplay: ['open world', 'narrative sandbox', 'time costs', 'human vampire', 'skill trees', 'exploration'],
+  dayNightMechanics: ['day and night', 'Blood Hunger', 'Shadowstep', 'Clawride', 'Planeshift', '30 day clock'],
+  combatMagic: ['sword fighting', 'rune magic', 'Burning Blood', 'Activation Charges', 'vampire claws', 'skill tree'],
+  choicesConsequences: ['choices', 'consequences', 'alliances', 'time pressure', 'family rescue', 'quest outcomes'],
+  timeLimit: ['30 days', '30 nights', 'time limit', 'hourglass', 'family rescue', 'world state'],
+  openWorldMap: ['Vale Sangora', 'Svartrau', 'Howling Keep', "Shrike's Crag", 'Carpathian', 'fast travel'],
+  charactersFactions: ['Coen', 'Lunka', 'Brencis', 'Vrakhiri', 'Xanthe', 'Blood Guards'],
+  vampiresMonsters: ['Vrakhiri', 'murohni', 'kobolds', 'uriashi', 'likhos', 'psoglavs', 'undead'],
+  trailersVideos: ['story trailer', 'Road to Launch', 'gameplay overview', 'reveal event', 'YouTube', 'official videos'],
+  multiplayerSinglePlayer: ['single player', 'offline play', 'co-op', 'multiplayer', 'Xbox Play Anywhere', 'one player'],
+  rebelWolves: ['Rebel Wolves', 'Bandai Namco', 'Unreal Engine 5', 'first chapter', 'RPG saga', 'CD Projekt RED'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['the', 'blood', 'of', 'dawnwalker', '2026', '2025', 'complete', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title after stripping the legacy site title.
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title after stripping the current site title.
+  const strippedQuery = normalizedQuery.replace(/the blood of dawnwalker\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/the blood of dawnwalker\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, Suspense, lazy } from 'react'
+import { useEffect, Suspense, lazy, type ReactNode } from 'react'
 import {
   ArrowRight,
   BadgeCheck,
@@ -51,6 +51,7 @@ import { SidebarAd } from '@/components/ads/SidebarAd'
 import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
+import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import enMessages from '@/locales/en.json'
 
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
@@ -79,6 +80,7 @@ interface HomePageClientProps {
     videoId: string
     title: string
   }
+  moduleLinkMap: ModuleLinkMap
 }
 
 const cardClass =
@@ -90,11 +92,43 @@ const mutedCardClass =
 const badgeClass =
   'inline-flex items-center rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]'
 
+const moduleTitleClass = 'text-4xl md:text-5xl font-bold mt-4 mb-4'
+
+function LinkedModuleTitle({
+  moduleKey,
+  moduleLinkMap,
+  children,
+}: {
+  moduleKey: string
+  moduleLinkMap: ModuleLinkMap
+  children: ReactNode
+}) {
+  const link = moduleLinkMap[moduleKey]
+
+  if (!link) {
+    return <h2 className={moduleTitleClass}>{children}</h2>
+  }
+
+  return (
+    <h2 className={moduleTitleClass}>
+      <a
+        href={link.url}
+        title={link.title}
+        className="inline-flex items-center justify-center gap-2 transition-colors hover:text-[hsl(var(--nav-theme-light))]"
+      >
+        {children}
+        <ArrowRight className="h-7 w-7 shrink-0" aria-hidden="true" />
+      </a>
+    </h2>
+  )
+}
+
 export default function HomePageClient({
   latestArticles,
   locale,
   officialLinks,
   featuredVideo,
+  moduleLinkMap,
 }: HomePageClientProps) {
   const messages = useMessages() as typeof enMessages
   const usesCurrentHomepage =
@@ -360,7 +394,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.releaseDate.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.releaseDate.title}</h2>
+            <LinkedModuleTitle moduleKey="releaseDate" moduleLinkMap={moduleLinkMap}>{t.modules.releaseDate.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.releaseDate.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -389,7 +423,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.preOrderAndEditions.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.preOrderAndEditions.title}</h2>
+            <LinkedModuleTitle moduleKey="preOrderAndEditions" moduleLinkMap={moduleLinkMap}>{t.modules.preOrderAndEditions.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.preOrderAndEditions.subtitle}</p>
           </div>
           <div className="scroll-reveal hidden md:block overflow-hidden rounded-xl border border-border bg-card">
@@ -433,7 +467,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.platforms.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.platforms.title}</h2>
+            <LinkedModuleTitle moduleKey="platforms" moduleLinkMap={moduleLinkMap}>{t.modules.platforms.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.platforms.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -466,7 +500,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.systemRequirements.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.systemRequirements.title}</h2>
+            <LinkedModuleTitle moduleKey="systemRequirements" moduleLinkMap={moduleLinkMap}>{t.modules.systemRequirements.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.systemRequirements.subtitle}</p>
           </div>
           <div className="scroll-reveal hidden lg:block overflow-hidden rounded-xl border border-border bg-card">
@@ -528,7 +562,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.story.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.story.title}</h2>
+            <LinkedModuleTitle moduleKey="story" moduleLinkMap={moduleLinkMap}>{t.modules.story.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.story.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-6">
@@ -561,7 +595,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.gameplay.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.gameplay.title}</h2>
+            <LinkedModuleTitle moduleKey="gameplay" moduleLinkMap={moduleLinkMap}>{t.modules.gameplay.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.gameplay.subtitle}</p>
           </div>
           <div className="scroll-reveal relative space-y-5">
@@ -585,7 +619,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.dayNightMechanics.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.dayNightMechanics.title}</h2>
+            <LinkedModuleTitle moduleKey="dayNightMechanics" moduleLinkMap={moduleLinkMap}>{t.modules.dayNightMechanics.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.dayNightMechanics.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -613,7 +647,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.combatMagic.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.combatMagic.title}</h2>
+            <LinkedModuleTitle moduleKey="combatMagic" moduleLinkMap={moduleLinkMap}>{t.modules.combatMagic.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.combatMagic.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -643,7 +677,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.choicesConsequences.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.choicesConsequences.title}</h2>
+            <LinkedModuleTitle moduleKey="choicesConsequences" moduleLinkMap={moduleLinkMap}>{t.modules.choicesConsequences.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.choicesConsequences.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-[1.3fr_0.7fr] gap-5">
@@ -687,7 +721,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.timeLimit.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.timeLimit.title}</h2>
+            <LinkedModuleTitle moduleKey="timeLimit" moduleLinkMap={moduleLinkMap}>{t.modules.timeLimit.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.timeLimit.subtitle}</p>
           </div>
           <div className="scroll-reveal md:hidden space-y-4">
@@ -748,7 +782,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.openWorldMap.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.openWorldMap.title}</h2>
+            <LinkedModuleTitle moduleKey="openWorldMap" moduleLinkMap={moduleLinkMap}>{t.modules.openWorldMap.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.openWorldMap.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -774,7 +808,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.charactersFactions.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.charactersFactions.title}</h2>
+            <LinkedModuleTitle moduleKey="charactersFactions" moduleLinkMap={moduleLinkMap}>{t.modules.charactersFactions.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.charactersFactions.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -803,7 +837,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.vampiresMonsters.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.vampiresMonsters.title}</h2>
+            <LinkedModuleTitle moduleKey="vampiresMonsters" moduleLinkMap={moduleLinkMap}>{t.modules.vampiresMonsters.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.vampiresMonsters.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -848,7 +882,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.trailersVideos.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.trailersVideos.title}</h2>
+            <LinkedModuleTitle moduleKey="trailersVideos" moduleLinkMap={moduleLinkMap}>{t.modules.trailersVideos.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.trailersVideos.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -887,7 +921,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.multiplayerSinglePlayer.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.multiplayerSinglePlayer.title}</h2>
+            <LinkedModuleTitle moduleKey="multiplayerSinglePlayer" moduleLinkMap={moduleLinkMap}>{t.modules.multiplayerSinglePlayer.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.multiplayerSinglePlayer.subtitle}</p>
           </div>
           <div className="scroll-reveal space-y-3">
@@ -917,7 +951,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className={badgeClass}>{t.modules.rebelWolves.eyebrow}</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.rebelWolves.title}</h2>
+            <LinkedModuleTitle moduleKey="rebelWolves" moduleLinkMap={moduleLinkMap}>{t.modules.rebelWolves.title}</LinkedModuleTitle>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.rebelWolves.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
