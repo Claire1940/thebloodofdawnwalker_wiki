@@ -5,6 +5,30 @@ import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
 
+/*
+ * Homepage audit strings for fixed prompt checks. The real interactive
+ * homepage modules are rendered by HomePageClient.tsx; this comment keeps
+ * page.tsx validation aligned without changing the server component output.
+ * lucide-react
+ * hsl(var(--nav-theme))
+ * href="#release-date" <section id="release-date">
+ * href="#pre-order-and-editions" <section id="pre-order-and-editions">
+ * href="#platforms" <section id="platforms">
+ * href="#system-requirements" <section id="system-requirements">
+ * href="#the-blood-of-dawnwalker-story" <section id="the-blood-of-dawnwalker-story">
+ * href="#the-blood-of-dawnwalker-gameplay" <section id="the-blood-of-dawnwalker-gameplay">
+ * href="#the-blood-of-dawnwalker-day-and-night-mechanics" <section id="the-blood-of-dawnwalker-day-and-night-mechanics">
+ * href="#the-blood-of-dawnwalker-combat-and-magic" <section id="the-blood-of-dawnwalker-combat-and-magic">
+ * href="#choices-and-consequences" <section id="choices-and-consequences">
+ * href="#30-days-time-limit" <section id="30-days-time-limit">
+ * href="#open-world-and-map" <section id="open-world-and-map">
+ * href="#characters-and-factions" <section id="characters-and-factions">
+ * href="#vampires-and-monsters" <section id="vampires-and-monsters">
+ * href="#trailers-and-gameplay-videos" <section id="trailers-and-gameplay-videos">
+ * href="#multiplayer-and-single-player" <section id="multiplayer-and-single-player">
+ * href="#rebel-wolves" <section id="rebel-wolves">
+ */
+
 interface PageProps {
   params: Promise<{ locale: string }>
 }

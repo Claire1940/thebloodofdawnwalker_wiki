@@ -807,17 +807,37 @@ export default function HomePageClient({
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.vampiresMonsters.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.vampiresMonsters.items.map((item: any) => (
-              <details key={item.title} className="group rounded-xl border border-border bg-card p-5">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
-                  <span className="inline-flex items-center gap-2"><Skull className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />{item.title}</span>
-                  <ChevronDown className="w-5 h-5 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
-                </summary>
-                <span className={`${badgeClass} mt-4`}>{item.type}</span>
-                <p className="mt-4 text-sm text-[hsl(var(--nav-theme-light))]">{item.summary}</p>
-                <p className="mt-3 text-sm text-muted-foreground">{item.details}</p>
-              </details>
-            ))}
+            {t.modules.vampiresMonsters.items.map((item: any, index: number) => {
+              const creatureIcons = [
+                Skull,
+                Crown,
+                Gem,
+                Drama,
+                Swords,
+                HeartPulse,
+                Moon,
+                Pickaxe,
+                Mountain,
+                CloudFog,
+                Landmark,
+                Castle,
+              ]
+              const Icon = creatureIcons[index] || Skull
+              return (
+                <details key={item.title} className="group rounded-xl border border-border bg-card p-5">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                    <span className="inline-flex items-center gap-2">
+                      <Icon className="w-5 h-5 shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      {item.title}
+                    </span>
+                    <ChevronDown className="w-5 h-5 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
+                  </summary>
+                  <span className={`${badgeClass} mt-4`}>{item.type}</span>
+                  <p className="mt-4 text-sm text-[hsl(var(--nav-theme-light))]">{item.summary}</p>
+                  <p className="mt-3 text-sm text-muted-foreground">{item.details}</p>
+                </details>
+              )
+            })}
           </div>
           <p className="scroll-reveal mt-8 text-muted-foreground text-center max-w-3xl mx-auto">{t.modules.vampiresMonsters.intro}</p>
         </div>
@@ -832,17 +852,31 @@ export default function HomePageClient({
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.trailersVideos.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.trailersVideos.items.map((item: any) => (
-              <a key={item.title} href={item.href} target="_blank" rel="noopener noreferrer" className={`${mutedCardClass} block`}>
-                <Video className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
-                <span className={badgeClass}>{item.format}</span>
-                <h3 className="font-bold mt-3 mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground mb-4">{item.focus}</p>
-                <span className="inline-flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
-                  Watch official video <ExternalLink className="w-4 h-4" />
-                </span>
-              </a>
-            ))}
+            {t.modules.trailersVideos.items.map((item: any, index: number) => {
+              const videoIcons = [
+                Video,
+                Monitor,
+                CalendarDays,
+                Gamepad2,
+                Compass,
+                ScrollText,
+                Swords,
+                Moon,
+                Sparkles,
+              ]
+              const Icon = videoIcons[index] || Video
+              return (
+                <a key={item.title} href={item.href} target="_blank" rel="noopener noreferrer" className={`${mutedCardClass} block`}>
+                  <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
+                  <span className={badgeClass}>{item.format}</span>
+                  <h3 className="font-bold mt-3 mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-4">{item.focus}</p>
+                  <span className="inline-flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                    Watch official video <ExternalLink className="w-4 h-4" />
+                  </span>
+                </a>
+              )
+            })}
           </div>
           <p className="scroll-reveal mt-8 text-muted-foreground text-center max-w-3xl mx-auto">{t.modules.trailersVideos.intro}</p>
         </div>
@@ -857,15 +891,22 @@ export default function HomePageClient({
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.multiplayerSinglePlayer.subtitle}</p>
           </div>
           <div className="scroll-reveal space-y-3">
-            {t.modules.multiplayerSinglePlayer.items.map((item: any) => (
-              <details key={item.question} className="group rounded-xl border border-border bg-card p-5">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
-                  {item.question}
-                  <ChevronDown className="w-5 h-5 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
-                </summary>
-                <p className="mt-4 text-sm text-muted-foreground">{item.answer}</p>
-              </details>
-            ))}
+            {t.modules.multiplayerSinglePlayer.items.map((item: any, index: number) => {
+              const modeIcons = [UserRound, Monitor, Users, Handshake, Gamepad2, Compass]
+              const Icon = modeIcons[index] || UserRound
+              return (
+                <details key={item.question} className="group rounded-xl border border-border bg-card p-5">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                    <span className="inline-flex items-center gap-3">
+                      <Icon className="w-5 h-5 shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      {item.question}
+                    </span>
+                    <ChevronDown className="w-5 h-5 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
+                  </summary>
+                  <p className="mt-4 text-sm text-muted-foreground">{item.answer}</p>
+                </details>
+              )
+            })}
           </div>
           <p className="scroll-reveal mt-8 text-muted-foreground text-center max-w-3xl mx-auto">{t.modules.multiplayerSinglePlayer.intro}</p>
         </div>
@@ -880,14 +921,18 @@ export default function HomePageClient({
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.rebelWolves.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.rebelWolves.items.map((item: any) => (
-              <div key={item.title} className={mutedCardClass}>
-                <Building2 className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
-                <h3 className="font-bold mb-2">{item.title}</h3>
-                <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-3">{item.summary}</p>
-                <p className="text-sm text-muted-foreground">{item.details}</p>
-              </div>
-            ))}
+            {t.modules.rebelWolves.items.map((item: any, index: number) => {
+              const studioIcons = [Building2, BadgeCheck, Crown, BookOpen, Cpu, Users]
+              const Icon = studioIcons[index] || Building2
+              return (
+                <div key={item.title} className={mutedCardClass}>
+                  <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
+                  <h3 className="font-bold mb-2">{item.title}</h3>
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-3">{item.summary}</p>
+                  <p className="text-sm text-muted-foreground">{item.details}</p>
+                </div>
+              )
+            })}
           </div>
           <p className="scroll-reveal mt-8 text-muted-foreground text-center max-w-3xl mx-auto">{t.modules.rebelWolves.intro}</p>
         </div>

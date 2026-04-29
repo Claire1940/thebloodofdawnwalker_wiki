@@ -780,7 +780,7 @@
     "vampiresMonsters": {
       "eyebrow": "Bestiary",
       "title": "The Blood of Dawnwalker Vampires and Monsters",
-      "subtitle": "The Blood of Dawnwalker bestiary includes vampire rulers, failed vampires, undead, mine-dwelling creatures, and cursed places across Vale Sangora.",
+      "subtitle": "Explore the vampire rulers, failed vampires, undead, mine-dwelling creatures, and cursed places that define the dark fantasy bestiary of The Blood of Dawnwalker.",
       "intro": "The Blood of Dawnwalker turns Vale Sangora into a land where vampires have stepped out of the shadows and other creatures of the night follow their lead. Coen faces the Vrakhiri at the top of society, while the wider bestiary includes murohni, kobolds, uriashi, likhos, psoglavs, undead threats, and horrors hidden in ruins, mines, forests, and cursed landmarks.",
       "items": [
         {
@@ -799,7 +799,7 @@
           "title": "Xanthe",
           "type": "Ancient vampire",
           "summary": "Xanthe is described as the oldest vampire in the Vrakhiri group.",
-          "details": "Her past reaches back to Ancient Greece, where she once served as a priestess. Her age and understanding of the world's deeper nature make her one of the strangest figures among the vampire elite."
+          "details": "Her past reaches back to Ancient Greece, where she once served as a priestess. Her age, fragmented presence, and understanding of the world's deeper nature make her one of the strangest figures among the vampire elite."
         },
         {
           "title": "Ambrus",
@@ -817,7 +817,7 @@
           "title": "Blood Hunger",
           "type": "Vampiric gameplay pressure",
           "summary": "Coen's blood hunger can push him toward a loss of control.",
-          "details": "When the blood hunger meter falls too low, Coen is consumed by hunger and dialogue can collapse into a forced outcome. This makes vampirism part of both combat and narrative consequence."
+          "details": "When the blood hunger meter falls too low, Coen is consumed by hunger and dialogue can collapse into a forced hunger outcome. This makes vampirism part of both combat and narrative consequence."
         },
         {
           "title": "Murohni",
@@ -829,7 +829,7 @@
           "title": "Kobolds",
           "type": "Mine creatures",
           "summary": "Kobolds are connected with underground mines in Vale Sangora.",
-          "details": "Their presence supports the darker exploration loop, especially in mines, caves, and old underground spaces where the valley's wealth and hidden dangers overlap."
+          "details": "Their presence supports the game's darker exploration loop, especially in mines, caves, and old underground spaces where the valley's wealth and hidden dangers overlap."
         },
         {
           "title": "Uriashi",
@@ -847,7 +847,7 @@
           "title": "Undead in Ancient Ruins",
           "type": "Ruin enemies",
           "summary": "Undead creatures are said to hide in ancient ruins.",
-          "details": "The ruins of Vale Sangora are not just scenery. They connect exploration, lost history, and monster encounters as Coen uncovers truths that should remain hidden."
+          "details": "The ruins of Vale Sangora are not just scenery. They connect exploration, lost history, and monster encounters as Coen uncovers truths that should probably remain hidden."
         },
         {
           "title": "Cursed Places",
@@ -860,7 +860,7 @@
     "trailersVideos": {
       "eyebrow": "Videos",
       "title": "The Blood of Dawnwalker Trailers and Gameplay Videos",
-      "subtitle": "The Blood of Dawnwalker official videos cover the story trailer, Road to Launch stream, gameplay overviews, and reveal footage.",
+      "subtitle": "Watch the key official videos for The Blood of Dawnwalker, from the story trailer and Road to Launch stream to gameplay overviews and earlier reveal footage.",
       "intro": "The official Dawnwalker media lineup covers story, systems, combat, day-and-night gameplay, release information, and developer commentary. Start with the latest story trailer and Road to Launch Event, then use gameplay overview videos to understand combat, exploration, narrative choices, and Coen's human-by-day, vampire-by-night identity.",
       "items": [
         {
@@ -884,7 +884,7 @@
         {
           "title": "The Blood of Dawnwalker - Gameplay Overview Part III",
           "format": "Gameplay overview",
-          "focus": "Official gameplay overview focused on open-world activities, quest flow, combat, and the state of the game closer to launch.",
+          "focus": "Latest official gameplay overview focused on open-world activities, quest flow, combat, and the state of the game closer to launch.",
           "href": "https://www.youtube.com/watch?v=99w_x1SsK-g"
         },
         {
@@ -984,8 +984,8 @@
         },
         {
           "title": "RPG Experience and Team Background",
-          "summary": "The Blood of Dawnwalker comes from a team with deep RPG experience.",
-          "details": "Rebel Wolves highlights teamwork, fairness, transparency, and a shared love of RPGs, with a team that includes developers known for major open-world RPG work."
+          "summary": "The team combines experienced developers and passionate newcomers.",
+          "details": "Rebel Wolves highlights teamwork, fairness, transparency, and a shared love of RPGs. PlayStation's studio visit also notes a 160-plus-person team with former CD Projekt RED staffers who worked on The Witcher 3: Wild Hunt."
         }
       ]
     }
