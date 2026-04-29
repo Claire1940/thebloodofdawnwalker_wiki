@@ -535,8 +535,27 @@
     "choicesConsequences": {
       "eyebrow": "Player Choice",
       "title": "The Blood of Dawnwalker Choices and Consequences",
-      "subtitle": "The Blood of Dawnwalker makes every major decision, delayed action, and failed rescue part of Coen's journey through Vale Sangora.",
-      "intro": "The Blood of Dawnwalker is built around a narrative sandbox where action and inaction both matter. Coen can rush toward his family, prepare through other stories, help villagers, ignore requests, feed carefully, or give in to darker powers, and the game continues with the consequences.",
+      "subtitle": "Every major decision, delayed action, and failed rescue can reshape Coen's journey through Vale Sangora. This module explains how quests, allies, blood hunger, and faction choices affect the world around you.",
+      "intro": "The Blood of Dawnwalker is built around a narrative sandbox where action and inaction both matter. Coen can rush toward his family, prepare through other stories, help villagers, ignore requests, feed carefully, or give in to darker powers, and the game continues even when those choices carry painful consequences.",
+      "highlightTitle": "The Blood of Dawnwalker Consequence Highlights",
+      "highlights": [
+        {
+          "label": "Action and inaction",
+          "detail": "The Blood of Dawnwalker treats delayed rescues, skipped requests, and direct intervention as story choices."
+        },
+        {
+          "label": "Limited time",
+          "detail": "The 30-day deadline means helping one person can cost time that another quest, ally, or family objective may need."
+        },
+        {
+          "label": "Blood Hunger",
+          "detail": "Coen's night form can turn feeding pressure into a consequence chain that affects NPCs and future scenes."
+        },
+        {
+          "label": "Faction routes",
+          "detail": "The Blood of Dawnwalker leaves room for alliances, vampire encounters, and world reactions beyond a single morality track."
+        }
+      ],
       "items": [
         {
           "question": "How do choices work in The Blood of Dawnwalker?",
@@ -556,11 +575,15 @@
         },
         {
           "question": "How does Blood Hunger affect The Blood of Dawnwalker decisions?",
-          "answer": "At night, Coen's Blood Hunger can push him toward dangerous behavior. Feeding choices can affect whether victims survive, pass out, or become part of a darker consequence chain."
+          "answer": "At night, Coen's Blood Hunger can push him toward dangerous behavior. If he does not drink enough blood, he may lose control and attack NPCs, and feeding choices can affect whether victims survive, pass out, or become part of a darker consequence chain."
+        },
+        {
+          "question": "Can you work with vampires or other factions in The Blood of Dawnwalker?",
+          "answer": "The Vrakhiri are central enemies and rulers of Vale Sangora, but the game suggests not every vampire encounter has to end the same way. Some decisions may allow Coen to understand parts of the vampire side or form unlikely alliances."
         },
         {
           "question": "Do choices affect The Blood of Dawnwalker endings?",
-          "answer": "Choices, paths, consequences, character outcomes, and the use of limited time are designed to affect the plot and ending. Since players cannot complete every story arc before the deadline, different playthroughs can produce different routes and resolutions."
+          "answer": "Choices, paths, consequences, character outcomes, and the use of limited time are designed to significantly affect the plot and ending. Since players cannot complete every story arc before the deadline, different playthroughs can produce different routes and resolutions."
         }
       ]
     },
@@ -569,46 +592,60 @@
       "title": "The Blood of Dawnwalker 30 Days Time Limit",
       "subtitle": "The Blood of Dawnwalker gives Coen 30 in-game days and nights to save his family, but the timer is not a real-time countdown. Time moves through meaningful progress, not ordinary exploration.",
       "intro": "The Blood of Dawnwalker uses time as a story resource. You can explore Vale Sangora at your own pace, but completing quests, choosing certain dialogue outcomes, changing from day to night, and some major progression actions can move the world closer to the deadline.",
+      "summary": [
+        {
+          "label": "The Blood of Dawnwalker exploration rule",
+          "detail": "Exploration, combat, and searching the world do not drain the timer just because real-world minutes pass."
+        },
+        {
+          "label": "The Blood of Dawnwalker visible time costs",
+          "detail": "Some quests, dialogue outcomes, and day-night changes show a clear time cost before commitment."
+        },
+        {
+          "label": "The Blood of Dawnwalker consequence rule",
+          "detail": "Running out of time does not simply reset the story; the world continues with the weight of Coen's priorities."
+        }
+      ],
       "items": [
         {
           "step": 1,
-          "title": "Start with Coen's Deadline",
+          "title": "Start with Coen's deadline",
           "description": "Coen has 30 days and 30 nights to save his family from the vampire monarchy. The deadline creates urgency around the main goal without turning the game into a constant real-time race.",
           "timeImpact": "Narrative deadline"
         },
         {
           "step": 2,
-          "title": "Explore without Draining the Clock",
+          "title": "Explore without draining the clock",
           "description": "Exploration, combat, searching the world, and moving through locations do not continuously push time forward. Players can investigate caves, settlements, swamps, roads, ruins, and clues without losing time simply because real-world minutes pass.",
           "timeImpact": "No time cost"
         },
         {
           "step": 3,
-          "title": "Watch for Visible Time Costs",
+          "title": "Watch for visible time costs",
           "description": "Certain completed activities have a specific time cost shown before commitment, often represented with an hourglass-style indicator. These costs help players decide whether a quest, choice, or action is worth spending precious time on.",
           "timeImpact": "Visible before completion"
         },
         {
           "step": 4,
-          "title": "Complete Quests Carefully",
+          "title": "Complete quests carefully",
           "description": "Finishing quests is one of the main ways time advances. Some side quests, story objectives, and important choices can move the calendar forward, so players must choose whom to help and what to leave unfinished.",
           "timeImpact": "Quest-based time cost"
         },
         {
           "step": 5,
-          "title": "Use Day and Night Strategically",
+          "title": "Use day and night strategically",
           "description": "Changing from day to night can advance time, but it also changes Coen's available abilities, traversal options, quests, and risks. Human Coen and vampire Coen open different routes through the same world.",
           "timeImpact": "Day-night progression"
         },
         {
           "step": 6,
-          "title": "Accept That Not Everything Fits Into One Run",
+          "title": "Accept that not everything fits into one run",
           "description": "The time system is designed so players cannot complete every story and arc before the deadline. This makes preparation, route planning, alliances, and skipped objectives part of the role-playing experience.",
           "timeImpact": "Replay-driven trade-off"
         },
         {
           "step": 7,
-          "title": "Consequences Replace a Hard Game Over",
+          "title": "Consequences replace a hard game over",
           "description": "When the deadline runs out, the game does not simply end. Coen's family may suffer consequences, but the world and story continue, carrying the weight of what the player chose to prioritize.",
           "timeImpact": "Story consequence"
         }
@@ -617,8 +654,8 @@
     "openWorldMap": {
       "eyebrow": "Open World",
       "title": "The Blood of Dawnwalker Open World and Map",
-      "subtitle": "The Blood of Dawnwalker takes place in Vale Sangora, a handcrafted dark fantasy region in the Carpathian Mountains filled with settlements, forests, swamps, mountain paths, caves, ruins, and hidden threats.",
-      "intro": "The Blood of Dawnwalker takes place in Vale Sangora, a fictional valley inspired by Central and Eastern Europe. Its world is designed around discovery through clues, local information, points of interest, and day-night changes that alter danger, access, and atmosphere.",
+      "subtitle": "Vale Sangora is a handcrafted dark fantasy region in the Carpathian Mountains, filled with settlements, forests, swamps, mountain paths, caves, ruins, and hidden threats. This The Blood of Dawnwalker module highlights known locations and exploration rules.",
+      "intro": "The Blood of Dawnwalker takes place in Vale Sangora, a fictional valley inspired by Central and Eastern Europe. Its world is designed around discovery: the map can be explored through clues, local information, points of interest, and day-night changes that alter danger, access, and atmosphere.",
       "items": [
         {
           "title": "Vale Sangora",
@@ -642,17 +679,17 @@
         },
         {
           "title": "Primeval Forests and Tantari Woods",
-          "description": "Vale Sangora includes dense forests filled with herbs, hidden knowledge, monsters, and local legends. Tantari Woods is tied to the tale of the Howling Keep.",
+          "description": "Vale Sangora includes dense forests filled with herbs, hidden knowledge, monsters, and local legends. Tantari Woods is tied to the tale of the Howling Keep, a mysterious mansion said to appear or vanish depending on intent.",
           "type": "Forest Biome"
         },
         {
           "title": "Swamps, Caves, Mines, and Ruins",
-          "description": "The world includes treacherous swamps, dark underground caves, haunted mines, ancient crypts, timeless ruins, and forgotten remnants of earlier civilizations.",
+          "description": "The world includes treacherous swamps, dark underground caves, haunted mines, ancient crypts, timeless ruins, and forgotten remnants of earlier civilizations. These areas support exploration, danger, and secrets beneath the surface.",
           "type": "Exploration Zones"
         },
         {
           "title": "Shrike's Crag",
-          "description": "A cursed quarry linked to the violent history of Skender Dragosti and a crushed peasant rebellion. It represents the kind of tragic landmark players can uncover while exploring Vale Sangora.",
+          "description": "A cursed quarry linked to the violent history of Skender Dragosti and a crushed peasant rebellion. It represents the kind of local legend and tragic landmark players can uncover while exploring Vale Sangora.",
           "type": "Legendary Landmark"
         },
         {
@@ -675,8 +712,8 @@
     "charactersFactions": {
       "eyebrow": "Characters",
       "title": "The Blood of Dawnwalker Characters and Factions",
-      "subtitle": "The Blood of Dawnwalker centers on Coen, his family, and the vampire power structure ruling Vale Sangora.",
-      "intro": "The Blood of Dawnwalker introduces a 14th-century world where vampires step out of the shadows and become rulers. Coen's struggle to save his family places him between humans, monsters, villagers, possible allies, and the Vrakhiri.",
+      "subtitle": "The Blood of Dawnwalker story centers on Coen, his family, and the vampire power structure ruling Vale Sangora. These character cards summarize the main revealed figures and factions players will encounter.",
+      "intro": "The Blood of Dawnwalker introduces a 14th-century world where vampires step out of the shadows and become rulers. Coen's struggle to save his family places him between humans, monsters, villagers, possible allies, and the Vrakhiri, a clique of ancient vampires led by Brencis.",
       "items": [
         {
           "title": "Coen",
@@ -686,7 +723,7 @@
         },
         {
           "title": "Lunka",
-          "description": "Coen's Black Death-infected sister, introduced in the prologue. Brencis' intervention saves her from execution and recovery comes at the cost of vampire rule tightening over Coen's village.",
+          "description": "Coen's Black Death-infected sister, introduced in the demo prologue. Brencis' intervention saves her from execution and recovery comes at the cost of vampire rule tightening over Coen's village.",
           "faction": "Coen's Family",
           "role": "Family member"
         },
@@ -728,13 +765,13 @@
         },
         {
           "title": "Gremla",
-          "description": "A villager shown in the extended demo as someone Coen can choose to help or ignore. Her fate demonstrates how side objectives and delayed action can create visible consequences in Brencis' world.",
+          "description": "A villager shown in the extended demo as someone Coen can choose to help or ignore. Her fate demonstrates how side objectives and delayed action can create visible consequences in The Blood of Dawnwalker.",
           "faction": "Villagers",
           "role": "Quest NPC"
         },
         {
           "title": "Esme",
-          "description": "Coen's mother, referenced during the consequence sequence. Her sickness and possible fate underline how family, time pressure, and player priorities are tied together.",
+          "description": "Coen's mother, referenced during the demo's consequence sequence. Her sickness and possible fate underline how family, time pressure, and player priorities are tied together.",
           "faction": "Coen's Family",
           "role": "Family member"
         }

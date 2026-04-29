@@ -3,25 +3,42 @@
 import { useEffect, Suspense, lazy } from 'react'
 import {
   ArrowRight,
+  BadgeCheck,
   BookOpen,
   CalendarDays,
+  Castle,
   Check,
   ChevronDown,
   Clock,
+  CloudFog,
+  Compass,
   Cpu,
+  Crown,
+  Drama,
   ExternalLink,
   Gamepad2,
+  Gem,
   GitBranch,
+  Handshake,
+  HeartPulse,
   Hourglass,
+  Landmark,
   Map,
+  MapPinned,
   Monitor,
   Moon,
+  Mountain,
+  Pickaxe,
+  Route,
   ScrollText,
   Shield,
   ShoppingBag,
   Skull,
   Sparkles,
   Swords,
+  Trees,
+  UserCog,
+  UserRound,
   Users,
   Video,
   Building2,
@@ -629,16 +646,37 @@ export default function HomePageClient({
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.choicesConsequences.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.choicesConsequences.subtitle}</p>
           </div>
-          <div className="scroll-reveal space-y-3">
-            {t.modules.choicesConsequences.items.map((item: any) => (
-              <details key={item.question} className="group rounded-xl border border-border bg-card p-5">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
-                  {item.question}
-                  <ChevronDown className="w-5 h-5 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
-                </summary>
-                <p className="mt-4 text-sm text-muted-foreground">{item.answer}</p>
-              </details>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-[1.3fr_0.7fr] gap-5">
+            <div className="space-y-3">
+              {t.modules.choicesConsequences.items.map((item: any, index: number) => (
+                <details key={item.question} open={index === 0} className="group rounded-xl border border-border bg-card p-5">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                    {item.question}
+                    <ChevronDown className="w-5 h-5 flex-shrink-0 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
+                  </summary>
+                  <p className="mt-4 text-sm text-muted-foreground">{item.answer}</p>
+                </details>
+              ))}
+            </div>
+            <div className="rounded-xl border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.08)] p-6 lg:sticky lg:top-24 self-start">
+              <GitBranch className="w-7 h-7 text-[hsl(var(--nav-theme-light))] mb-4" />
+              <h3 className="text-xl font-bold mb-4">{t.modules.choicesConsequences.highlightTitle}</h3>
+              <div className="space-y-3">
+                {t.modules.choicesConsequences.highlights.map((highlight: any, index: number) => {
+                  const icons = [GitBranch, Hourglass, HeartPulse, Handshake]
+                  const Icon = icons[index] || GitBranch
+                  return (
+                    <div key={highlight.label} className="rounded-lg border border-border bg-background/40 p-4">
+                      <div className="flex items-center gap-3 mb-2">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        <h4 className="font-semibold">{highlight.label}</h4>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{highlight.detail}</p>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
           </div>
           <p className="scroll-reveal mt-8 text-muted-foreground text-center max-w-3xl mx-auto">{t.modules.choicesConsequences.intro}</p>
         </div>
@@ -652,17 +690,54 @@ export default function HomePageClient({
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4">{t.modules.timeLimit.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.timeLimit.subtitle}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="scroll-reveal md:hidden space-y-4">
             {t.modules.timeLimit.items.map((item: any) => (
-              <div key={item.step} className={mutedCardClass}>
-                <div className="flex items-center gap-3 mb-3">
-                  <Hourglass className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className={badgeClass}>{item.timeImpact}</span>
+              <div key={item.step} className="grid grid-cols-[auto_1fr] gap-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.12)] font-bold text-[hsl(var(--nav-theme-light))]">
+                  {item.step}
                 </div>
-                <h3 className="font-bold mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.description}</p>
+                <div className={mutedCardClass}>
+                  <span className={badgeClass}>{item.timeImpact}</span>
+                  <h3 className="font-bold mt-3 mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground">{item.description}</p>
+                </div>
               </div>
             ))}
+          </div>
+          <div className="scroll-reveal hidden md:block overflow-x-auto pb-2">
+            <div className="relative min-w-[1120px]">
+              <div className="absolute left-12 right-12 top-6 h-px bg-border" />
+              <div className="grid grid-cols-7 gap-4">
+                {t.modules.timeLimit.items.map((item: any) => (
+                  <div key={item.step} className="relative">
+                    <div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-background font-bold text-[hsl(var(--nav-theme-light))]">
+                      {item.step}
+                    </div>
+                    <div className="h-full rounded-xl border border-border bg-card p-4">
+                      <div className="flex items-center gap-2 mb-3">
+                        <Hourglass className="w-4 h-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <span className="text-xs font-medium text-[hsl(var(--nav-theme-light))]">{item.timeImpact}</span>
+                      </div>
+                      <h3 className="font-bold mb-2">{item.title}</h3>
+                      <p className="text-sm text-muted-foreground">{item.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="scroll-reveal mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+            {t.modules.timeLimit.summary.map((item: any, index: number) => {
+              const icons = [Compass, Clock, BadgeCheck]
+              const Icon = icons[index] || Compass
+              return (
+                <div key={item.label} className={mutedCardClass}>
+                  <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
+                  <h3 className="font-bold mb-2">{item.label}</h3>
+                  <p className="text-sm text-muted-foreground">{item.detail}</p>
+                </div>
+              )
+            })}
           </div>
           <p className="scroll-reveal mt-8 text-muted-foreground text-center max-w-3xl mx-auto">{t.modules.timeLimit.intro}</p>
         </div>
@@ -677,14 +752,18 @@ export default function HomePageClient({
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.openWorldMap.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.openWorldMap.items.map((item: any) => (
-              <div key={item.title} className={mutedCardClass}>
-                <Map className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
-                <span className={badgeClass}>{item.type}</span>
-                <h3 className="font-bold mt-3 mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.description}</p>
-              </div>
-            ))}
+            {t.modules.openWorldMap.items.map((item: any, index: number) => {
+              const icons = [MapPinned, Building2, Landmark, Castle, Trees, Pickaxe, Mountain, CloudFog, Map, Route]
+              const Icon = icons[index] || Map
+              return (
+                <div key={item.title} className={mutedCardClass}>
+                  <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
+                  <span className={badgeClass}>{item.type}</span>
+                  <h3 className="font-bold mt-3 mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground">{item.description}</p>
+                </div>
+              )
+            })}
           </div>
           <p className="scroll-reveal mt-8 text-muted-foreground text-center max-w-3xl mx-auto">{t.modules.openWorldMap.intro}</p>
         </div>
@@ -699,17 +778,21 @@ export default function HomePageClient({
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.charactersFactions.subtitle}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.charactersFactions.items.map((item: any) => (
-              <div key={item.title} className={mutedCardClass}>
-                <Users className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
-                <div className="flex flex-wrap gap-2 mb-3">
-                  <span className={badgeClass}>{item.faction}</span>
-                  <span className={badgeClass}>{item.role}</span>
+            {t.modules.charactersFactions.items.map((item: any, index: number) => {
+              const icons = [UserRound, HeartPulse, Crown, Gem, Drama, Swords, Users, Shield, Handshake, UserCog]
+              const Icon = icons[index] || Users
+              return (
+                <div key={item.title} className={mutedCardClass}>
+                  <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-3" />
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <span className={badgeClass}>{item.faction}</span>
+                    <span className={badgeClass}>{item.role}</span>
+                  </div>
+                  <h3 className="font-bold mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground">{item.description}</p>
                 </div>
-                <h3 className="font-bold mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
           <p className="scroll-reveal mt-8 text-muted-foreground text-center max-w-3xl mx-auto">{t.modules.charactersFactions.intro}</p>
         </div>
