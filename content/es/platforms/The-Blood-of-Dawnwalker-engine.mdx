@@ -1,0 +1,81 @@
+export const metadata = {
+  title: "El motor de The Blood of Dawnwalker: Perspectivas técnicas y mecánicas de juego 2026",
+  description: "Explora los fundamentos técnicos del motor de The Blood of Dawnwalker y cómo impulsa el oscuro y atmosférico mundo y el combate del juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4a148c/fff?text=Blood+of+Dawnwalker+Engine",
+  date: "2026-05-05",
+  author: "Equipo de la Wiki de The Blood of Dawnwalker"
+}
+
+El oscuro e inmersivo mundo del último lanzamiento de fantasía gótica está construido sobre un marco sofisticado, a menudo denominado por la comunidad como el motor de The Blood of Dawnwalker. Comprender los matices del motor de The Blood of Dawnwalker es esencial para los jugadores que buscan dominar las complejas mecánicas de luz y sombra del juego, que dictan todo, desde la efectividad en el combate hasta la progresión narrativa. Mientras navegas por el traicionero camino para detener el régimen de Brentis, te darás cuenta de que la fidelidad visual y mecánica del mundo está profundamente ligada a cómo el juego procesa la naturaleza dual de tu personaje. Ya seas un recién llegado o un veterano del género, comprender estos sistemas subyacentes te ayudará a sobrevivir a los brutales desafíos que te esperan en este paisaje implacable.
+
+## Pilares fundamentales del motor
+
+Los desarrolladores han priorizado la narrativa atmosférica y una jugabilidad reactiva, lo que crea una transición fluida entre la supervivencia diaria del protagonista y su transformación nocturna. El motor gestiona las transiciones de iluminación con alta precisión, asegurando que el estado "Varkyr" —que despierta solo por la noche— se sienta distinto e impactante.
+
+| Sistema | Funcionalidad | Impacto en el juego |
+|---|---|---|
+| **Iluminación dinámica** | Sombras en tiempo real | Afecta la detección de sigilo |
+| **Ciclo día/noche** | Activador temporal | Activa las habilidades Varkyr |
+| **Motor de física** | Colisión y combate | Define la precisión de las cajas de impacto (hit-boxes) |
+| **Marco de IA** | Comportamiento del enemigo | Gobierna las patrullas del régimen |
+
+> **💡 Advertencia:** La iluminación avanzada del motor significa que esconderse en las sombras no es garantía de seguridad. Algunos enemigos están programados específicamente para detectar movimiento incluso en condiciones de poca luz.
+
+## Fidelidad visual y rendimiento
+
+El motor de The Blood of Dawnwalker destaca en la renderización de la estética sombría y decadente del mundo del juego. Mediante el uso de efectos avanzados de post-procesamiento, el motor crea una sensación tangible de pavor. Los jugadores que busquen optimizar su rendimiento deben centrarse en ajustar la niebla volumétrica y los mapas de sombras, ya que estas son las características que más recursos consumen en la versión actual.
+
+### Lista de optimización
+*   **Limitar la tasa de fotogramas:** Usa los ajustes del juego para bloquearlo a 60 FPS para una respuesta de entrada consistente.
+*   **Calidad de sombras:** Bajar este ajuste un nivel suele proporcionar un aumento del rendimiento del 15% sin una degradación visual significativa.
+*   **V-Sync:** Recomendado para jugadores que experimenten desgarro de pantalla (screen tearing) durante secuencias de combate intensas.
+*   **Actualizaciones de controladores:** Asegúrate de que los controladores de tu GPU estén actualizados a fecha de mayo de 2026 para soportar las últimas optimizaciones del motor.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/lkC75FzExf0"
+    title="The Blood of Dawnwalker - Official Story Trailer"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Mecánicas de combate y física
+
+El combate dentro del juego se basa en un sistema de física que recompensa la precisión y la sincronización. Debido a que el motor calcula el daño basándose en el impulso y el posicionamiento, se anima a los jugadores a encontrar aliados y tomar riesgos calculados en lugar de lanzarse a los encuentros sin pensar. La transformación Varkyr altera el perfil físico de tu personaje, permitiendo una mayor movilidad pero potencialmente una mayor vulnerabilidad durante el día.
+
+### Comparación de estadísticas de combate
+
+| Postura | Velocidad | Defensa | Habilidad especial |
+|---|---|---|---|
+| **Humano (Día)** | Moderada | Alta | Planificación táctica |
+| **Varkyr (Noche)** | Muy alta | Baja | Desplazamiento sombrío |
+
+Para obtener información más detallada sobre las actualizaciones del juego y parches técnicos, visita el [centro oficial de la comunidad del juego](https://store.steampowered.com/) para ver los últimos diarios de desarrollo y notas del parche.
+
+## Gestión de la progresión del personaje
+
+El motor rastrea tus elecciones narrativas a través de una variable de "redención". Cada vez que cruzas una línea o matas por capricho, el mundo del juego cambia en consecuencia. Estos marcadores técnicos influyen en qué PNJ están dispuestos a ayudarte en la rebelión contra Brentis. No puedes confiar simplemente en la fuerza bruta; debes gestionar tu reputación y tus niveles de corrupción interna según lo definen las puertas lógicas del juego.
+
+> **💡 Consejo:** Presta atención a las pistas en los diálogos. Si un PNJ menciona tu naturaleza "latente", es probable que te estés acercando a un umbral donde tus habilidades Varkyr serán más potentes, pero tus interacciones sociales se volverán más tensas.
+
+## FAQ
+
+**P: ¿El motor de The Blood of Dawnwalker es compatible con monitores ultra anchos?**
+
+R: Sí, el motor soporta nativamente resoluciones ultra anchas. Sin embargo, es posible que necesites ajustar el deslizador del Campo de Visión (FOV) en el menú de ajustes para evitar distorsiones visuales durante las escenas cinematográficas.
+
+**P: ¿Cómo gestiona el motor el sigilo en el juego?**
+
+R: El motor utiliza un sistema de detección de valor de luz. Si el porcentaje de visibilidad de tu personaje es superior al 30%, es probable que los enemigos te vean si entras en su línea de visión. Usar el entorno para bloquear las fuentes de luz es la forma más efectiva de pasar desapercibido.
+
+**P: ¿Puedo cambiar mis ajustes gráficos en mitad de la partida?**
+
+R: La mayoría de los ajustes gráficos pueden ajustarse en tiempo real, aunque ciertas texturas de alta gama pueden requerir una recarga rápida del área actual para aplicarse correctamente.
+
+**P: ¿Es permanente la transformación Varkyr?**
+
+R: No, la transformación está ligada al ciclo de día/noche del motor. Una vez que sale el sol, los rasgos Varkyr se desvanecerán de forma natural, devolviendo a tu personaje a su estado humano.
